@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           
           <div className= 'text-md font-jost text-darkgreen'>
-              <Link href="/tradArt">
+              <Link href="/illus">
               <button className='no-underline hover:underline'>Illustration</button>
               </Link>
             </div>
