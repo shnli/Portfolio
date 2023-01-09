@@ -7,11 +7,11 @@ export default function Home() {
   
   return (
 
-    <div class="overflow-y-auto">
+    <div class="">
       {/* HEADER */}
       <section>
-        <header className='flex items-center justify-between py-6 px-20 '>
-          <div className = 'flex '>
+        <header className='flex items-center justify-between py-6 px-20'>
+          <div className = 'flex'>
             <div className= 'pb-8 pt-1'> 
               {/* <Image
             src="/Logo1.png"
@@ -53,19 +53,19 @@ export default function Home() {
             </div>
           </div>
 
-          <a className='text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-40' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" >Meet P7RTIAL</a>
+          <a className='text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-40' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
 
         </header>
       </section>
 
   
       {/* MAIN */}
-      <main class = 'mx-auto max-w-screen'>
+      <div class = ''>
         {/* SECTION 1 */}
-        <section id = 'header' class = 'my-10'>
+        <div class = 'my-10'>
           <div className="flex justify-end px-20 items-center">
             
-            <div className='float-left flex text-[70px] font-LS font-medium text-darkgreen'>Hi! I'm Li Shen.</div>
+            <div className='float-left flex text-[70px] font-LS font-medium text-darkgreen'>Hi! I&apos;m Li Shen.</div>
             <div className="flex justify-end px-20 ">
               <Image
               src="/XL.png"
@@ -76,13 +76,13 @@ export default function Home() {
             </div>
 
           </div>
-          <hr class="border-darkgreen border-opacity-100 border-1 w-screen mx-auto"></hr>        
-        </section>
+          <hr class="border-darkgreen border-opacity-100 border-1 "></hr>        
+        </div>
 
-        <section id= 'body' class = 'my-10'>
+        <div class = 'my-10'>
             <div className="flex justify-end px-20 items-center">
             
-            <div className='float-left flex text-[70px] font-LS font-medium text-darkgreen'>Hi! I'm Li Shen.</div>
+            <div className='float-left flex text-[70px] font-LS font-medium text-darkgreen'>Testing</div>
             <div className="flex justify-end px-20 ">
               <Image
               src="/XL.png"
@@ -101,9 +101,9 @@ export default function Home() {
               height={1000}
               />
             </div>  */}
-        </section> 
+        </div> 
           
-      </main>
+      </div>
 
       {/* <footer> 
           <div className= 'bottom-0 absolute w-screen translate-y-24 opacity-75'>
