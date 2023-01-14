@@ -75,10 +75,10 @@ export default function Home() {
                      Howdy! My name is Li Shen, a software developer and artist based in Dallas,TX. 
                 </div>
                 <div>
-                    Right now, I'm an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics.
+                    I draw in my free time and am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics.
                 </div>
                 <div>
-                  With a passion for learning, technology, and creativity, I'm always looking for opportunities to build something useful and beautiful!
+                  With a passion for learning, technology, and creativity, I&apos;m always looking for opportunities to build something useful and beautiful!
                 </div>
               </div>
               
@@ -96,7 +96,7 @@ export default function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                     </svg>
-                    <a className='text-md font-jost text-darkgreen' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener' class= 'text-darkgreen text-opacity-70'>email: partialee@gmail.com</a>
+                    <a className='text-md font-jost text-darkgreen' rel='noreferrer noopener' class= 'text-darkgreen text-opacity-70'>email: partialee@gmail.com</a>
                   </div>
                   <div></div>
 

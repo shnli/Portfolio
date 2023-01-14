@@ -53,13 +53,13 @@ export default function Home() {
             <div class="dropdown">
               <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none px-4 py-0 text-center inline-flex items-center" type="button">Portfolio <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
               <div class="dropdown-content">
-                <a href="/MindWeevil">The Mind Weevil</a>
-                <a href="/illus">General Work</a>
+                <Link href="/MindWeevil">The Mind Weevil</Link>
+                <Link href="/illus">General Work</Link>
               </div>
             </div>
           </div>
 
-          <a className='text-md font-jost text-white px-6 py-2 border-2 border-gray-400 ' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
+          <Link className='text-md font-jost text-white px-6 py-2 border-2 border-gray-400 ' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</Link>
 
         </header>
 
@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             
 
-            <p className='text-center py-8 font-jost text-lg text-gray-400 px-72 bg-black'>The Journey of the Mind Weevil is a series that depicits the metamorphosis of an unusual creature with a fiery aura and an unwavering gaze. In addition to shifts in size, the weevil and it's host's symbiotic relationship flucuates as they venture into differing environments.</p>
+            <p className='text-center py-8 font-jost text-lg text-gray-400 px-72 bg-black'>The Journey of the Mind Weevil is a series that depicits the metamorphosis of an unusual creature with a fiery aura and an unwavering gaze. In addition to shifts in size, the weevil and it&apos;s host&apos;s symbiotic relationship flucuates as they venture into differing environments.</p>
           </div>
           {/* title page end */}
 
@@ -87,9 +87,16 @@ export default function Home() {
 
               <div className='space-y-16'>
 
+              <div className='space-y-4'>
+                  <div className='text-gray-400 font-LS mx-40 text-2xl '>
+                    1. Glimpse Through Glass
+                  </div>
+                  <img class="flex object-contain justify-center px-96" src="/mwe6.jpg" alt="image description"/>
+                </div>
+
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
-                    1. A Beginning for Everything
+                    2. A Beginning for Everything
                   </div>
                   <img class="flex object-contain justify-center px-96" src="/mwe15.jpg" alt="image description"/>
                 </div>
@@ -98,7 +105,7 @@ export default function Home() {
                 <div className='flex justify-start w-auto h-auto space-x-12 mx-40'>
                   <div className='w-3/6 space-y-4'>
                       <div className='text-gray-400 font-LS text-2xl'>
-                        2. Catching the Mind Weevil
+                        3. Catching the Mind Weevil
                       </div>
                       <div className=''>
                         <img class=" w-auto" src="/mwe17.jpg" alt="image description"/>
@@ -106,7 +113,7 @@ export default function Home() {
                   </div>
                   <div className='w-3/6 space-y-4'>
                     <div className='text-gray-400 font-LS mx-0 text-2xl'>
-                      3. How Loud is Too Loud
+                      4. How Loud is Too Loud
                     </div>
                     <div className=''>
                       <img class=" w-auto" src="/mwe13.jpg" alt="image description"/>
@@ -117,7 +124,7 @@ export default function Home() {
                 <div className='flex justify-start w-auto h-auto space-x-12 mx-40'>
                   <div className='w-3/6 space-y-4'>
                       <div className='text-gray-400 font-LS text-2xl'>
-                        4. A Bright Eclipse
+                        5. A Bright Eclipse
                       </div>
                       <div className=''>
                         <img class=" w-auto" src="/mwe10.jpg" alt="image description"/>
@@ -125,7 +132,7 @@ export default function Home() {
                   </div>
                   <div className='w-3/6 space-y-4'>
                     <div className='text-gray-400 font-LS mx-0 text-2xl'>
-                      5. Lagoona
+                      6. Lagoona
                     </div>
                     <div className=''>
                       <img class=" w-auto" src="/mwe12.jpg" alt="image description"/>
@@ -135,35 +142,35 @@ export default function Home() {
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
-                    6. The Eternal Bath
+                    7. The Eternal Bath
                   </div>
                   <img class="flex object-contain justify-center px-96" src="/mwe14.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
-                    7. Maniae
+                    8. Maniae
                   </div>
                   <img class="flex object-contain justify-center px-96" src="/mwe7.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
-                    8. Helmet of Fire
+                    9. Helmet of Fire
                   </div>
                   <img class="flex object-contain justify-center px-96" src="/mwe9.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
-                    9. Bounce
+                    10. Bounce
                   </div>
                   <img class="flex object-contain justify-center px-96" src="/mwe8.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
-                    10. New Dawn
+                    11. New Dawn
                   </div>
                   <img class="flex object-contain justify-center px-96" src="/mwe11.jpg" alt="image description"/>
                 </div>
