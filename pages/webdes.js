@@ -52,13 +52,13 @@ export default function Home() {
             <div class="dropdown">
               <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none px-4 py-0 text-center inline-flex items-center" type="button">Portfolio <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
               <div class="dropdown-content">
-                <a href="/MindWeevil">The Mind Weevil</a>
-                <a href="/illus">General Work</a>
+                <Link href="/MindWeevil">The Mind Weevil</Link>
+                <Link href="/illus">General Work</Link>
               </div>
             </div>
           </div>
 
-          <a className='text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-40' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
+          <Link className='text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-40' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</Link>
         </header>
         
       </section>
@@ -69,7 +69,7 @@ export default function Home() {
         <div className='space-y-4'>
             <p className='text-4xl text-start mx-40 pt-30 font-LS font-medium text-darkgreen'>Tamuhack</p>
             <p className='mx-40 text-lg font-jost text-darkgreen text-opacity-60'> Tamuhack is a small team of students who organize two annual 24-hour coding events (TAMUhack & HowdyHack) at Texas A&M University. As a director of design, I focus on creating our unique website for each years' event, as well as event marketing. Find my designs for each year's iteration below!</p>
-            <p className='mx-40 text-lg font-jost text-darkgreen text-opacity-60'>Click <a href="https://tamuhack.com/#what-we-do" className='underline underline text-blue-600 hover:text-blue-800 visited:text-purple-900' target="_blank">here</a> to visit our main site.</p>
+            <p className='mx-40 text-lg font-jost text-darkgreen text-opacity-60'>Click <Link href="https://tamuhack.com/#what-we-do" className='underline underline text-blue-600 hover:text-blue-800 visited:text-purple-900' target="_blank">here</Link> to visit our main site.</p>
           </div>
           <div className='px-40'>
               <hr className='border-2 border-dotted border-darkgreen border-opacity-20'></hr>
@@ -89,11 +89,11 @@ export default function Home() {
               </div>
 
               <div className=''>
-                    <a href="https://tamuhack.com/th" target="_blank" rel='noreferrer noopener'>
+                    <Link href="https://tamuhack.com/th" target="_blank" rel='noreferrer noopener'>
                       <button>
                         <img class="h-auto max-w-lg ml-auto object-cover transition-all duration-300 rounded-lg shadow-lg hover:shadow-none ease-in-out" src="/TL.png" alt="image description"/>
                       </button>
-                    </a>                
+                    </Link>                
               </div>   
             </div>
 
@@ -227,11 +227,11 @@ export default function Home() {
                 </div>
               </div>
                <div>
-                    <a href="https://tamuhack.com/hh" target="_blank" rel='noreferrer noopener'>
+                    <Link href="https://tamuhack.com/hh" target="_blank" rel='noreferrer noopener'>
                       <button>
                         <img class="h-auto max-w-lg ml-auto object-cover w-76 h-72 transition-all duration-300 rounded-lg shadow-lg hover:shadow-none ease-in-out" src="/HH.png" alt="image description"/>
                       </button>
-                    </a>                
+                    </Link>                
                   </div>   
             </div>
 
@@ -337,11 +337,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                      <a href="https://bytesize-eosin.vercel.app/" target="_blank" rel='noreferrer noopener'>
+                      <Link href="https://bytesize-eosin.vercel.app/" target="_blank" rel='noreferrer noopener'>
                         <button>
                           <img class="h-auto max-w-lg ml-auto object-cover w-76 h-72 transition-all duration-300 rounded-lg shadow-lg hover:shadow-none ease-in-out" src="/BS.png" alt="image description"/>
                         </button>
-                      </a>                
+                      </Link>                
                     </div>   
               </div>
         </div>
