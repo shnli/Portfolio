@@ -75,7 +75,7 @@ export default function Home() {
                      Howdy! My name is Li Shen, a software developer and artist based in Dallas,TX. 
                 </div>
                 <div>
-                    I draw in my free time and am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics.
+                    Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. I also like to draw in my free time.
                 </div>
                 <div>
                   With a passion for learning, technology, and creativity, I&apos;m always looking for opportunities to build something useful and beautiful!
