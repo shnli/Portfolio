@@ -23,7 +23,7 @@ export default function Home() {
               <Link href="/">
               {/* <button className='text-lg font-bold font-jost px-1 text-darkgreen'>li shen</button> */}
               <button> 
-                <img src="/Untitled_artwork 21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+                <img src="/Untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
