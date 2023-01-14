@@ -23,7 +23,7 @@ export default function Home() {
             <p className= ''>
               <Link href="/">
               <button> 
-                <img src="/Untitled_artwork 29.png" alt="..." class="h-10 w-20 rounded align-middle" />
+                <img src="/Untitled_artwork29.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
