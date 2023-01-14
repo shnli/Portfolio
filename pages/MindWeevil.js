@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Wave from 'react-wavify'
 import Link from 'next/link'
+import Script from 'next/script'
 
 export default function Home() {
   
@@ -184,7 +185,7 @@ export default function Home() {
                 Process Images
               </div>
                 <div class="flex flex-col bg-black m-auto p-auto">
-                  <script src="https://cdn.tailwindcss.com"></script>
+                  <Script src="https://cdn.tailwindcss.com"></Script>
                       <div
                         class="flex overflow-x-scroll pb-10 hide-scroll-bar">
                         <div

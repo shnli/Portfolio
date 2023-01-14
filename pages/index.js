@@ -3,6 +3,7 @@ import React from 'react'
 import Wave from 'react-wavify'
 import Link from 'next/link'
 
+
 export default function Home() {
   
   return (

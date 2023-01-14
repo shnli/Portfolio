@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Wave from 'react-wavify'
 import Link from 'next/link'
+import Script from 'next/script'
 
 export default function Home() {
   
@@ -103,7 +104,7 @@ export default function Home() {
             
 
               <div class="flex flex-col bg-white m-auto p-auto">
-                <script src="https://cdn.tailwindcss.com"></script>
+                <Script src="https://cdn.tailwindcss.com"></Script>
                     <div
                       class="flex overflow-x-scroll pb-10 hide-scroll-bar"
                     >
@@ -239,7 +240,7 @@ export default function Home() {
             <div class='space-y-16 mx-40'>
               <p className='text-start text-lg pt-4 font-semibold font-jost text-darkgreen text-opacity-70'>Asset Designs</p>
               <div class="flex flex-col bg-white m-auto p-auto">
-                <script src="https://cdn.tailwindcss.com"></script>
+                <Script src="https://cdn.tailwindcss.com"></Script>
                     <div
                       class="flex overflow-x-scroll pb-10 hide-scroll-bar"
                     >
