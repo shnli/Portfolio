@@ -21,7 +21,7 @@ export default function Home() {
               <p className= ''>
                 <Link href="/">
                 <button> 
-                <img src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+                <Image src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
                 </button>
                 </Link>
               </p>
@@ -66,7 +66,7 @@ export default function Home() {
       <section className=''>
         <div className="flex justify-center px-72 items-center py-16 space-x-24">
           <div className="flex w-11/12">
-              <img src="/me3.png" alt="..." class=" rounded align-middle" />
+              <Image src="/me3.png" alt="..." class=" rounded align-middle" />
           </div>
 
             <div className='space-y-1'>
@@ -123,7 +123,7 @@ export default function Home() {
               </div>   
               {/* stars */}
               <div>
-                  <img src='/star2.gif' alt="..." class="w-40 rounded align-middle"></img>
+                  <Image src='/star2.gif' alt="..." class="w-40 rounded align-middle"></Image>
               </div>         
             </div>
    

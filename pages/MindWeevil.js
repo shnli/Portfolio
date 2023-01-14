@@ -23,7 +23,7 @@ export default function Home() {
             <p className= ''>
               <Link href="/">
               <button> 
-                <img src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+                <Image src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
@@ -70,10 +70,10 @@ export default function Home() {
           <div className='space-y-16'>
           <div>
             <div className='flex items-start justify-center w-screen space-x-32 px-64 h-auto'>
-              <img src='/mwe.png' alt='megaworld' className='w-5/12 justify-center'></img>
+              <Image src='/mwe.png' alt='megaworld' className='w-5/12 justify-center'></Image>
             </div>
             <div className='flex items-start justify-center w-screen space-x-32 px-64 h-auto'>
-              <img src='/mwt.png' alt='megaworld' className='w-3/6 justify-center'></img>
+              <Image src='/mwt.png' alt='megaworld' className='w-3/6 justify-center'></Image>
             </div>
             
 
@@ -92,14 +92,14 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     1. Glimpse Through Glass
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe6.jpg" alt="image description"/>
+                  <Image class="flex object-contain justify-center px-96" src="/mwe6.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     2. A Beginning for Everything
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe15.jpg" alt="image description"/>
+                  <Image class="flex object-contain justify-center px-96" src="/mwe15.jpg" alt="image description"/>
                 </div>
 
   
@@ -109,7 +109,7 @@ export default function Home() {
                         3. Catching the Mind Weevil
                       </div>
                       <div className=''>
-                        <img class=" w-auto" src="/mwe17.jpg" alt="image description"/>
+                        <Image class=" w-auto" src="/mwe17.jpg" alt="image description"/>
                       </div>
                   </div>
                   <div className='w-3/6 space-y-4'>
@@ -117,7 +117,7 @@ export default function Home() {
                       4. How Loud is Too Loud
                     </div>
                     <div className=''>
-                      <img class=" w-auto" src="/mwe13.jpg" alt="image description"/>
+                      <Image class=" w-auto" src="/mwe13.jpg" alt="image description"/>
                     </div>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ export default function Home() {
                         5. A Bright Eclipse
                       </div>
                       <div className=''>
-                        <img class=" w-auto" src="/mwe10.jpg" alt="image description"/>
+                        <Image class=" w-auto" src="/mwe10.jpg" alt="image description"/>
                       </div>
                   </div>
                   <div className='w-3/6 space-y-4'>
@@ -136,7 +136,7 @@ export default function Home() {
                       6. Lagoona
                     </div>
                     <div className=''>
-                      <img class=" w-auto" src="/mwe12.jpg" alt="image description"/>
+                      <Image class=" w-auto" src="/mwe12.jpg" alt="image description"/>
                     </div>
                   </div>
                 </div>
@@ -145,35 +145,35 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     7. The Eternal Bath
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe14.jpg" alt="image description"/>
+                  <Image class="flex object-contain justify-center px-96" src="/mwe14.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     8. Maniae
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe7.jpg" alt="image description"/>
+                  <Image class="flex object-contain justify-center px-96" src="/mwe7.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     9. Helmet of Fire
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe9.jpg" alt="image description"/>
+                  <Image class="flex object-contain justify-center px-96" src="/mwe9.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     10. Bounce
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe8.jpg" alt="image description"/>
+                  <Image class="flex object-contain justify-center px-96" src="/mwe8.jpg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     11. New Dawn
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe11.jpg" alt="image description"/>
+                  <Image class="flex object-contain justify-center px-96" src="/mwe11.jpg" alt="image description"/>
                 </div>
 
 
@@ -193,31 +193,31 @@ export default function Home() {
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-64 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe1.png" alt="image description"/>
+                              <Image class="flex object-contain justify-center" src="/mwe1.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe2.png" alt="image description"/>
+                              <Image class="flex object-contain justify-center" src="/mwe2.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                           <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe3.png" alt="image description"/>
+                              <Image class="flex object-contain justify-center" src="/mwe3.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe4.png" alt="image description"/>
+                              <Image class="flex object-contain justify-center" src="/mwe4.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe5.png" alt="image description"/>
+                              <Image class="flex object-contain justify-center" src="/mwe5.png" alt="image description"/>
                             </div>
                           </div>
                         </div>

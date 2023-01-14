@@ -22,7 +22,7 @@ export default function Home() {
             <p className= ''>
               <Link href="/">
               <button> 
-              <img src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+              <Image src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
@@ -75,15 +75,15 @@ export default function Home() {
           {/* <div className='flex items-start justify-center w-screen h-8 font-LS text-3xl'> Welcome to </div> */}
           <div className='flex items-start justify-center w-screen space-x-32 px-64 h-auto'>
             <div className='py-24'>
-              <img src='/mw2.png' alt='megaworld' className='w-96'></img>
+              <Image src='/mw2.png' alt='megaworld' className='w-96'></Image>
               <div className='py-8 font-jost text-lg text-darkgreen text-opacity-70'>Welcome to MEGAWORLD, my colorful hobby universe revolving around fantasy and adventure. Here, you&apos;ll find heroes brimming with personality, action shots, and most of all, cool art. Enjoy your stay!</div>
               <div className='mx-4'>
-                <img src='/mw11.jpg' alt='megaworld' className='w-80'></img>
+                <Image src='/mw11.jpg' alt='megaworld' className='w-80'></Image>
               </div>
               
               </div>
               
-            <img src='/mw3.jpg' alt='megaworld' className='w-6/12'></img>
+            <Image src='/mw3.jpg' alt='megaworld' className='w-6/12'></Image>
           </div>
         </section> 
         {/* HEADER END */}
@@ -102,31 +102,31 @@ export default function Home() {
                           <div class="inline-block">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw8.jpg" alt="image description"/>
+                              <Image class="flex object-contain px-0 justify-center py-0" src="/mw8.jpg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw10.jpg" alt="image description"/>
+                              <Image class="flex object-contain px-0 justify-center py-0" src="/mw10.jpg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw6.jpg" alt="image description"/>
+                              <Image class="flex object-contain px-0 justify-center py-0" src="/mw6.jpg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw5.jpg" alt="image description"/>
+                              <Image class="flex object-contain px-0 justify-center py-0" src="/mw5.jpg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw9.jpg" alt="image description"/>
+                              <Image class="flex object-contain px-0 justify-center py-0" src="/mw9.jpg" alt="image description"/>
                             </div>
                           </div>
                         </div>
@@ -138,34 +138,34 @@ export default function Home() {
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
-                  <img src='/mw24.png' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw23.png' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw25.png' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <Image src='/mw24.png' alt='megaworld' className='w-2/6 h-auto'></Image>
+                  <Image src='/mw23.png' alt='megaworld' className='w-2/6 h-auto'></Image>
+                  <Image src='/mw25.png' alt='megaworld' className='w-2/6 h-auto'></Image>
                 </div>
               </div>
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
-                  <img src='/mw12.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw19.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw20.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <Image src='/mw12.jpg' alt='megaworld' className='w-2/6 h-auto'></Image>
+                  <Image src='/mw19.jpg' alt='megaworld' className='w-2/6 h-auto'></Image>
+                  <Image src='/mw20.jpg' alt='megaworld' className='w-2/6 h-auto'></Image>
                 </div>
               </div>
 
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
-                  <img src='/her.jpg' alt='megaworld' className='w-5/12 h-auto'></img>
-                  <img src='/mw28.png' alt='megaworld' className='w-4/12 h-auto'></img>
-                  <img src='/mw29.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
+                  <Image src='/her.png' alt='megaworld' className='w-5/12 h-auto'></Image>
+                  <Image src='/mw28.png' alt='megaworld' className='w-4/12 h-auto'></Image>
+                  <Image src='/mw29.jpg' alt='megaworld' className='w-3/12 h-auto'></Image>
                 </div>
               </div>
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
-                  <img src='/mw26.png' alt='megaworld' className='w-3/12 h-auto'></img>
-                  <img src='/mw27.png' alt='megaworld' className='w-3/12 h-auto'></img>
-                  {/* <img src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
+                  <Image src='/mw26.png' alt='megaworld' className='w-3/12 h-auto'></Image>
+                  <Image src='/mw27.png' alt='megaworld' className='w-3/12 h-auto'></Image>
+                  {/* <Image src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></Image> */}
                 </div>
               </div>
               
@@ -183,31 +183,31 @@ export default function Home() {
                 
                 <div class="group w-full ">
                   <div class="group-hover:hidden">
-                  <img src='/mw17.png' alt='megaworld' className=''></img>
+                  <Image src='/mw17.png' alt='megaworld' className=''></Image>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw18.png' alt='megaworld' className=''></img>
+                  <Image src='/mw18.png' alt='megaworld' className=''></Image>
                   </div>
                 </div>
 
                 <div class="group w-full">
                   <div class="group-hover:hidden">
-                  <img src='/mw14.jpg' alt='megaworld' className=''></img>
+                  <Image src='/mw14.jpg' alt='megaworld' className=''></Image>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw13.jpg' alt='megaworld' className=''></img>
+                  <Image src='/mw13.jpg' alt='megaworld' className=''></Image>
                   </div>
                 </div>
 
                 <div class="group w-full">
                   <div class="group-hover:hidden">
-                  <img src='/mw33.png' alt='megaworld' className=''></img>
+                  <Image src='/mw33.png' alt='megaworld' className=''></Image>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw34.png' alt='megaworld' className=''></img>
+                  <Image src='/mw34.png' alt='megaworld' className=''></Image>
                   </div>
                 </div>
               </div>
@@ -216,31 +216,31 @@ export default function Home() {
                 
                 <div class="group w-full ">
                   <div class="group-hover:hidden">
-                  <img src='/mw15.jpg' alt='megaworld' className=''></img>
+                  <Image src='/mw15.jpg' alt='megaworld' className=''></Image>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw16.jpg' alt='megaworld' className=''></img>
+                  <Image src='/mw16.jpg' alt='megaworld' className=''></Image>
                   </div>
                 </div>
 
                 <div class="group w-full my-12">
                   <div class="group-hover:hidden">
-                  <img src='/mw32.png' alt='megaworld' className=''></img>
+                  <Image src='/mw32.png' alt='megaworld' className=''></Image>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw31.png' alt='megaworld' className=''></img>
+                  <Image src='/mw31.png' alt='megaworld' className=''></Image>
                   </div>
                 </div>
 
                 <div class="group w-full">
                   <div class="group-hover:hidden">
-                  <img src='/mw21.png' alt='megaworld' className=''></img>
+                  <Image src='/mw21.png' alt='megaworld' className=''></Image>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw22.png' alt='megaworld' className=''></img>
+                  <Image src='/mw22.png' alt='megaworld' className=''></Image>
                   </div>
                 </div>
               </div>

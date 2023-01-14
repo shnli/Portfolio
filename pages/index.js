@@ -23,7 +23,7 @@ export default function Home() {
               <Link href="/">
               {/* <button className='text-lg font-bold font-jost px-1 text-darkgreen'>li shen</button> */}
               <button> 
-              <img src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+              <Image src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
@@ -82,7 +82,7 @@ export default function Home() {
               <h1 className='float-left flex text-[70px] font-LS font-medium text-darkgreen'>Hi! I&apos;m Li.</h1>
               <div class='px-8'></div>
               <div className="flex justify-center w-7/12">
-                <img src="/XL.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
+                <Image src="/XL.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
               </div>
           </div>
           {/* <hr class="border-darkgreen border-2 w-96 mx-auto"></hr>         */}
@@ -103,7 +103,7 @@ export default function Home() {
                   <div>
                     <Link href="/webdes">
                       <button>
-                        <img class="border-4 border-opacity-40 border-blue  object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/th.png" alt="image description"/>
+                        <Image class="border-4 border-opacity-40 border-blue  object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/th.png" alt="image description"/>
                       </button>
                     </Link>
                   </div>
@@ -113,7 +113,7 @@ export default function Home() {
                   <div>
                     <Link href="/illus">
                       <button>
-                        <img class="object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/vertigo.jpg" alt="image description"/>
+                        <Image class="object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/vertigo.jpg" alt="image description"/>
                       </button>
                     </Link>                
                   </div>
@@ -123,7 +123,7 @@ export default function Home() {
                   <div>
                     <Link href="/illus">
                       <button>
-                        <img class="object-cover w-76 h-72 max-h-md transition-all duration-300 blur-non hover:blur-sm" src="/mw.jpg" alt="image description"/>
+                        <Image class="object-cover w-76 h-72 max-h-md transition-all duration-300 blur-non hover:blur-sm" src="/mw.jpg" alt="image description"/>
                       </button>
                     </Link>                
                   </div>
@@ -133,7 +133,7 @@ export default function Home() {
                   <div>
                     <Link href="/cd">
                       <button>
-                        <img class="object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/her.png" alt="image description"/>
+                        <Image class="object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/her.png" alt="image description"/>
                       </button>
                     </Link>                
                   </div>                  
