@@ -21,7 +21,7 @@ export default function Home() {
             <p className= ''>
               <Link href="/">
               <button> 
-                <img src="/Untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+                <img src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
@@ -114,44 +114,44 @@ export default function Home() {
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-6" src="/Untitled_Artwork 11.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-6" src="/untitled_artwork11.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-12" src="/Untitled_Artwork 12.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-12" src="/untitled_artwork12.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                         <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-8" src="/Untitled_Artwork 13.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-8" src="/untitled_artwork13.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-14" src="/Untitled_Artwork 14.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-14" src="/untitled_artwork14.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-6 justify-center py-6" src="/Untitled_Artwork 15.png" alt="image description"/>
+                            <img class="flex object-contain px-6 justify-center py-6" src="/untitled_artwork15.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-8" src="/Untitled_Artwork 18.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-8" src="/untitled_artwork18.png" alt="image description"/>
                           </div>
                         </div>
 
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-20" src="/Untitled_Artwork 17.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-20" src="/untitled_artwork17.png" alt="image description"/>
                           </div>
                         </div>
 
@@ -165,31 +165,31 @@ export default function Home() {
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-14" src="/Untitled_Artwork 16.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-14" src="/untitled_artwork16.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-14" src="/Untitled_Artwork 1.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-14" src="/untitled_artwork1.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-16" src="/Untitled_Artwork 9.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-16" src="/untitled_artwork9.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-16" src="/Untitled_Artwork 10.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-16" src="/untitled_artwork10.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-10" src="/Untitled_Artwork 19.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-10" src="/untitled_artwork19.png" alt="image description"/>
                           </div>
                         </div>
                       </div>
@@ -203,11 +203,11 @@ export default function Home() {
               Animated Gifs
             </div>
             <div className='flex justify-center px-10 items-center space-x-20'>
-              <img src="/Untitled_Artwork 4.gif" width="500" height="700" alt="This will display an animated GIF"></img>
-              <img src="/Untitled_Artwork 3.gif" width="500" height="700" alt="This will display an animated GIF"></img>
+              <img src="/untitled_artwork4.gif" width="500" height="700" alt="This will display an animated GIF"></img>
+              <img src="/untitled_artwork3.gif" width="500" height="700" alt="This will display an animated GIF"></img>
               <div className='grid-rows-2'>
-                <img src="/Untitled_Artwork 5.gif" width="300" height="300" alt="This will display an animated GIF"></img>
-                <img src="/Untitled_Artwork 6.gif" width="300" height="300" alt="This will display an animated GIF"></img>
+                <img src="/untitled_artwork5.gif" width="300" height="300" alt="This will display an animated GIF"></img>
+                <img src="/untitled_artwork6.gif" width="300" height="300" alt="This will display an animated GIF"></img>
               </div>
             </div>
           </div>
@@ -250,19 +250,19 @@ export default function Home() {
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-8 justify-center py-2" src="/Untitled_Artwork 22.png" alt="image description"/>
+                            <img class="flex object-contain px-8 justify-center py-2" src="/untitled_artwork22.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                           <div
                             class="w-64 h-64 max-w-xs overflow-hidden bg-blue-300 rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-6 justify-center py-2" src="/Untitled_Artwork 23.png" alt="image description"/>
+                            <img class="flex object-contain px-6 justify-center py-2" src="/untitled_artwork23.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
                         <div
                             class="w-64 h-64 max-w-xs overflow-hidden bg-gray-900 rounded-lg shadow-md border-2 bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                            <img class="flex object-contain px-4 justify-center py-6" src="/Untitled_Artwork 25.png" alt="image description"/>
+                            <img class="flex object-contain px-4 justify-center py-6" src="/untitled_artwork25.png" alt="image description"/>
                           </div>
                         </div>
                         <div class="inline-block px-3">
