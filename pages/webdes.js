@@ -68,7 +68,7 @@ export default function Home() {
       <section className='space-y-16'>
         <div className='space-y-4'>
             <p className='text-4xl text-start mx-40 pt-30 font-LS font-medium text-darkgreen'>Tamuhack</p>
-            <p className='mx-40 text-lg font-jost text-darkgreen text-opacity-60'> Tamuhack is a small team of students who organize two annual 24-hour coding events (TAMUhack & HowdyHack) at Texas A&M University. As a director of design, I focus on creating our unique website for each years' event, as well as event marketing. Find my designs for each year's iteration below!</p>
+            <p className='mx-40 text-lg font-jost text-darkgreen text-opacity-60'> Tamuhack is a small team of students who organize two annual 24-hour coding events (TAMUhack & HowdyHack) at Texas A&M University. As a director of design, I focus on creating our unique website for each years&apos; event, as well as event marketing. Find my designs for each year&apos;s iteration below!</p>
             <p className='mx-40 text-lg font-jost text-darkgreen text-opacity-60'>Click <Link href="https://tamuhack.com/#what-we-do" className='underline underline text-blue-600 hover:text-blue-800 visited:text-purple-900' target="_blank">here</Link> to visit our main site.</p>
           </div>
           <div className='px-40'>
