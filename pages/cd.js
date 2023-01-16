@@ -155,7 +155,7 @@ export default function Home() {
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
-                  <img src='/her.png' alt='megaworld' className='w-5/12 h-auto'></img>
+                  <img src='/her.jpg' alt='megaworld' className='w-5/12 h-auto'></img>
                   <img src='/mw28.png' alt='megaworld' className='w-4/12 h-auto'></img>
                   <img src='/mw29.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
                 </div>
