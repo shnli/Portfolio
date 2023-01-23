@@ -76,14 +76,14 @@ export default function Home() {
           <div className='flex items-start justify-center w-screen space-x-32 px-64 h-auto'>
             <div className='py-24'>
               <img src='/mw2.png' alt='megaworld' className='w-96'></img>
-              <div className='py-8 font-jost text-lg text-darkgreen text-opacity-70'>Welcome to MEGAWORLD, my colorful hobby universe revolving around fantasy and adventure. Here, you&apos;ll find heroes brimming with personality, action shots, and most of all, cool art. Enjoy your stay!</div>
+              <div className='py-8 font-jost text-lg text-darkgreen text-opacity-70'>Welcome to MEGAWORLD, my colorful hobby universe revolving around fantasy and adventure. Here, you&apos;ll find heroes brimming with personality, action shots, and most of all, cool art. Enjoy your stay! hello</div>
               <div className='mx-4'>
                 <img src='/mw11.jpg' alt='megaworld' className='w-80'></img>
               </div>
               
               </div>
               
-            <img src='/mw3.jpg' alt='megaworld' className='w-6/12'></img>
+            <img src='/mw3.png' alt='megaworld' className='w-6/12'></img>
           </div>
         </section> 
         {/* HEADER END */}
