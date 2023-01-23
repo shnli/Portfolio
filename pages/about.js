@@ -64,7 +64,7 @@ export default function Home() {
       <section className=''>
         <div className="flex justify-center px-48 items-center py-16 space-x-24">
           <div className="flex max-w-lg">
-              <img src="/mesmall.png" alt="..." class=" rounded align-middle" />
+              <img src="/mexsmall.png" alt="..." class=" rounded align-middle" />
           </div>
 
             <div className='space-y-1'>
@@ -115,13 +115,13 @@ export default function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                     </svg>
-                    <Link className='text-md font-jost text-darkgreen underline' href="https://drive.google.com/file/d/1_r_lrL8Ci1-VJ02J_BDbYHAf6d5ASHFQ/view?usp=share_link" target="_blank" rel='noreferrer noopener'class= 'text-darkgreen text-opacity-70 underline'> resumé</Link>
+                    <Link className='text-md font-jost text-darkgreen underline' href="https://drive.google.com/file/d/1_r_lrL8Ci1-VJ02J_BDbYHAf6d5ASHFQ/view?usp=share_link" target="_blank" rel='noreferrer noopener'class= 'text-darkgreen text-opacity-70 underline' target="_blank"> resumé</Link>
                   </div>
                 </div>
               </div>   
               {/* stars */}
               <div>
-                  <img src='/star2.gif' alt="..." class="rounded align-middle"></img>
+                  <img src='/star2.gif' alt="..." class="rounded align-middle max-w-sm"></img>
               </div>         
             </div>
    

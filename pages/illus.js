@@ -17,7 +17,7 @@ export default function Home() {
       
       <section className=''>
 
-        <div className='space-y-12'>
+        <div className='space-y-4'>
         {/* HEADER */}
           <header className='flex items-center justify-between py-6 px-20'>
             <div className = 'flex'>
@@ -65,12 +65,24 @@ export default function Home() {
             <a className="text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-50" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
 
           </header>
+          
+          <div class="relative flex items-center justify-center h-screen overflow-hidden">
+              <video src= "/Automatic.mp4"
+                  autoplay="{true}" 
+                  className="absolute z-10 
+                  min-w-sm min-h-sm w-8/12">
+              </video>
+          </div>
 
           <section>
-
             <div>
-
               <div className='space-y-12'>
+                
+              
+
+              {/* <div class="relative flex items-center justify-center h-screen overflow-hidden">
+                <iframe src="https://www.youtube.com/embed/a6kNpDHxGO4&ab_channel=LI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div> */}
 
                 <div className='mx-12'>
                   <div className='flex justify-center w-auto h-auto space-x-8'>
