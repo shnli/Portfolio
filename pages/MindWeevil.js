@@ -181,7 +181,7 @@ export default function Home() {
 
           {/* Carousel begin */}
               <div class='mx-40 bg-black space-y-4'>
-                <div className='text-gray-400 font-LS text-2xl'>
+                <div className='text-gray-400 font-LS text-2xl underline'>
                 Process Images
               </div>
                 <div class="flex flex-col bg-black m-auto p-auto">

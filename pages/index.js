@@ -23,7 +23,7 @@ export default function Home() {
               <Link href="/">
               {/* <button className='text-lg font-bold font-jost px-1 text-darkgreen'>li shen</button> */}
               <button> 
-              <img src="/untitledartwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+              <img src="/untitledartwork21small.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Link className="text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen " href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</Link>
+          <a className="text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-50" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
 
         </header>
       </section>
@@ -82,7 +82,7 @@ export default function Home() {
               <h1 className='float-left flex text-[70px] font-LS font-medium text-darkgreen'>Hi! I&apos;m Li.</h1>
               <div class='px-8'></div>
               <div className="flex justify-center w-7/12">
-                <img src="/XL.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
+                <img src="/XLsmall.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
               </div>
           </div>
           {/* <hr class="border-darkgreen border-2 w-96 mx-auto"></hr>         */}

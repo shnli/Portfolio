@@ -22,7 +22,7 @@ export default function Home() {
             <p className= ''>
               <Link href="/">
               <button> 
-              <img src="/untitledartwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+              <img src="/untitledartwork21small.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Link className='text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-40' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</Link>
+          <a className="text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-50" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
 
         </header>
       </section>
@@ -102,7 +102,7 @@ export default function Home() {
                           <div class="inline-block">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw8.png" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw8.jpeg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
@@ -114,19 +114,19 @@ export default function Home() {
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw6.png" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw6.jpeg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw5.png" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw5.jpeg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw9.png" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw9.jpeg" alt="image description"/>
                             </div>
                           </div>
                         </div>
@@ -147,8 +147,8 @@ export default function Home() {
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
                   <img src='/mw12.png' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw19.png' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw20.png' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <img src='/mw19.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <img src='/mw20.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
                 </div>
               </div>
 
@@ -183,11 +183,11 @@ export default function Home() {
                 
                 <div class="group w-full ">
                   <div class="group-hover:hidden">
-                  <img src='/mw17.jpg' alt='megaworld' className=''></img>
+                  <img src='/mw17small.png' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw18.jpg' alt='megaworld' className=''></img>
+                  <img src='/mw18small.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
 
@@ -240,7 +240,7 @@ export default function Home() {
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw21.jpg' alt='megaworld' className=''></img>
+                  <img src='/mw21small.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
               </div>
