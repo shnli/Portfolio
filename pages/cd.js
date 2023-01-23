@@ -148,7 +148,7 @@ export default function Home() {
                 <div className='flex justify-center w-auto h-auto space-x-12'>
                   <img src='/mw12.png' alt='megaworld' className='w-2/6 h-auto'></img>
                   <img src='/mw19.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw20.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <img src='/mw20.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
                 </div>
               </div>
 

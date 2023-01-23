@@ -75,7 +75,7 @@ export default function Home() {
                 <div className='mx-12'>
                   <div className='flex justify-center w-auto h-auto space-x-8'>
                     <img src='/a28.png' alt='megaworld' className='w-2/12 h-5/6'></img>
-                    <img src='/a23.png' alt='megaworld' className='w-2/12 h-5/6'></img>
+                    <img src='/a23.jpg' alt='megaworld' className='w-2/12 h-5/6'></img>
                     <img src='/a22.png' alt='megaworld' className='w-2/12 h-5/6'></img>
                     <img src='/a27.png' alt='megaworld' className='w-2/12 h-5/6'></img>
                   </div>
@@ -84,8 +84,8 @@ export default function Home() {
                 <div className='mx-12'>
                   <div className='flex justify-center w-auto h-auto space-x-8'>
                     <img src='/a26.png' alt='megaworld' className='w-3/12 h-5/6'></img>
-                    <img src='/a24.png' alt='megaworld' className='w-3/12 h-5/6'></img>
-                    <img src='/a25.png' alt='megaworld' className='w-3/12 h-5/6'></img>
+                    <img src='/a24.jpg' alt='megaworld' className='w-3/12 h-5/6'></img>
+                    <img src='/a25.jpg' alt='megaworld' className='w-3/12 h-5/6'></img>
 
                   </div>
                 </div>  

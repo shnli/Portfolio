@@ -82,7 +82,7 @@ export default function Home() {
               <h1 className='float-left flex text-[70px] font-LS font-medium text-darkgreen'>Hi! I&apos;m Li.</h1>
               <div class='px-8'></div>
               <div className="flex justify-center w-7/12">
-                <img src="/XLsmall.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
+                <img src="/XLextrasmall.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
               </div>
           </div>
           {/* <hr class="border-darkgreen border-2 w-96 mx-auto"></hr>         */}
@@ -123,7 +123,7 @@ export default function Home() {
                   <div>
                     <Link href="/illus">
                       <button>
-                        <img class="object-cover w-76 h-72 max-h-md transition-all duration-300 blur-non hover:blur-sm" src="/mw.jpg" alt="image description"/>
+                        <img class="object-cover w-76 h-72 max-h-md transition-all duration-300 blur-non hover:blur-sm" src="/mwe9.png" alt="image description"/>
                       </button>
                     </Link>                
                   </div>

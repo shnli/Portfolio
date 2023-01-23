@@ -64,7 +64,7 @@ export default function Home() {
       <section className=''>
         <div className="flex justify-center px-48 items-center py-16 space-x-24">
           <div className="flex max-w-lg">
-              <img src="/me3.png" alt="..." class=" rounded align-middle" />
+              <img src="/mesmall.png" alt="..." class=" rounded align-middle" />
           </div>
 
             <div className='space-y-1'>
