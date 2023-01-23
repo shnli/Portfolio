@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Link className='text-md font-jost text-white px-6 py-2 border-2 border-gray-400 ' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</Link>
+          <a className='text-md font-jost text-white px-6 py-2 border-2 border-gray-500 ' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
 
         </header>
 
@@ -73,11 +73,11 @@ export default function Home() {
               <img src='/mwe.png' alt='megaworld' className='w-5/12 justify-center'></img>
             </div>
             <div className='flex items-start justify-center w-screen space-x-32 px-64 h-auto'>
-              <img src='/mwt.jpg' alt='megaworld' className='w-3/6 justify-center'></img>
+              <img src='/mwtsmall.png' alt='megaworld' className='w-3/6 justify-center'></img>
             </div>
             
 
-            <p className='text-center py-8 font-jost text-lg text-gray-400 px-72 bg-black'> hello The Journey of the Mind Weevil is a series that depicits the metamorphosis of an unusual creature with a fiery aura and an unwavering gaze. In addition to shifts in size, the weevil and it&apos;s host&apos;s symbiotic relationship flucuates as they venture into differing environments.</p>
+            <p className='text-center py-8 font-jost text-lg text-gray-400 px-72 bg-black'>The Journey of the Mind Weevil is a series that depicits the metamorphosis of an unusual creature with a fiery aura and an unwavering gaze. In addition to shifts in size, the weevil and it&apos;s host&apos;s symbiotic relationship flucuates as they venture into differing environments.</p>
           </div>
           {/* title page end */}
 
@@ -92,14 +92,14 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     1. Glimpse Through Glass
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe6.png" alt="image description"/>
+                  <img class="flex object-contain justify-center px-96" src="/mwe6.jpeg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     2. A Beginning for Everything
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe15.png" alt="image description"/>
+                  <img class="flex object-contain justify-center px-96" src="/mwe15.jpeg" alt="image description"/>
                 </div>
 
   
@@ -109,7 +109,7 @@ export default function Home() {
                         3. Catching the Mind Weevil
                       </div>
                       <div className=''>
-                        <img class=" w-auto" src="/mwe17.png" alt="image description"/>
+                        <img class=" w-auto" src="/mwe17small.jpg" alt="image description"/>
                       </div>
                   </div>
                   <div className='w-3/6 space-y-4'>
@@ -117,7 +117,7 @@ export default function Home() {
                       4. How Loud is Too Loud
                     </div>
                     <div className=''>
-                      <img class=" w-auto" src="/mwe13.png" alt="image description"/>
+                      <img class=" w-auto" src="/mwe13.jpeg" alt="image description"/>
                     </div>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ export default function Home() {
                         5. A Bright Eclipse
                       </div>
                       <div className=''>
-                        <img class=" w-auto" src="/mwe10.png" alt="image description"/>
+                        <img class=" w-auto" src="/mwe10.jpeg" alt="image description"/>
                       </div>
                   </div>
                   <div className='w-3/6 space-y-4'>
@@ -136,7 +136,7 @@ export default function Home() {
                       6. Lagoona
                     </div>
                     <div className=''>
-                      <img class=" w-auto" src="/mwe12.png" alt="image description"/>
+                      <img class=" w-auto" src="/mwe12small.jpg" alt="image description"/>
                     </div>
                   </div>
                 </div>
@@ -145,21 +145,21 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     7. The Eternal Bath
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe14.png" alt="image description"/>
+                  <img class="flex object-contain justify-center px-96" src="/mwe14.jpeg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     8. Maniae
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe7.png" alt="image description"/>
+                  <img class="flex object-contain justify-center px-96" src="/mwe7.jpeg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     9. Helmet of Fire
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe9.png" alt="image description"/>
+                  <img class="flex object-contain justify-center px-96" src="/mwe9.jpeg" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
@@ -173,7 +173,7 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-40 text-2xl '>
                     11. New Dawn
                   </div>
-                  <img class="flex object-contain justify-center px-96" src="/mwe11.png" alt="image description"/>
+                  <img class="flex object-contain justify-center px-96" src="/mwe11.jpeg" alt="image description"/>
                 </div>
 
 
