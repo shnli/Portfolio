@@ -134,7 +134,7 @@ export default function Home() {
               </div>
               {/* end carousel */}
 
-              <div className='mx-40 font-jost text-2xl text-brightred underline'>Image Gallery</div>
+              <div className='mx-40 font-jost text-2xl text-darkgreen underline'>Image Gallery</div>
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
