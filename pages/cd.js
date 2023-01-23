@@ -134,13 +134,13 @@ export default function Home() {
               </div>
               {/* end carousel */}
 
-              <div className='mx-40 font-jost text-2xl text-darkgreen underline'>Image Gallery</div>
+              <div className='mx-40 font-jost text-2xl text-brightred underline'>Image Gallery</div>
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
-                  <img src='/mw24.png' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw23.png' alt='megaworld' className='w-2/6 h-auto'></img>
-                  <img src='/mw25.png' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <img src='/mw24.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <img src='/mw23.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                  <img src='/mw25.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
                 </div>
               </div>
 
