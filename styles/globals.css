@@ -79,10 +79,10 @@ h1::after {
   width: 100%;
   color: hsl(0 0 0 / 0.7);
 
-  &:hover,
+  /* &:hover,
   &:focus {
     color: teal;
-  }
+  } */
 }
 /* OLD */
   .hide-scroll-bar {

@@ -21,7 +21,7 @@ export default function Home() {
             <p className= ''>
               <Link href="/">
               <button> 
-                <img src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+                <img src="/untitledartwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
               </button>
               </Link>
             </p>
@@ -80,7 +80,7 @@ export default function Home() {
         {/* start hh */}
         <div className='space-y-24'>
           <div className='space-y-8'>
-            <div className='flex space-x-96 px-40'>
+            <div className='flex space-x-32 px-40'>
               <div className='space-y-4 '>
                 <p className='text-4xl text-start pt-30 font-LS font-medium text-pink-400'>TH 2023</p>
                 <div className='w-auto'> 
@@ -219,7 +219,7 @@ export default function Home() {
 
         {/* START hh */}
         <div className='space-y-8'>
-            <div className='flex space-x-96 mx-40'>
+            <div className='flex space-x-32 mx-40'>
               <div className='space-y-4'>
                 <p className='text-4xl text-start font-LS pt-30 font-medium text-pink-400'>HowdyHack 2022</p>
                 <div className='w-auto'>
@@ -329,7 +329,7 @@ export default function Home() {
 
       {/* bytesize */}
         <div> 
-        <div className='flex space-x-96 mx-40'>
+        <div className='flex space-x-32 mx-40'>
                 <div className='space-y-4'>
                   <p className='text-4xl text-start pt-30 font-LS font-medium text-darkgreen'>ByteSize</p>
                   <div className='w-auto'>

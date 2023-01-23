@@ -25,7 +25,7 @@ export default function Home() {
               <p className= ''>
                 <Link href="/">
                 <button> 
-                <img src="/untitled_artwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
+                <img src="/untitledartwork21.png" alt="..." class="h-10 w-20 rounded align-middle" />
                 </button>
                 </Link>
               </p>
@@ -89,6 +89,13 @@ export default function Home() {
 
                   </div>
                 </div>  
+
+                <div className='mx-12'>
+                  <div className='flex justify-center w-auto h-auto space-x-8'>
+                    <img src='/vertigo.jpg' alt='megaworld' className='w-4/12 h-5/6'></img>
+
+                  </div>
+                </div>
 
 
                 <div className='space-y-12'>

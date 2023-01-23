@@ -9,8 +9,7 @@ export default function Home() {
 
     <div>
 
-<link href=
-      "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+    <link href= "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet" />
       
       {/* HEADER */}
@@ -58,14 +57,13 @@ export default function Home() {
             </div>
           </div>
 
-          <Link className='text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-40' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</Link>
-
+          <Link className='text-md font-jost text-darkgreen px-6 py-2 border-2 border-solid border-darkgreen border-opacity-40' href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</Link>
         </header>
       </section>
 
       <section className=''>
-        <div className="flex justify-center px-72 items-center py-16 space-x-24">
-          <div className="flex w-11/12">
+        <div className="flex justify-center px-48 items-center py-16 space-x-24">
+          <div className="flex max-w-lg">
               <img src="/me3.png" alt="..." class=" rounded align-middle" />
           </div>
 
@@ -96,7 +94,7 @@ export default function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                     </svg>
-                    <div className='text-md font-jost text-darkgreen' class= 'text-darkgreen text-opacity-70'>email: partialee@gmail.com</div>
+                    <div className='text-md font-jost text-darkgreen' class= 'text-darkgreen text-opacity-70'>partialee@gmail.com</div>
                   </div>
                   <div></div>
 
@@ -123,7 +121,7 @@ export default function Home() {
               </div>   
               {/* stars */}
               <div>
-                  <img src='/star2.gif' alt="..." class="w-40 rounded align-middle"></img>
+                  <img src='/star2.gif' alt="..." class="rounded align-middle"></img>
               </div>         
             </div>
    
@@ -131,15 +129,17 @@ export default function Home() {
             </div>
 
         </div>
-        <hr class = 'border-1'></hr>
+        
       </section> 
 
-      <footer className='flex align-top justify-end px-20'> 
-        <div className='text-darkgreen text-opacity-50 text-lg font-jost my-5'>
-          © 2023 by Li Shen
-        </div>
-          
-      </footer>
+      <div className='align-end w-auto h-auto'>
+        <hr class = 'border-1'></hr>
+        <footer className='flex align-top justify-end px-20'> 
+          <div className='text-darkgreen text-opacity-50 text-lg font-jost my-5'>
+            © 2023 by Li Shen
+          </div>
+        </footer>
+      </div>
       
     </div>
   )
