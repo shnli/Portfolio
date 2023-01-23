@@ -156,15 +156,15 @@ export default function Home() {
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
                   <img src='/her.png' alt='megaworld' className='w-5/12 h-auto'></img>
-                  <img src='/mw28.png' alt='megaworld' className='w-4/12 h-auto'></img>
+                  <img src='/mw28.jpg' alt='megaworld' className='w-4/12 h-auto'></img>
                   <img src='/mw29.png' alt='megaworld' className='w-3/12 h-auto'></img>
                 </div>
               </div>
 
               <div className='mx-40'>
                 <div className='flex justify-center w-auto h-auto space-x-12'>
-                  <img src='/mw26.png' alt='megaworld' className='w-3/12 h-auto'></img>
-                  <img src='/mw27.png' alt='megaworld' className='w-3/12 h-auto'></img>
+                  <img src='/mw26.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
+                  <img src='/mw27.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
                   {/* <img src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
                 </div>
               </div>
@@ -183,11 +183,11 @@ export default function Home() {
                 
                 <div class="group w-full ">
                   <div class="group-hover:hidden">
-                  <img src='/mw17.png' alt='megaworld' className=''></img>
+                  <img src='/mw17.jpg' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw18.png' alt='megaworld' className=''></img>
+                  <img src='/mw18.jpg' alt='megaworld' className=''></img>
                   </div>
                 </div>
 
@@ -236,11 +236,11 @@ export default function Home() {
 
                 <div class="group w-full">
                   <div class="group-hover:hidden">
-                  <img src='/mw21.png' alt='megaworld' className=''></img>
+                  <img src='/mw22.jpg' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw22.png' alt='megaworld' className=''></img>
+                  <img src='/mw21.jpg' alt='megaworld' className=''></img>
                   </div>
                 </div>
               </div>
