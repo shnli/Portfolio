@@ -133,7 +133,7 @@ export default function Home() {
                   <div>
                     <Link href="/cd">
                       <button>
-                        <img class="object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/her.jpg" alt="image description"/>
+                        <img class="object-cover w-76 h-72 transition-all duration-300 blur-non hover:blur-sm" src="/her.png" alt="image description"/>
                       </button>
                     </Link>                
                   </div>                  
