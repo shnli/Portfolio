@@ -78,7 +78,7 @@ export default function Home() {
               <img src='/mw2.png' alt='megaworld' className='w-96'></img>
               <div className='py-8 font-jost text-lg text-darkgreen text-opacity-70'>Welcome to MEGAWORLD, my colorful hobby universe revolving around fantasy and adventure. Here, you&apos;ll find heroes brimming with personality, action shots, and most of all, cool art. Enjoy your stay! hello</div>
               <div className='mx-4'>
-                <img src='/mw11.jpg' alt='megaworld' className='w-80'></img>
+                <img src='/mw11.png' alt='megaworld' className='w-80'></img>
               </div>
               
               </div>
@@ -102,31 +102,31 @@ export default function Home() {
                           <div class="inline-block">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw8.jpg" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw8.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw10.jpg" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw10.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw6.jpg" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw6.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw5.jpg" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw5.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw9.jpg" alt="image description"/>
+                              <img class="flex object-contain px-0 justify-center py-0" src="/mw9.png" alt="image description"/>
                             </div>
                           </div>
                         </div>
