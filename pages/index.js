@@ -121,7 +121,7 @@ export default function Home() {
 
                 <div className='w-76 h-72'>
                   <div>
-                    <Link href="/illus">
+                    <Link href="/MindWeevil">
                       <button>
                         <img class="object-cover w-76 h-72 max-h-md transition-all duration-300 blur-non hover:blur-sm" src="/mwe9.png" alt="image description"/>
                       </button>
