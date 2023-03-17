@@ -14,62 +14,71 @@ export default function Home() {
       
       {/* HEADER */}
       <section>
-        <header className='flex items-center justify-between py-6 px-20'>
-            <div className = 'flex'>
-              {/* <p className='text-lg font-bold font-jost px-1 text-brightred '> li shen </p> */}
-              <p className= ''>
-                <Link href="/">
-                <button> 
-                <img src="/untitledartwork21small.png" alt="..." class="h-10 w-20 rounded align-middle" />
-                </button>
-                </Link>
-              </p>
-            </div>
+      <header className='flex items-center justify-between py-6 md:px-20 px-12 w-screen'>
+
+        <div className = 'hidden md:flex'>
+          {/* <p className='text-lg font-bold font-jost px-1 text-brightred '> li shen </p> */}
+          <p className= ''>
+            <Link href="/">
+            {/* <button className='text-lg font-bold font-jost px-1 text-darkgreen'>li shen</button> */}
+            <button> 
+            <img src="/untitledartwork29.png" alt="..." class=" md:h-8 md:w-13 lg:h-10 lg:w-20 rounded align-middle" />
+            </button>
+            </Link>
+          </p>
+        </div>
+
+        <div className = 'flex justify-center w-full md:w-auto gap-6'>
+
+          <div className= 'text-md font-jost text-darkgreen'>
+            <Link href="/about">
+            <button className='no-underline hover:underline'>About Me</button>
+            </Link>
+          </div>
+
+          <div className= 'text-md font-jost text-darkgreen hidden md:flex'>
+            <Link href="/webdes">
+            <button className='no-underline hover:underline'>Web Design</button>
+            </Link>
+          </div>
+
+          <div className= 'text-md font-jost text-darkgreen hidden md:flex'>
+            <Link href="/cd">
+            <button className='no-underline hover:underline'>Character Building</button>
+            </Link>
+          </div>
+
+        <div className= 'text-md font-jost text-darkgreen'>
           
-          <div className = 'flex justify-center space-x-10'>
-
-            <div className= 'text-md font-jost text-darkgreen'>
-              <Link href="/about">
-              <button className='no-underline hover:underline'>About Me</button>
-              </Link>
-            </div>
-
-            
-
-            <div className= 'text-md font-jost text-darkgreen'>
-              <Link href="/webdes">
-              <button className='no-underline hover:underline'>Web Design</button>
-              </Link>
-            </div>
-
-            <div className= 'text-md font-jost text-darkgreen'>
-              <Link href="/cd">
-              <button className='no-underline hover:underline'>Character Building</button>
-              </Link>
-            </div>
-          
-            <div class="dropdown">
-              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none px-4 py-0 text-center inline-flex items-center" type="button">Portfolio <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+        <div class="dropdown">
+              <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center" type="button">Portfolio <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
               <div class="dropdown-content">
+                <div className="md:hidden">
+                  <Link href="/webdes">Web Design</Link>
+                  <Link href="/cd">Character Building</Link>
+                </div>
                 <Link href="/MindWeevil">The Mind Weevil</Link>
                 <Link href="/illus">General Work</Link>
               </div>
-            </div>
           </div>
+          
+          </div>
+        </div>
 
-          <a className="text-md font-jost text-darkgreen px-6 py-2 border-2 border-darkgreen border-opacity-50" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
+        <a className="text-md font-jost text-darkgreen px-6 py-2 lg:border-2 border-white border-opacity-50 hidden md:flex" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
         </header>
       </section>
 
       <section className=''>
-        <div className="flex justify-center px-48 items-center py-16 space-x-24">
+        <div className="flex justify-center md:px-48 items-center py-16 md:space-x-24">
           <div className="flex max-w-lg">
-              <img src="/mexsmall.png" alt="..." class=" rounded align-middle" />
+              <img src="/mexsmall.png" alt="..." class="min-w-[100px] rounded align-middle" />
           </div>
 
             <div className='space-y-1'>
-              <div className='font-jost text-lg w-auto space-y-6 text-darkgreen text-opacity-70'>
-                <div>
+              <div className='flex'>
+              <div className='font-jost md:text-lg text-sm w-auto space-y-6 text-darkgreen text-opacity-70'>
+                <div className='flex'>
                      Howdy! My name is Li Shen, a software developer and artist based in Dallas,TX. 
                 </div>
                 <div>
@@ -79,7 +88,7 @@ export default function Home() {
                   With a passion for learning, technology, and creativity, I&apos;m always looking for opportunities to build something useful and beautiful!
                 </div>
               </div>
-              
+              </div>
               <svg class="h-10" fill="none" viewBox="0 0 35 32" xmlns="http://www.w3.org/2000/svg"> </svg>
               
               {/* contacts and stars */}
@@ -121,7 +130,7 @@ export default function Home() {
               </div>   
               {/* stars */}
               <div>
-                  <img src='/star2.gif' alt="..." class="rounded align-middle max-w-sm"></img>
+                  <img src='/star2.gif' alt="..." class="rounded align-middle md:max-w-sm max-w-[100px]"></img>
               </div>         
             </div>
    
@@ -133,12 +142,13 @@ export default function Home() {
       </section> 
 
       <div className='align-end w-auto h-auto'>
-        <hr class = 'border-1'></hr>
-        <footer className='flex align-top justify-end px-20'> 
-          <div className='text-darkgreen text-opacity-50 text-lg font-jost my-5'>
-            © 2023 by Li Shen
-          </div>
-        </footer>
+      <hr className = 'border-1 border-opacity-40 border-darkgreen'></hr>
+      <footer className='flex align-top justify-end md:px-20 px-8 w-screen'> 
+       
+        <div className='text-darkgreen text-opacity-50 md:text-lg text-sm font-jost my-5'>
+          © 2023 by Li Shen
+        </div>
+      </footer>
       </div>
       
     </div>
