@@ -78,10 +78,10 @@ export default function Home() {
           <div className='md:space-y-16 space-y-8'>
           <div>
             <div className='flex justify-center w-screen md:space-x-32 h-auto'>
-              <img src='/mwe.png' alt='megaworld' className='md:w-5/12 justify-center md:max-h-[500px] max-h-[200px] object-contain w-screen'></img>
+              <img src='/mwe.webp' alt='megaworld' className='md:w-5/12 justify-center md:max-h-[500px] max-h-[200px] object-contain w-screen'></img>
             </div>
             <div className='flex items-start justify-center w-screen space-x-32 px-12 md:px-64 h-auto py-8'>
-              <img src='/mwtsmall.png' alt='megaworld' className='md:w-3/6 justify-center'></img>
+              <img src='/mwtsmall.webp' alt='megaworld' className='md:w-3/6 justify-center'></img>
             </div>
             <p className='text-center md:py-8 font-jost text-sm md:text-lg text-gray-400 lg:mx-64 bg-black px-12'>The Journey of the Mind Weevil is a series that depicits the metamorphosis of an unusual creature with a fiery aura and an unwavering gaze. In addition to shifts in size, the weevil and it&apos;s host&apos;s symbiotic relationship flucuates as they venture into differing environments.</p>
           </div>
@@ -98,28 +98,28 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                     1. Glimpse Through Glass
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe6.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe6.webp" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                     2. A Beginning for Everything
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe15.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe15.webp" alt="image description"/>
                 </div>
 
                 <div className='lg:hidden space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                     3. Catching the Mind Weevil
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe17small.jpg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe17small.webp" alt="image description"/>
                 </div>
 
                 <div className='lg:hidden space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                     4. How Loud is Too Loud
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe13.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe13.webp" alt="image description"/>
                 </div>
 
   
@@ -146,14 +146,14 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                   5. A Bright Eclipse
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe10.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe10.webp" alt="image description"/>
                 </div>
 
                 <div className='lg:hidden space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                   6. Lagoona
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe12small.jpg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe12small.webp" alt="image description"/>
                 </div>
 
                 <div className='hidden lg:flex justify-start w-auto h-auto space-x-12 mx-40'>
@@ -177,37 +177,44 @@ export default function Home() {
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
-                    7. The Eternal Bath
+                    7. Water Dancer
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe14.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe16.webp" alt="image description"/>
+                </div>
+
+                <div className='space-y-4'>
+                  <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
+                    8. The Eternal Bath
+                  </div>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe14.webp" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl '>
-                    8. Maniae
+                    9. Maniae
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe7.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe7.webp" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl '>
-                    9. Helmet of Fire
+                    10. Helmet of Fire
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe9.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe9.webp" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl '>
-                    10. Bounce
+                    11. Bounce
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe8.png" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe8.webp" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl '>
-                    11. New Dawn
+                    12. New Dawn
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe11.jpeg" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe11.webp" alt="image description"/>
                 </div>
 
 
@@ -227,31 +234,31 @@ export default function Home() {
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-64 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe1.png" alt="image description"/>
+                              <img class="flex object-contain justify-center" src="/mwe1.webp" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe2.png" alt="image description"/>
+                              <img class="flex object-contain justify-center" src="/mwe2.webp" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                           <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe3.png" alt="image description"/>
+                              <img class="flex object-contain justify-center" src="/mwe3.webp" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe4.png" alt="image description"/>
+                              <img class="flex object-contain justify-center" src="/mwe4.webp" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 h-96 max-w-xs overflow-hidden  shadow-md border-0 bg-black hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain justify-center" src="/mwe5.png" alt="image description"/>
+                              <img class="flex object-contain justify-center" src="/mwe5.webp" alt="image description"/>
                             </div>
                           </div>
                         </div>
