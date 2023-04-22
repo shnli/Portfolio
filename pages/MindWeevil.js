@@ -83,7 +83,7 @@ export default function Home() {
             <div className='flex items-start justify-center w-screen space-x-32 px-12 md:px-64 h-auto py-8'>
               <img src='/mwtsmall.webp' alt='megaworld' className='md:w-3/6 justify-center'></img>
             </div>
-            <p className='text-center md:py-8 font-jost text-sm md:text-lg text-gray-400 lg:mx-64 bg-black px-12'>The Journey of the Mind Weevil is a series that depicits the metamorphosis of an unusual creature with a fiery aura and an unwavering gaze. In addition to shifts in size, the weevil and it&apos;s host&apos;s symbiotic relationship flucuates as they venture into differing environments.</p>
+            <p className='text-center md:py-8 font-jost text-sm md:text-lg text-gray-400 lg:mx-64 bg-black px-12'>The Journey of the Mind Weevil is a series that chronicles the metamorphosis of a unique creature with a fiery aura and an unwavering gaze. As the weevil and its host navigate through diverse environments, their symbiotic relationship undergo fluctuations, writing a captivating visual narrative about a shared journey.</p>
           </div>
           {/* title page end */}
 
