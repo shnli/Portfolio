@@ -80,10 +80,10 @@ export default function Home() {
               <div className='flex'>
               <div className='font-jost lg:text-lg md:text-md sm:text-sm w-auto space-y-6 text-darkgreen mx-12 text-opacity-70'>
                 <div className='flex'>
-                     Howdy! My name is Li Shen, a software engineer and artist based in Dallas,TX. 
+                     Howdy! My name is Li Shen, a software engineer and designer based in Dallas,TX. 
                 </div>
                 <div>
-                    Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. I also like to draw pictures in my free time.
+                    Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. I also like to draw in my free time.
                 </div>
                 {/* <div>
                   With a passion for learning, technology, and creativity, I&apos;m always looking for opportunities to build something useful and beautiful!
