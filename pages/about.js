@@ -14,7 +14,7 @@ export default function Home() {
       
       {/* HEADER */}
       <section>
-      <header className='flex items-center justify-between py-6 md:px-20 px-12 w-screen'>
+      <header className='flex items-center justify-between py-6 lg:px-20 px-12 w-screen'>
 
         <div className = 'hidden md:flex'>
           {/* <p className='text-lg font-bold font-jost px-1 text-brightred '> li shen </p> */}
@@ -22,7 +22,7 @@ export default function Home() {
             <Link href="/">
             {/* <button className='text-lg font-bold font-jost px-1 text-darkgreen'>li shen</button> */}
             <button> 
-            <img src="/untitledartwork29.png" alt="..." class=" md:h-8 md:w-13 lg:h-10 lg:w-20 rounded align-middle" />
+            <img src="/untitledartwork21small.png" alt="..." class=" md:h-8 md:w-13 lg:h-10 lg:w-20 rounded align-middle" />
             </button>
             </Link>
           </p>
@@ -54,6 +54,7 @@ export default function Home() {
               <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center" type="button">Portfolio <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
               <div class="dropdown-content">
                 <div className="md:hidden">
+                  <Link href="/">Home</Link>
                   <Link href="/webdes">Web Design</Link>
                   <Link href="/cd">Character Building</Link>
                 </div>
@@ -65,21 +66,21 @@ export default function Home() {
           </div>
         </div>
 
-        <a className="text-md font-jost text-darkgreen px-6 py-2 lg:border-2 border-white border-opacity-50 hidden md:flex" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
+        <a className="text-md font-jost text-darkgreen px-6 py-2 md:border-2 border-darkgreen border-opacity-50 hidden md:flex" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
         </header>
       </section>
 
-      <section className=''>
-        <div className="flex justify-center md:px-48 items-center py-16 md:space-x-24">
-          <div className="flex max-w-lg">
-              <img src="/mexsmall.png" alt="..." class="min-w-[100px] rounded align-middle" />
+      <section className='lg:my-12'>
+        <div className="flex lg:flex-row flex-col items-center lg:py-4 py-8 space-y-16 lg:mx-24 md:mx-24 justify-center lg:gap-24">
+          <div className="flex lg:max-w-[500px] lg:min-w-[200px] min-w-[200px] mx-8">
+              <img src="/mexsmall.png" alt="..." class="lg:min-w-[300px] lg:max-w-[580px] md:max-w-[300px] min-w-[100px] sm:max-w-[250px] rounded align-middle" />
           </div>
 
-            <div className='space-y-1'>
+            <div className='space-y-1 lg:max-w-[600px] lg:min-w-[200px]'>
               <div className='flex'>
-              <div className='font-jost md:text-lg text-sm w-auto space-y-6 text-darkgreen text-opacity-70'>
+              <div className='font-jost lg:text-lg md:text-md sm:text-sm w-auto space-y-6 text-darkgreen mx-12 text-opacity-70'>
                 <div className='flex'>
-                     Howdy! My name is Li Shen, a software developer and artist based in Dallas,TX. 
+                     Howdy! My name is Li Shen, a software engineer and artist based in Dallas,TX. 
                 </div>
                 <div>
                     Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. I also like to draw in my free time.
@@ -92,13 +93,13 @@ export default function Home() {
               <svg class="h-10" fill="none" viewBox="0 0 35 32" xmlns="http://www.w3.org/2000/svg"> </svg>
               
               {/* contacts and stars */}
-              <div className='flex justify-start items-center space-x-12'>
+              <div className='flex justify-start flex-center md:flex-row flex-col md:space-x-12 space-y-12'>
                 <div className='font-jost text-lg w-auto space-y-2 text-darkgreen text-opacity-70'>
-                <div className='font-bold'>
+                <div className='font-bold mx-12'>
                   Contacts
                 </div>
 
-                <div className='space-y-2 px-4'>
+                <div className='space-y-2 px-4 mx-8'>
                   <div className='flex items-center space-x-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -129,26 +130,25 @@ export default function Home() {
                 </div>
               </div>   
               {/* stars */}
-              <div>
-                  <img src='/star2.gif' alt="..." class="rounded align-middle md:max-w-sm max-w-[100px]"></img>
+              <div className='justify-center flex'>
+                  <img src='/star2.gif' alt="..." class="rounded align-middle md:max-w-[200px] max-w-[80px] justify-center flex"></img>
               </div>         
-            </div>
-   
-              
-            </div>
+            </div> 
+          </div>
 
         </div>
         
       </section> 
 
-      <div className='align-end w-auto h-auto'>
-      <hr className = 'border-1 border-opacity-40 border-darkgreen'></hr>
-      <footer className='flex align-top justify-end md:px-20 px-8 w-screen'> 
-       
-        <div className='text-darkgreen text-opacity-50 md:text-lg text-sm font-jost my-5'>
-          © 2023 by Li Shen
-        </div>
-      </footer>
+      <div className='align-end w-auto h-auto  bottom-0'>
+        <hr className = 'border-1 border-opacity-40 border-darkgreen'></hr>
+        <footer className='flex align-top justify-end md:px-20 px-8 w-screen'> 
+        
+          <div className='text-darkgreen text-opacity-50 md:text-lg text-sm font-jost my-5'>
+            © 2023 by Li Shen
+          </div>
+        </footer>
+      
       </div>
       
     </div>

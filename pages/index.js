@@ -8,10 +8,10 @@ export default function Home() {
   
   return (
 
-    <div class="flex flex-col min-h-screen h-screen w-screen">
+    <div class="flex flex-col min-h-screen h-screen w-screen ">
       
       {/* HEADER */}
-      <header className='flex items-center justify-between py-6 md:px-20 px-12 w-screen'>
+      <header className='flex items-center justify-between py-6 lg:px-20 px-12 w-screen'>
         <div className = 'hidden md:flex'>
           {/* <p className='text-lg font-bold font-jost px-1 text-brightred '> li shen </p> */}
           <p className= ''>
@@ -61,18 +61,18 @@ export default function Home() {
           </div>
         </div>
 
-        <a className="text-md font-jost text-darkgreen px-6 py-2 lg:border-2 border-darkgreen border-opacity-50 hidden md:flex" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
+        <a className="text-md font-jost text-darkgreen px-6 py-2 md:border-2 border-darkgreen border-opacity-50 hidden md:flex" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
         </header>
 
       {/* MAIN */}
       <div className='md:space-y-16 space-y-8 md:py-4 py-12'>
         {/* SECTION 1 */} 
         <section>
-          <div className="flex justify-center items-center w-screen">
-            <div class='flex flex-col md:flex-row md:px-32 px-8 justify-center md:gap-24 items-center w-screen'>
+          <div className="flex justify-center items-center w-screen ">
+            <div class='flex flex-col lg:flex-row md:px-32 px-8 justify-center md:gap-24 items-center w-screen'>
               <h1 className='float-left flex md:text-[70px] font-LS font-medium text-darkgreen text-[48px]'>Hi! I&apos;m Li.</h1>
 
-              <div className="flex justify-center md:w-8/12 max-w-[1000px]">
+              <div className="flex justify-center lg:w-8/12 max-w-[1000px] py-8">
                 <img src="/XLextrasmall.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
               </div>
             </div>
@@ -87,15 +87,15 @@ export default function Home() {
           </div>
           
           
-          <div className="flex justify-center px-4 items-center">
-            <div className="flex justify-center mx-10 align-bottom">
-              <div class="grid md:grid-cols-4 grid-cols-1 md:gap-10 gap-4">
+          <div className="flex justify-center items-center md:py-12">
+            <div className="flex justify-center mx-20 align-bottom">
+              <div class="grid md:grid-cols-4 grid-cols-1 lg:gap-24 md:gap-8 gap-4">
               
-                <div className='flex-shrink-0 md:h-72'>
+                <div className='flex-shrink-0'>
                   <div>
                     <Link href="/webdes">
                       <button>
-                        <img class="border-4 border-opacity-20 border-darkgreen object-cover md:w-76 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/th.png" alt="image description"/>
+                        <img class="border-4 border-opacity-20 border-darkgreen object-cover md:w-96 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/th.png" alt="image description"/>
                       </button>
                     </Link>
                   </div>

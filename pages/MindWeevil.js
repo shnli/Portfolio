@@ -17,7 +17,7 @@ export default function Home() {
       
       <section className='space-y-12'>
         {/* HEADER */}
-        <header className='flex items-center justify-between py-6 md:px-20 px-12 w-screen'>
+        <header className='flex items-center justify-between py-6 lg:px-20 px-12 w-screen'>
 
           <div className = 'hidden md:flex'>
             {/* <p className='text-lg font-bold font-jost px-1 text-brightred '> li shen </p> */}
@@ -57,6 +57,7 @@ export default function Home() {
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center" type="button">Portfolio <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
                 <div class="dropdown-content">
                   <div className="md:hidden">
+                    <Link href="/">Home</Link>
                     <Link href="/webdes">Web Design</Link>
                     <Link href="/cd">Character Building</Link>
                   </div>
@@ -68,7 +69,7 @@ export default function Home() {
             </div>
           </div>
 
-          <a className="text-md font-jost text-white px-6 py-2 lg:border-2 border-white border-opacity-50 hidden md:flex" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
+          <a className="text-md font-jost text-white px-6 py-2 md:border-2 border-white border-opacity-50 hidden md:flex" href="https://www.instagram.com/p7rtial/?hl=en" target="_blank" rel='noreferrer noopener'>Meet P7RTIAL</a>
         </header>
 
         {/* MAIN SECTION (BODY) */}
