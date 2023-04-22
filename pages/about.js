@@ -73,7 +73,7 @@ export default function Home() {
       <section className='lg:my-12'>
         <div className="flex lg:flex-row flex-col items-center lg:py-4 py-8 space-y-16 lg:mx-24 md:mx-24 justify-center lg:gap-24">
           <div className="flex lg:max-w-[500px] lg:min-w-[200px] min-w-[200px] mx-8">
-              <img src="/mexsmall.png" alt="..." class="lg:min-w-[300px] lg:max-w-[580px] md:max-w-[300px] min-w-[100px] sm:max-w-[250px] rounded align-middle" />
+              <img src="/mexsmall.webp" alt="..." class="lg:min-w-[300px] lg:max-w-[580px] md:max-w-[300px] min-w-[100px] sm:max-w-[250px] rounded align-middle" />
           </div>
 
             <div className='space-y-1 lg:max-w-[600px] lg:min-w-[200px]'>
