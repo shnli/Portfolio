@@ -98,7 +98,7 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                     1. Glimpse Through Glass
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe6.webp" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe6.webp" oncontextmenu="return false;" draggable="false" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
@@ -186,7 +186,7 @@ export default function Home() {
                   <div className='text-gray-400 font-LS mx-12 lg:mx-40 md:text-2xl'>
                     8. The Eternal Bath
                   </div>
-                  <img class="flex object-contain justify-center lg:px-96" src="/mwe14.wbp" alt="image description"/>
+                  <img class="flex object-contain justify-center lg:px-96" src="/mwe14.webp" alt="image description"/>
                 </div>
 
                 <div className='space-y-4'>
