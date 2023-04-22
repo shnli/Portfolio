@@ -55,9 +55,9 @@ export default function Home() {
 
           <div className= 'text-md font-jost text-darkgreen'>
             
-          <div class="dropdown">
+          <div class="dropdown ">
                 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center" type="button">Portfolio <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-                <div class="dropdown-content">
+                <div class="dropdown-content absolute">
                   <div className="md:hidden">
                     <Link href="/">Home</Link>
                     <Link href="/webdes">Web Design</Link>
@@ -77,11 +77,10 @@ export default function Home() {
 
 
           <section className=''>
-            <div class=" flex items-center justify-center overflow-hidden lg:py-24 py-12 ">
+            <div class=" flex items-center justify-center lg:py-24 py-12 ">
                 <video src= "/Automatic.mp4"
                     autoplay="{true}" 
-                    className=" z-10 
-                    min-w-sm min-h-sm w-8/12">
+                    className="min-w-sm min-h-sm w-8/12">
                 </video>
             </div>
             <div>

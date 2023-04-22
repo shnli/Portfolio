@@ -73,7 +73,7 @@ export default function Home() {
               <h1 className='float-left flex md:text-[70px] font-LS font-medium text-darkgreen text-[48px]'>Hi! I&apos;m Li.</h1>
 
               <div className="flex justify-center lg:w-8/12 max-w-[1000px] py-8">
-                <img src="/XLextrasmall.png" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
+                <img src="/XLextrasmall.webp" alt="..." class=" rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0" />
               </div>
             </div>
           </div>
