@@ -83,11 +83,11 @@ export default function Home() {
                      Howdy! My name is Li Shen, a software engineer and artist based in Dallas,TX. 
                 </div>
                 <div>
-                    Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. I also like to draw in my free time.
+                    Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. I also like to draw pictures in my free time.
                 </div>
-                <div>
+                {/* <div>
                   With a passion for learning, technology, and creativity, I&apos;m always looking for opportunities to build something useful and beautiful!
-                </div>
+                </div> */}
               </div>
               </div>
               <svg class="h-10" fill="none" viewBox="0 0 35 32" xmlns="http://www.w3.org/2000/svg"> </svg>
