@@ -159,7 +159,7 @@ export default function UiUxIndex() {
                       </div>
 
                       <div className='flex lg:justify-start justify-center items-center pb-16 lg:text-xl text-md opacity-50 font-Mont'>
-                          A web application designed to connect plant loving nurseries to plant loving people.</div>
+                        A program designed to facilitate effective collaboration during iterative and task oriented projects.</div>
                   </div>
                 </div>
             </motion.div>
