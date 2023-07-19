@@ -7,13 +7,24 @@ module.exports = {
   ],
 
 
+    variants: {
+      extend: {
+        textDecoration: ['hover'], // Enable hover variant for textDecoration
+      },
+    },
+
+  
 
 
   theme: {
     extend: {},
     fontFamily: {
       jost: ['Jost', 'sans-serif'],
-      LS: ['League Spartan', 'sans-serif']
+      LS: ['League Spartan', 'sans-serif'],
+      OS: ['Open Sans', 'sans-serif'],
+      Mont: ['Montserrat', 'sans-serif'],
+      Inter: ['Inter', 'sans-serif'],
+      CG: ['Cormorant Garamond', 'sans-serif']
     },
 
     colors: {
