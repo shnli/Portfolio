@@ -12,7 +12,7 @@ import { useInView } from 'react-intersection-observer';
 const containerVariants = {
   hidden: {
     opacity: 1,
-    x: 1200, // Initial position outside the viewport
+    x: 100, // Initial position outside the viewport
   },
   visible: {
     opacity: 1,
@@ -95,6 +95,7 @@ export default function UiUxIndex() {
                 animate={inView1 ? 'visible' : 'hidden'}
                 ref={ref1}
                 >
+                  <div className='lg:flex lg:justify-between '>
                     <div className='flex justify-center flex-col align-center lg:w-1/4 lg:ml-8 mx-16'>
                         <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont lg:w-[500px]'>
                             Plant&nbsp;People
@@ -111,28 +112,29 @@ export default function UiUxIndex() {
                     </div>
 
                     <div class=" flex items-center lg:justify-end justify-center lg:py-12 gap-8 mx-8 lg;w-2/4">
-                        <video src= "/uiuxMockups/PlantPeople.mp4"
+                        <video src= "/uiuxMockups/PlantPeople11.mp4"
                             autoplay="{true}" 
                             loop="{true}"
                             className="min-w-sm min-h-sm w-1/4">
                         </video>
                         
-                        <video src= "/uiuxMockups/PlantPeople3.mp4"
+                        <video src= "/uiuxMockups/PlantPeople13.mp4"
                             autoplay="{true}" 
                             loop="{true}"
                             className="min-w-sm min-h-sm w-1/4">
                         </video>
 
-                        <video src= "/uiuxMockups/PlantPeople1.mp4"
+                        <video src= "/uiuxMockups/PlantPeople12.mp4"
                             autoplay="{true}" 
                             loop="{true}"
                             className="min-w-sm min-h-sm w-1/4">
                         </video>
                     </div>
+                  </div>
             </motion.div>
 
             <motion.div
-                className="flex flex-col lg:flex-row justify-center align-center lg:mx-48 gap-24"
+                className="flex flex-col lg:flex-row justify-center align-center lg:mx-48 gap-8"
                 variants={containerVariants3}
                 initial="hidden"
                 animate={inView2 ? 'visible' : 'hidden'}
@@ -142,19 +144,23 @@ export default function UiUxIndex() {
                     <div className='flex lg:justify-start justify-center items-center lg:text-[80px] text-[32px] font-Mont lg:w-[500px]'>
                         PathSync
                     </div>
-                    <div className='flex lg:justify-start justify-center items-center pb-16 lg:text-xl text-md opacity-50 font-Mont'>
+                    <div className='flex lg:justify-start justify-center items-center pb-4 lg:text-xl text-md opacity-50 font-Mont'>
                         A web application designed to connect plant loving nurseries to plant loving people.</div>
-                </div>
-                <div class="flex items-center lg:justify-start justify-center lg:py-12 gap-8 mx-8 ">
-                  <img src="/pathsync/pathsyncthumbnail.webp" alt="..." className="min-w-sm min-h-sm " />
                 </div>
 
-                <div className='hidden lg:flex justify-center flex-col align-center lg:w-1/4 lg:ml-8 mx-16'>
-                    <div className='flex lg:justify-start justify-center items-center lg:text-[80px] text-[32px] font-Mont lg:w-[500px]'>
-                        PathSync
-                    </div>
-                    <div className='flex lg:justify-start justify-center items-center pb-16 lg:text-xl text-md opacity-50 font-Mont'>
-                        A web application designed to connect plant loving nurseries to plant loving people.</div>
+                <div className='flex justify-between'>
+                  <div class="flex items-center lg:justify-start justify-center lg:py-12  mx-8 lg:w-1/2">
+                    <img src="/pathsync/pathsyncthumbnail.webp" alt="..." className="min-w-sm min-h-sm flex rounded-lg" />
+                  </div>
+
+                  <div className='hidden lg:flex justify-center flex-col align-center lg:w-1/4 lg:ml-8 mx-16 '>
+                      <div className='flex lg:justify-start justify-center items-center lg:text-[80px] text-[32px] font-Mont lg:w-[500px]'>
+                          PathSync
+                      </div>
+
+                      <div className='flex lg:justify-start justify-center items-center pb-16 lg:text-xl text-md opacity-50 font-Mont'>
+                          A web application designed to connect plant loving nurseries to plant loving people.</div>
+                  </div>
                 </div>
             </motion.div>
 
@@ -165,6 +171,7 @@ export default function UiUxIndex() {
                 animate={inView3 ? 'visible' : 'hidden'}
                 ref={ref3}
                 >
+                  <div className='lg:flex lg:justify-between space-y-12'>
                     <div className='flex justify-center flex-col align-center lg:w-1/4 lg:ml-8 mx-16 '>
                         <div className='flex lg:justify-start justify-center items-center lg:text-[80px] text-[32px] font-Mont lg:w-[500px]'>
                             SPARK
@@ -184,6 +191,7 @@ export default function UiUxIndex() {
                             className="min-w-sm min-h-sm rounded-lg">
                         </video>
                     </div>
+                  </div>
             </motion.div>
             
             <div>

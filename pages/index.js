@@ -45,7 +45,7 @@ export default function Home() {
               <div className="grid lg:grid-cols-3 grid-rows-3 pb-4 md:px-36 px-16 gap-8 lg:h-[400px] ">
                
                 <motion.div whileHover={{ rotate: [0, -10, 10, -10, 10, 0], transition: { duration: 0.9 } }}>
-                  <Link href={"/uiux/uiuxIndex"}><img src="/indexImages/indexIcon2.png" alt="..." className="cursor-pointer rounded align-middle" /></Link>
+                  <Link href={"/uiux/uiuxIndex"}><img src="/indexImages/indexIcon2.webp" alt="..." className="cursor-pointer rounded align-middle" /></Link>
                 </motion.div>
                
                 <motion.div whileHover={{ rotate: [0, -10, 10, -10, 10, 0], transition: { duration: 0.9 } }}>
