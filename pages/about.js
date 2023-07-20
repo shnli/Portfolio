@@ -26,7 +26,7 @@ export default function Home() {
               <div className='flex'>
               <div className='font-Mont lg:text-lg md:text-md sm:text-sm w-auto space-y-6 text-darkgreen mx-12 text-opacity-70'>
                 <div className='flex'>
-                     Howdy! My name is Li Shen, a user-focused full stack developer and designer from Dallas,TX. 
+                     Howdy! My name is Li Shen, a user-focused full stack developer and designer from Dallas, TX. 
                 </div>
                 <div>
                     Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. Un-academically, I like to draw, work out, and hang out with Jonathan ( my cat ).
