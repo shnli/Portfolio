@@ -44,16 +44,16 @@ export default function Home() {
 
               <div className="grid lg:grid-cols-3 grid-rows-3 pb-4 md:px-36 px-16 gap-8 lg:h-[400px] ">
                
-                <motion.div whileHover={{ rotate: [0, -10, 10, -10, 10, 0], transition: { duration: 0.9 } }}>
-                  <Link href={"/uiux/uiuxIndex"}><img src="/indexImages/indexIcon2.webp" alt="..." className="cursor-pointer rounded align-middle" /></Link>
+                <motion.div whileHover={{ rotate: [0, -5, 5, -5, 5, 0], transition: { duration: 0.9 } }}>
+                  <Link href={"/uiux/uiuxIndex"}><Image width="400" height="450" src="/indexImages/indexIcon2.webp" alt="..." className="cursor-pointer rounded align-middle" /></Link>
                 </motion.div>
                
-                <motion.div whileHover={{ rotate: [0, -10, 10, -10, 10, 0], transition: { duration: 0.9 } }}>
-                  <Link href={"/product/productIndex"}><img src="/indexImages/indexIcon1.png" alt="..." className="cursor-pointer rounded align-middle" /></Link>
+                <motion.div whileHover={{ rotate: [0, -5, 5, -5, 5, 0], transition: { duration: 0.9 } }}>
+                  <Link href={"/projects/projectIndex"}><Image width="400" height="450" src="/indexImages/indexIcon1.webp" alt="..." className="cursor-pointer rounded align-middle" /></Link>
                 </motion.div>
                
-                <motion.div whileHover={{ rotate: [0, -10, 10, -10, 10, 0], transition: { duration: 0.9 } }}>
-                  <Link href={"/VisualArt/artIndex"}><img src="/indexImages/indexIcon3.png" alt="..." className="cursor-pointer rounded align-middle" /></Link>
+                <motion.div whileHover={{ rotate: [0, -5, 5, -5, 5, 0], transition: { duration: 0.9 } }}>
+                  <Link href={"/VisualArt/artIndex"}><Image width="400" height="450" src="/indexImages/indexIcon3.png" alt="..." className="cursor-pointer rounded align-middle" /></Link>
                 </motion.div>
               </div>
 

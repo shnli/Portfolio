@@ -98,7 +98,7 @@ export default function Home() {
 
                 <div className='flex-shrink-0 md:h-72'>
                   <div>
-                    <Link href="/illus">
+                    <Link href="/VisualArt/illus">
                       <button>
                         <img class="rounded-lg object-cover md:w-76 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/vertigo.jpg" alt="image description"/>
                       </button>
@@ -108,7 +108,7 @@ export default function Home() {
 
                 <div className='flex-shrink-0 md:h-72'>
                   <div>
-                    <Link href="/MindWeevil">
+                    <Link href="/VisualArt/MindWeevil">
                       <button>
                         <img class="rounded-lg object-cover md:w-76 md:h-72 max-h-md transition-all duration-300 blur-non hover:blur-sm" src="/mwe9.png" alt="image description"/>
                       </button>
@@ -118,7 +118,7 @@ export default function Home() {
 
                 <div className='flex-shrink-0 md:h-72'>
                   <div>
-                    <Link href="/cd">
+                    <Link href="/VisualArt/cd">
                       <button>
                         <img class="rounded-lg object-cover md:w-76 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/her.png" alt="image description"/>
                       </button>

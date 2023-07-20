@@ -95,7 +95,17 @@ h1::after {
 
 .linear-wipe {
   animation: flow 10s ease-in-out infinite;
-  background: linear-gradient(180deg, #eb2929, #ff9720);
+  background: linear-gradient(180deg, #5fa654, #9ad048);
+  background-size: 300%;
+  padding-left: 1rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.linear-wipe1 {
+  animation: flow 10s ease-in-out infinite;
+  background: linear-gradient(180deg, #4092d9, #aa48d0);
   background-size: 300%;
   padding-left: 1rem;
   -webkit-background-clip: text;

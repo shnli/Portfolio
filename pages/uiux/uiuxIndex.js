@@ -88,7 +88,10 @@ export default function UiUxIndex() {
 
         <section className= 'bg-white md:my-8 space-y-8 '>
           <div className='px-12'>
-              <div className='flex lg:flex-row justify-center align-center lg:mx-48 font-CG lg:text-[50px] text-[24px] font-bold'>My User-Centric Designs</div>
+              <div className='flex flex-col justify-center py-6'>
+                <div className='flex lg:flex-row justify-center text-center align-center lg:mx-48 font-Mont lg:text-[60px] text-[32px] text-black opacity-50 linear-wipe font-semibold'>USER-CENTRIC DESIGNS</div>
+                <div className='flex lg:flex-row justify-center align-center lg:mx-48 font-Mont lg:text-[20px] text-[12px] linear-wipe opacity-70 text-center'>A collection of user interfaces and visual elements from projects, hackathons, and general practice.</div>
+              </div>
               <motion.div
                   className="flex flex-col lg:flex-row justify-center align-center lg:mx-48"
                   variants={containerVariants2}
@@ -142,7 +145,7 @@ export default function UiUxIndex() {
                   ref={ref2}
                   >
                   <div className='flex lg:hidden justify-center flex-col align-center lg:w-1/4 lg:ml-8 lg:mx-16'>
-                      <div className='flex lg:justify-start justify-center items-center lg:text-[80px] text-[32px] font-Mont lg:max-w-[500px]'>
+                      <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont lg:max-w-[500px]'>
                           PathSync
                       </div>
                       <div className='flex lg:justify-start justify-center items-center pb-4 lg:text-xl text-md opacity-50 font-Mont text-center lg:text-left'>
@@ -155,7 +158,7 @@ export default function UiUxIndex() {
                     </div>
 
                     <div className='hidden lg:flex justify-center flex-col align-center lg:ml-8 lg:w-[1000px]'>
-                        <div className='flex lg:justify-start justify-center items-center lg:text-[80px] text-[32px] font-Mont '>
+                        <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont '>
                             PathSync
                         </div>
 
@@ -180,7 +183,7 @@ export default function UiUxIndex() {
                   >
                   <div className='lg:flex lg:justify-between justify-center lg:space-y-0 space-y-12'>
                     <div className='flex justify-center flex-col align-center  lg:mr-24 lg:w-[600px]'>
-                        <div className='flex lg:justify-start justify-center items-center lg:text-[80px] text-[32px] font-Mont '>
+                        <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont '>
                             SPARK
                         </div>
                         <div className='flex lg:justify-start justify-center items-center lg:text-md text-sm opacity-50 font-Mont pb-4'>

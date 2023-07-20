@@ -83,7 +83,7 @@ export default function UiUxIndex() {
 
     <div class="flex flex-col min-h-screen h-screen w-screen ">
       <Navbar></Navbar>
-      <div className='flex lg:flex-row justify-center align-center lg:mx-48 font-CG lg:text-[50px] text-[24px] font-bold py-8'>View My Major Projects</div>
+      <div className='py-6 flex lg:flex-row justify-center text-center align-center lg:mx-48 font-Mont lg:text-[60px] text-[32px] text-black opacity-50 linear-wipe1 font-semibold'>MAJOR PROJECTS</div>
 
       <div className='md:py-12 py-12 grid lg:grid-cols-3 lg:grid-cols-3 grid-cols-1 lg:px-24 px-8 gap-12 md:pb-48 pb-24'>
       

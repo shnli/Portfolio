@@ -20,7 +20,7 @@ export default function Hackathons() {
               <hr className='border-2 border-dotted border-darkgreen border-opacity-20'></hr>
         </div> */}
         <div className='space-y-4 lg:mx-0 mx-12'>
-            <p className='text-3xl text-center lg:mx-40 pt-30 font-LS font-medium text-darkgreen font-bold pb-4'>TAMUhack</p>
+            <p className='text-3xl text-center lg:mx-40 pt-30 font-Mont font-medium text-darkgreen  pb-4'>TAMUhack</p>
             <p className='lg:mx-40 text-md font-Mont text-darkgreen text-opacity-60'>
               TAMUhack is a small team of students who organize two annual 24-hour coding events (<strong>TAMUhack & HowdyHack</strong>) with 1000+ attendees total at Texas A&M University. As Lead Creative Director, I focus on organizing a talented team to <span className='text-pink-500 font-semibold'>create our unique website</span> for each years&apos; event,  <span className='text-pink-500 font-semibold'>curate a recognizable brand</span>, and <span className='text-pink-500 font-semibold'>drive marketing initiatives</span> in order to give our hackers the most memorable and inspiring experience possible. Find our designs for each year&apos;s iteration below! 
             </p>
