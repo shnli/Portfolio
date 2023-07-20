@@ -135,8 +135,8 @@ export default function PathSync() {
                 </div>
 
                 <div className='lg:text-xl gap-4 px-8 flex flex-col'>
-                    <div className='font-bold text-blue-500'>2. Customized Calendar</div>
-                    <div className='lex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                    <div className='font-bold text-blue-500'>3. Customized Calendar</div>
+                    {/* <div className='lex flex-col lg:grid lg:grid-cols-2 gap-8'>
                         <div><span className='font-bold'>Pro:</span> Provides users with the flexibility to access and review their projects in a widely used and familiar format, ensuring ease of use and compatibility.</div>
                         <div><span className='font-bold'>Con:</span> Prioritizing the implementation of this feature might pose challenges due to its complexity, potentially delaying the release of the Minimum Viable Product (MVP).</div>
                     </div> 
@@ -144,7 +144,7 @@ export default function PathSync() {
                         <ul className='list-disc pl-8 py-4'>
                             <li>Users can create an account to save their progress and easily revisit tasks, offering a practical alternative to exporting to Excel before the feature can be implemented.</li> 
                         </ul> 
-                     </div>
+                     </div> */}
                 </div>
 
 

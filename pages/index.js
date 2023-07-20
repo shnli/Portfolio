@@ -70,7 +70,7 @@ export default function Home() {
           
         </div>
 
-      <div className='lg:absolute bottom-0'><Footer></Footer></div>
+      <div className='lg:pt-24 pt-12'><Footer></Footer></div>
         
 
     </div>

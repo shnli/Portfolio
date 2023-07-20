@@ -59,7 +59,7 @@ export default function Navbar() {
         </div>
 
         <div className="text-md font-LS text-darkgreen hidden md:flex">
-          <Link href="/product/productIndex">
+          <Link href="/projects/projectIndex">
             <button className="no-underline hover:underline">Projects</button>
           </Link>
         </div>
@@ -153,7 +153,7 @@ export default function Navbar() {
               </Link>
             </div>
             <div className="text-md font-LS text-darkgreen mb-4">
-              <Link href="/product/productIndex">
+              <Link href="/projects/projectIndex">
                 <button className="no-underline hover:underline">Projects</button>
               </Link>
             </div>
