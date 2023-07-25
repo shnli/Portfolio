@@ -100,7 +100,7 @@ export default function UiUxIndex() {
               Refining
             </div>
 
-              <div className='max-h-[350px] overflow-hidden'>
+              <div className='max-h-[275px] overflow-hidden'>
                 <Link href="/projects/PathSync">
                   <img src="/pathsync/pathsyncthumbnail.webp" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl w-full h-full" style={{ objectFit: 'cover' }} />
                 </Link>
@@ -131,8 +131,8 @@ export default function UiUxIndex() {
                     </div>
                   </a>
                 </div>
-
               </div>
+
             </div>
 
           </motion.div>
@@ -151,36 +151,38 @@ export default function UiUxIndex() {
                 In Progress
               </div>
 
-              <div className='max-h-[350px] overflow-hidden'>
+              <div className='max-h-[275px] overflow-hidden'>
                 <Link href="/projects/PlantPeople">
-                  <img src="/plantpeople/plantpeoplethumbnail.webp" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl" style={{ objectFit: 'cover' }} />
+                  <img src="/plantpeople/plantpeoplethumbnail.webp" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl object-cover" />
                 </Link>
               </div>
 
-              <div className='flex flex-col justify-start items-top px-8 pt-8'>
-                <div className='font-Mont font-semibold text-xl flex justify-center pb-4'>
-                  Plant People
+              <div className='flex flex-col justify-start items-center p-8'>
+                <div className='flex flex-col justify-center '>
+                  <div className='font-Mont font-semibold text-xl flex justify-center pb-4'>
+                    Plant People
+                  </div>
+                  <div className='font-Mont lg:text-md text-sm flex text-center justify-center'>
+                    A web application that promotes plant care by bridging the gap between nurseries and plant owners.
+                  </div>
                 </div>
-                <div className='font-Mont lg:text-md text-sm flex text-center justify-center'>
-                  A web application that bridges the gap between nurseries and plant owners
-                </div>
-              </div>
 
-              <div className='pt-4 flex justify-center'>
-                  <a
-                    className="text-sm font-semibold opacity-80 text-blue-700 font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-blue-700"
-                    href="https://plantpeople.vercel.app"
-                    target="_blank"
-                    rel="noreferrer noopener">
-                    <div className='flex gap-2 align-center items-center'>
-                      <div>
-                        Interface DEMO
+                <div className='pt-4 flex justify-center'>
+                    <a
+                      className="text-sm font-semibold opacity-80 text-blue-700 font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-blue-700"
+                      href="https://plantpeople.vercel.app"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <div className='flex gap-2 align-center items-center'>
+                        <div>
+                          Interface DEMO
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
                       </div>
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                      </svg>
-                    </div>
-                  </a>
+                    </a>
+                  </div>
                 </div>
 
               
