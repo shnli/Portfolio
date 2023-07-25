@@ -38,12 +38,13 @@ export default function Navbar() {
               <img
                 src="/untitledartwork21small.png"
                 alt="..."
-                className="h-8 w-16 md:h-8 md:w-13 lg:h-10 lg:w-20 rounded align-middle"
+                className="h-8 w-16 md:h-8 md:w-13 lg:h-10 lg:w-20 rounded align-middle lg:mr-48 md:mr-24"
               />
             </button>
           </Link>
         </p>
       </div>
+      
 
       <div className="flex justify-center w-full md:w-auto gap-12">
         <div className="text-md font-LS text-darkgreen">
@@ -202,7 +203,7 @@ export default function Navbar() {
           </a>
           
           <a
-            className=" flex align-center text-xs font-LS text-black px-6 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-black border-opacity-50 hidden md:flex"
+            className=" flex align-center text-xs font-LS text-black px-6 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-darkgreen border-opacity-50 hidden md:flex"
             href="https://www.instagram.com/p7rtial/?hl=en"
             target="_blank"
             rel="noreferrer noopener"
