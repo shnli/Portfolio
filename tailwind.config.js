@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -34,6 +35,10 @@ module.exports = {
       'darkgreen': '#232f1f',
       'brightred': '#df4128',
       'tahiti': '#3ab7bf',
+      'primary-blue':'#047fd6',
+      'black':'#000000',
+      'gray':'#dbdbdb'
+
     },
   },
   plugins: [],

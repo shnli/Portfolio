@@ -192,7 +192,7 @@ export default function Navbar() {
 
       <div className='flex gap-4'>      
           <a
-            className="bg-black flex align-center items-center justify-center text-xs font-LS text-darkgreen px-10 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-black border-opacity-50 hidden md:flex"
+            className="bg-black flex align-center items-center justify-center text-xs font-LS px-10 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-black border-opacity-50 hidden md:flex"
             href="https://github.com/shnli"
             target="_blank"
             rel="noreferrer noopener"

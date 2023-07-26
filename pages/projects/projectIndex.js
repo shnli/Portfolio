@@ -117,7 +117,7 @@ export default function UiUxIndex() {
                 
                 <div className='pt-4 flex justify-center'>
                   <a
-                    className="text-sm font-semibold opacity-80 text-blue-700 font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-blue-700"
+                    className="text-sm font-semibold opacity-80 text-primary-blue font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-primary-blue"
                     href="https://pathsync.vercel.app"
                     target="_blank"
                     rel="noreferrer noopener">
@@ -169,7 +169,7 @@ export default function UiUxIndex() {
 
                 <div className='pt-4 flex justify-center'>
                     <a
-                      className="text-sm font-semibold opacity-80 text-blue-700 font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-blue-700"
+                      className="text-sm font-semibold opacity-80 text-primary-blue font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-primary-blue"
                       href="https://plantpeople.vercel.app"
                       target="_blank"
                       rel="noreferrer noopener">

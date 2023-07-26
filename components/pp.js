@@ -11,11 +11,11 @@ export default function PathSync() {
         <div className='flex flex-col px-8 lg:px-48 gap-12'>
 
             <div className=''>
-                <div className='flex lg:flex-row flex-col justify-center items-center lg:py-12'>
-                    <div className='flex text-center lg:text-start items-center lg:text-[60px] text-[25px] font-CG font-bold pb-4 text-primary-blue'>
+                <div className='flex lg:flex-row flex-col lg:py-12'>
+                    <div className='flex text-center lg:text-start items-center lg:text-[60px] text-[25px] font-CG font-bold pb-4 text-blue-900'>
                         Bridging the Gap Between Nurseries & Plant Owners
                     </div>
-                    <div class="flex align-center lg:justify-center lg:w-screen justify-center max-w-[300px] lg:max-w-[700px]">
+                    <div class=" flex align-center lg:justify-center lg:w-screen justify-center max-w-[500px] lg:max-w-[700px]">
                         <video src= "/pathsync/pathSync.mp4"
                             autoplay="{true}" 
                             loop="{true}"
@@ -65,7 +65,7 @@ export default function PathSync() {
 
             <div className='flex flex-col gap-4'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>COMPETITIVE ANALYSIS</div>
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-4 px-8'>
                     <div className='lg:text-xl'>
                         I established a <span className='text-blue-500'>competitive landscape</span>, focusing on the following top project management tools:
                     </div>
@@ -104,7 +104,7 @@ export default function PathSync() {
 
             <div className='flex flex-col gap-4'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>MAJOR MVP FEATURES AND TRADE OFFS</div>
-                <div className='lg:text-xl gap-4 flex flex-col'>
+                <div className='lg:text-xl gap-4 px-8 flex flex-col'>
                     <div className='font-bold text-blue-500'>1. Auto-fill Tasks ( Based on Fixed Values )</div>
                     
                     <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
@@ -121,7 +121,7 @@ export default function PathSync() {
                      </div>
                 </div>
 
-                <div className='lg:text-xl gap-4 flex flex-col'>
+                <div className='lg:text-xl gap-4 px-8 flex flex-col'>
                     <div className='font-bold text-blue-500'>2. Exporting to Excel</div>
                     <div className='lex flex-col lg:grid lg:grid-cols-2 gap-8'>
                         <div><span className='font-bold'>Pro:</span> Provides users with the flexibility to access and review their projects in a widely used and familiar format, ensuring ease of use and compatibility.</div>
@@ -134,7 +134,7 @@ export default function PathSync() {
                      </div>
                 </div>
 
-                <div className='lg:text-xl gap-4  flex flex-col'>
+                <div className='lg:text-xl gap-4 px-8 flex flex-col'>
                     <div className='font-bold text-blue-500'>3. Customized Calendar</div>
                     {/* <div className='lex flex-col lg:grid lg:grid-cols-2 gap-8'>
                         <div><span className='font-bold'>Pro:</span> Provides users with the flexibility to access and review their projects in a widely used and familiar format, ensuring ease of use and compatibility.</div>
@@ -173,7 +173,7 @@ export default function PathSync() {
 
             <div className='flex flex-col gap-4'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>USABILITY ANALYSIS & FEEDBACK</div>
-                <div className='flex gap-12'>
+                <div className='flex gap-12 px-8'>
                     <img src="/pathsync/profile1.svg" alt="..." className="hidden lg:flex max-w-[150px] cursor-pointer rounded align-center"></img>
                     <div>
                         <div className='lg:text-xl font-bold'>User 1: Female, 47 Y/O, Project Manager</div>
@@ -202,8 +202,8 @@ export default function PathSync() {
             <div className='flex flex-col gap-4 pb-24'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS '>NEXT STEPS</div>
 
-                <div className='lg:text-xl font-bold '>Refining Details & Ideas</div>
-                <ul className='lg:text-xl list-disc pl-8'>
+                <div className='lg:text-xl font-bold px-8'>Refining Details & Ideas</div>
+                <ul className='lg:text-xl list-disc pl-16 px-8'>
                     <li>Implement collaboration features enabling project access for multiple users, fostering more effective teamwork</li>
                     <li>Automate the input of  &ldquo;Actual Start&rdquo; and &ldquo;Actual End&rdquo; dates by utilizing the checkboxes, streamlining the task-creation process and reducing manual data entry</li>
                     <li>Incorporate user-friendly drag and drop and fill handle features to enhance task management efficiency and improve user experience.</li>
@@ -212,8 +212,8 @@ export default function PathSync() {
                     <li>Integrated a visual timeline view, offering users a clear overview of project progress and deadlines</li>
                 </ul>
 
-                <div className='lg:text-xl font-bold '>Higher Level Features</div>
-                <ul className='lg:text-xl list-disc pl-8'>
+                <div className='lg:text-xl font-bold px-8'>Higher Level Features</div>
+                <ul className='lg:text-xl list-disc pl-16 px-8'>
                     <li>Modifiable and customizable calendar, empowering users to generate more accurate and tailored analysis of project timelines and deadlines</li>
                     <li>Leverage AI capabilities to suggest autofill tasks based on a user&apos;s previous activities, improving productivity</li>
                     <li>Implement advanced security measures, including data encryption and user authentication protocols, ensuring the confidentiality and integrity of project data.</li>
