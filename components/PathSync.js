@@ -67,7 +67,7 @@ export default function PathSync() {
 
             <div className='flex flex-col gap-4'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>USER STORIES</div>
-                <div>Minimum Viable Audiance: Students & Small Company Project Managers who frequently need to execute collaborative tasks.</div>
+                <div><span className='font-bold text-primary-blue'>Minimum Viable Audiance: </span>Students & Small Company Project Managers who frequently need to execute collaborative tasks.</div>
 
                 <div className='font-bold'>User Story #1</div>
                 
