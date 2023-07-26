@@ -41,7 +41,7 @@ export default function PathSync() {
             <div className='flex flex-col gap-4'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>INSPIRATION</div>
                 <div className='font-bold lg:text-2xl font-LS'>
-                            &ldquo;While working on <span className="text-primary-blue underline">long-distance collaborative</span> projects, how can you more effectively <span className="text-primary-blue">uphold deadlines</span>, ensure <span className="text-primary-blue">consistent communication</span>, and <span className="text-primary-blue">identify areas of improvement</span>?&rdquo;
+                            &ldquo;While working on <span className="text-primary-blue underline">cross-functional collaborative</span> projects, how can you more effectively <span className="text-primary-blue">uphold deadlines</span>, ensure <span className="text-primary-blue">consistent communication</span>, and <span className="text-primary-blue">identify areas of improvement</span>?&rdquo;
                 </div>
                 <div className='flex gap-24'>
                     <div className=''>
