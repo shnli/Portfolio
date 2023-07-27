@@ -43,8 +43,8 @@ export default function PlantPeopleIndex() {
       
         <div className='space-y-2 lg:mx-0 mx-12'>
 
-            <PlantPeople></PlantPeople>
-            {/* <UnderConstruction></UnderConstruction> */}
+            {/* <PlantPeople></PlantPeople> */}
+            <UnderConstruction></UnderConstruction>
 
         </div>
         
