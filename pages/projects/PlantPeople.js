@@ -1,15 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import Wave from 'react-wavify'
 import Link from 'next/link'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/footer'
-import Hackathons from '../../components/hackathons'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import PathSync from '../../components/PathSync'
-import PlantPeople from '../../components/PlantPeople'
+import PathSync from '../../components/PathSync';
 import UnderConstruction from '../../components/underConstruction'
+import PlantPeople from '../../components/PlantPeople'
 
 const containerVariants = {
   hidden: {
@@ -45,8 +43,8 @@ export default function PlantPeopleIndex() {
       
         <div className='space-y-2 lg:mx-0 mx-12'>
 
-            {/* <PlantPeople></PlantPeople> */}
-            <UnderConstruction></UnderConstruction>
+            <PlantPeople></PlantPeople>
+            {/* <UnderConstruction></UnderConstruction> */}
 
         </div>
         

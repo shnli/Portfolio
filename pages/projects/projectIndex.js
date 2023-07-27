@@ -8,8 +8,6 @@ import Hackathons from '../../components/hackathons'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import PathSync from '../../components/PathSync'
-import PlantPeople from '../../components/PlantPeople'
-
 
 const containerVariants = {
   hidden: {

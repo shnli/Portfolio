@@ -37,7 +37,8 @@ module.exports = {
       'tahiti': '#3ab7bf',
       'primary-blue':'#047fd6',
       'black':'#000000',
-      'gray':'#dbdbdb'
+      'gray':'#dbdbdb',
+      'green':'#375738',
 
     },
   },
