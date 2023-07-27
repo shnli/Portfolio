@@ -32,7 +32,6 @@ export default function PlantPeopleIndex() {
       });
   
   return (
-
     <div class="flex flex-col min-h-screen h-screen w-screen ">
       
       {/* HEADER */}
@@ -47,11 +46,9 @@ export default function PlantPeopleIndex() {
             <UnderConstruction></UnderConstruction>
 
         </div>
-        
-        
       </div>
-
-        <Footer></Footer>
+      
+      <Footer></Footer>
     
     </div>
   )
