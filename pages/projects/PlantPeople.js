@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import PathSync from '../../components/PathSync';
 import UnderConstruction from '../../components/underConstruction'
-import PlantPeople from '../../components/Plantpeople'
+// import PlantPeople from '../../components/Plantpeople'
 
 const containerVariants = {
   hidden: {
