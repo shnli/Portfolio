@@ -55,7 +55,7 @@ export default function Hackathons() {
                 </div>
               </div>
 
-              <div className=''>
+              <div className='flex justify-center'>
                     <Link href="https://TAMUhack.com/th" target="_blank" rel='noreferrer noopener'>
                       <button>
                         <img class="h-auto md:max-w-lg max-w-[300px] ml-auto object-cover transition-all duration-300 rounded-lg shadow-lg hover:shadow-none ease-in-out" src="/TL.png" alt="image description"/>

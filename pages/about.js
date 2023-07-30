@@ -29,7 +29,7 @@ export default function Home() {
                      Howdy! My name is Li Shen, a user-focused full stack developer and designer from Dallas, TX. 
                 </div>
                 <div>
-                    Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. Un-academically, I like to draw, work out, and hang out with Jonathan ( my cat ).
+                    Academically, I am an undergraduate student at Texas A&M University pursuing a BS in Computer Science with minors in Visualization and Mathematics. Un-academically, I like to draw, work out, and hang out with Jonathan (my cat).
                 </div>
                 {/* <div>
                   With a passion for learning, technology, and creativity, I&apos;m always looking for opportunities to build something useful and beautiful!
