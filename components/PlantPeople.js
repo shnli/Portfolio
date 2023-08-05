@@ -39,7 +39,7 @@ export default function PlantPeople() {
            
                     </div>
                     
-                    <div class="flex align-center lg:justify-center lg:w-screen justify-center max-w-[300px] lg:max-w-[600px] py-4">
+                    <div class="flex align-center lg:justify-center justify-center max-w-[300px] lg:max-w-[600px] py-4">
                         <img src="/plantpeople/plantpeople.png" cl></img>
                         {/* <video src= "/pathsync/pathSync.mp4"
                             autoplay="{true}" 
@@ -291,25 +291,25 @@ export default function PlantPeople() {
                         <div className=' font-bold'>
                             Relating to Knowlege
                         </div>
-                        <img src="/plantpeople/knowlege.png" className='max-w-md'></img>
+                        <img src="/plantpeople/knowlege.png" className='max-w-[100px] lg:max-w-md'></img>
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className=' font-bold'>
                             Relating to Logistics
                         </div>
-                        <img src="/plantpeople/logistics.png" className='max-w-md'></img>
+                        <img src="/plantpeople/logistics.png" className='max-w-[100px] lg:max-w-md'></img>
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className=' font-bold'>
                             Relating to Resources
                         </div>
-                        <img src="/plantpeople/resources.png" className='max-w-md'></img>
+                        <img src="/plantpeople/resources.png" className='max-w-[100px] lg:max-w-md'></img>
                     </div>
                     <div className="flex flex-col gap-4">
                         <div className=' font-bold'>
                             Relating to Habits & Lifestyle
                         </div>
-                        <img src="/plantpeople/habit.png" className='max-w-md'></img>
+                        <img src="/plantpeople/habit.png" className='max-w-[100px] lg:max-w-md'></img>
                     </div>
                 </div>
 
@@ -325,6 +325,176 @@ export default function PlantPeople() {
                         </ul> 
                      </div>
                 </div> */}
+
+            </div>
+
+
+
+
+
+            <div className='flex flex-col gap-4'>
+                <div className='lg:text-4xl text-2xl font-bold font-LS'>COMPETITIVE ANALYSIS</div>
+                <div className='flex flex-col gap-4'>
+                    <div className=''>
+                        To analyze the existing solutions and resources available for plant owners, the <span className='text-green'>competitive landscape</span> was sorted into the following categories: 
+                    </div>
+                    <div className='italic'>
+                        Plant Care Apps
+                    </div>
+                    <div className=' grid lg:grid-cols-6 grid-cols-3 lg:gap-24 gap-4 px-24 lg:px-4 py-4'>
+                        <div>
+                            <img src="/plantpeople/planta.png" alt="Planta" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Planta</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/plantnote.png" alt="Jira" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>PlantNote</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/blossom.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Blossom</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/picturethis.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>PictureThis</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/vera.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Vera</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/plantlightmeter.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Plant Light Meter</div>
+                        </div>
+
+                    </div>
+
+                    <div className='italic'>
+                        Plant Forums & Communities
+                    </div>
+                    <div className=' grid lg:grid-cols-6 grid-cols-4 lg:gap-20 gap-4 px-24 lg:px-4 py-4'>
+                        <div>
+                            <img src="/plantpeople/reddit.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>r/Housplants (Reddit)</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/gardenweb.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>GardenWeb Forums</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/twitter.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>#GardenChat(Twitter)</div>
+                        </div>
+                        <div className=''>
+                            <img src="/plantpeople/facebook.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Facebook</div>
+                        </div>
+                    </div>
+
+                    <div className='italic'>
+                        Physical Solutions 
+                    </div>
+                    <div className=' grid lg:grid-cols-6 grid-cols-3 lg:gap-24 gap-4 px-24 lg:px-4 py-4'>
+                        <div>
+                            <img src="/plantpeople/smartsensor.jpg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Smart Sensors</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/moisturemeters.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Moisture Meters</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/indoorgarden.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2 hidden lg:flex'>Smart Indoor Garden</div>
+                        </div>
+                    </div>
+
+                    {/* <div className=''>
+                        <span className='text-green font-bold'>Key Features:</span>
+                        <ul className='list-disc pl-8 py-4'>
+                            <li>Easy Task Management and Editing</li>
+                            <li>Resource Management</li>
+                            <li>Collaboration and Communication</li>
+                            <li>Customization</li>
+                            <li>Automation</li>
+                            <li>Cloud Service</li>
+                        </ul>
+                    </div> */}
+                </div>
+                <div className=''><span className='text-green font-bold'>Unique Value</span></div>
+                <div>After analysis, we conclusively indentified the following sectors in which Plant People would <span className='underline'>add new value:</span></div>
+                <div className='flex flex-col gap-4 '>
+                    <div className='flex gap-4 justify-start items-center'>
+                        <img src="/plantpeople/starbullet.svg" className='max-w-[25px]'></img>
+                        <div className='font-bold'>SECTOR 1: Establishing distinctive, trusted, and maintained relationships between nurseries and their customers.</div>
+                    </div>
+                    <div>Unlike existing solutions that revolve around other plantkeepers and forums, Plant People builds a specific bridge for nurseries, particularly those that may not be as technologically advanced, enabling them to effectively reach out to and maintain their customers.
+                    </div>
+
+                    <div className='flex gap-4 justify-start items-center'>
+                        <img src="/plantpeople/starbullet.svg" className='max-w-[25px]'></img>
+                        <div className='font-bold'>SECTOR 2: Creating a proactive channel for nurseries to engage with customers, presenting an appealing business voice that resonates with their target audience.</div>
+                    </div>
+                    <div>Plant People presents a two-way street with plant health at its core, making it appealing from both business and user perspectives. In the future, numerous unexplored features will enable the business to showcase its voice while empowering customers to gain additional knowledge.
+                    </div>
+                </div>
+                {/* <div className=''>
+
+                </div> */}
+            </div>
+
+
+            <div className='flex flex-col gap-4'>
+                <div className='lg:text-4xl text-2xl font-bold font-LS'>CONSIDERED MVP FEATURES AND TRADE OFFS</div>
+                
+                <div className=' gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>1. Live Messaging with Nursery Personel</div>
+                    <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                        <div><span className='font-bold'>Pro:</span> Fosters a strong sense of community and connection between the nursery and its customers, increasing customer loyalty.</div>
+                        <div><span className='font-bold'>Con:</span> Requires availability of a designated customer representative, potentially increasing operational costs, and may lead to unfiltered information being sent by customers.</div>
+                    </div> 
+                </div>
+
+                <div className=' gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>1. Email Messaging with Nursery Personel</div>
+                        <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                            <div><span className='font-bold'>Pro:</span> Provides a structured way for customers to communicate with the nursery and allows the nursery to specify essential information and respond at their convenience.</div>
+                            <div><span className='font-bold'>Con:</span> May lack a personal touch, potentially affecting customer satisfaction, and response times could be longer compared to real-time messaging.</div>
+                    </div>
+                </div>
+
+                
+                <div className=' gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>1. Personal Plant Photo Log</div>
+                    
+                    <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                        <div><span className='font-bold'>Pro:</span>  Increases user engagement by encouraging regular app usage, fostering a deeper connection between customers and their plants.</div>
+                        <div><span className='font-bold'>Con:</span> Requires additional photo storage capacity and may not be appealing enough to drive significant user interest.</div>
+                    </div> 
+                </div>
+
+                <div className='gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>2. Watering Reminders</div>
+                    <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                        <div><span className='font-bold'>Pro:</span> Addresses a common issue faced by novices, ensuring that customers properly care for their plants, boosting customer satisfaction.</div>
+                        <div><span className='font-bold'>Con:</span> Accuracy may be challenging, potentially leading to mistakes in plant-specific reminders and undermining customer trust. Additionally, some users may find it intrusive to provide their phone number for reminders.</div>
+                    </div> 
+                </div>
+                
+
+                {/* <div className='lg:text-xl gap-4  flex flex-col'>
+                    <div className='font-bold text-green'>3. Customized Calendar</div>
+                    <div className='lex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                        <div><span className='font-bold'>Pro:</span> Provides users the ability to </div>
+                        <div><span className='font-bold'>Con:</span> Difficulty dealing with transparency, as data may not be as accurate </div>
+                    </div> 
+                    <div><span className='font-bold'>Middle Ground Solutions:</span> Maintaining Projects Accessibility.
+                        <ul className='list-disc pl-8 py-4'>
+                            <li>Users can create an account to save their progress and easily revisit tasks, offering a practical alternative to exporting to Excel before the feature can be implemented.</li> 
+                        </ul> 
+                     </div>
+                </div> */}
+
 
             </div>
 
@@ -416,170 +586,8 @@ export default function PlantPeople() {
 
             </div>
 
-
-
-
-
             <div className='flex flex-col gap-4'>
-                <div className='lg:text-4xl text-2xl font-bold font-LS'>COMPETITIVE ANALYSIS</div>
-                <div className='flex flex-col gap-4'>
-                    <div className=''>
-                        To analyze the existing solutions and resources available for plant owners, the <span className='text-green'>competitive landscape</span> was sorted into the following categories: 
-                    </div>
-                    <div className=''>
-                        Plant Care Apps
-                    </div>
-                    <div className='flex grid grid-cols-6 gap-24 py-4'>
-                        <div>
-                            <img src="/plantpeople/planta.png" alt="Planta" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>Planta</div>
-                        </div>
-                        <div>
-                            <img src="/plantpeople/plantnote.png" alt="Jira" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>PlantNote</div>
-                        </div>
-                        <div>
-                            <img src="/plantpeople/blossom.png" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>Blossom</div>
-                        </div>
-                        <div>
-                            <img src="/plantpeople/picturethis.png" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>PictureThis</div>
-                        </div>
-                        <div>
-                            <img src="/plantpeople/vera.png" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>Vera</div>
-                        </div>
-                        <div>
-                            <img src="/plantpeople/plantlightmeter.jpeg" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Plant Light Meter</div>
-                        </div>
-
-                    </div>
-
-                    <div className=''>
-                        Plant Forums & Communities
-                    </div>
-                    <div className='flex grid grid-cols-6 gap-24 py-4 justify-bottom items-end'>
-                        <div>
-                            <img src="/plantpeople/reddit.png" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>r/Housplants (Reddit)</div>
-                        </div>
-                        <div className='flex flex-col justify-bottom'>
-                            <img src="/plantpeople/gardenweb.jpeg" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>GardenWeb Forums</div>
-                        </div>
-                        <div className='flex flex-col justify-bottom'>
-                            <img src="/plantpeople/twitter.png" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>#GardenChat(Twitter)</div>
-                        </div>
-                        <div className=''>
-                            <img src="/plantpeople/facebook.png" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Facebook</div>
-                        </div>
-                    </div>
-
-                    <div className=''>
-                        Physical Solutions 
-                    </div>
-                    <div className='flex grid grid-cols-6 gap-24 py-4 justify-start items-start'>
-                        <div>
-                            <img src="/plantpeople/smartsensor.jpg" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Smart Sensors</div>
-                        </div>
-                        <div className='flex flex-col justify-bottom'>
-                            <img src="/plantpeople/moisturemeters.jpeg" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Moisture Meters</div>
-                        </div>
-                        <div className='flex flex-col justify-bottom'>
-                            <img src="/plantpeople/indoorgarden.jpeg" alt="Asana" className=' h-auto'/>
-                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Smart Indoor Garden</div>
-                        </div>
-                    </div>
-
-                    {/* <div className=''>
-                        <span className='text-green font-bold'>Key Features:</span>
-                        <ul className='list-disc pl-8 py-4'>
-                            <li>Easy Task Management and Editing</li>
-                            <li>Resource Management</li>
-                            <li>Collaboration and Communication</li>
-                            <li>Customization</li>
-                            <li>Automation</li>
-                            <li>Cloud Service</li>
-                        </ul>
-                    </div> */}
-                </div>
-                <div className=''><span className='text-green font-bold'>Unique Value</span></div>
-                <div>After analysis, we conclusively indentified the following sectors in which Plant People would <span className='underline'>add new value:</span></div>
-                <div className='flex flex-col gap-2 '>
-                    <div className='font-bold'>SECTOR 1: Establishing distinctive, trusted, and maintained relationships between nurseries and their customers.</div>
-                    <div>Unlike existing solutions that revolve around other plantkeepers and forums, Plant People builds a specific bridge for nurseries, particularly those that may not be as technologically advanced, enabling them to effectively reach out to and maintain their customers.</div>
-                    <div className='font-bold'>SECTOR 2: Creating a proactive channel for nurseries to engage with customers, presenting an appealing business voice that resonates with their target audience.</div>
-                    <div>
-                    Plant People presents a two-way street with plant health at its core, making it appealing from both business and user perspectives. In the future, numerous unexplored features will enable the business to showcase its voice while empowering customers to gain additional knowledge.
-                    </div>
-                </div>
-                {/* <div className=''>
-
-                </div> */}
-            </div>
-
-
-            <div className='flex flex-col gap-4'>
-                <div className='lg:text-4xl text-2xl font-bold font-LS'>CONSIDERED MVP FEATURES AND TRADE OFFS</div>
-                
-                <div className=' gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>1. Live Messaging with Nursery Personel</div>
-                    <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
-                        <div><span className='font-bold'>Pro:</span> Cultivates the community sense and connection that nurseries desire to have with customers. Allows for fast and effective responses to customer questions.</div>
-                        <div><span className='font-bold'>Con:</span> Requires nursery to be on call, and have a designated customer representative to respond at all times. Risks with customer sending in unneeded information.</div>
-                    </div> 
-                </div>
-
-                <div className=' gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>1. Email Messaging with Nursery Personel</div>
-                        <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
-                            <div><span className='font-bold'>Pro:</span> Allows nursery to specify information customers may send, and allows them ample time to respond.</div>
-                            <div><span className='font-bold'>Con:</span> May seem impersonal, and requires more time to receive a customer response.</div>
-                    </div>
-                </div>
-
-                
-                <div className=' gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>1. Personal Plant Photo Log</div>
-                    
-                    <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
-                        <div><span className='font-bold'>Pro:</span> Encourages users to visit the app more often, increasing interaction and keeping the applicaiton relevant. Photo logs may motivate users to place more value on their plants, therefore incentivizing them to invest more time into them.</div>
-                        <div><span className='font-bold'>Con:</span> Increased Photo storage needed + unsure if this will truly be an attractive feature to spend time on.</div>
-                    </div> 
-                </div>
-
-                <div className='gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>2. Watering Reminders</div>
-                    <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
-                        <div><span className='font-bold'>Pro:</span> Watering plants is a major novice issue, and addressing it though text message reminders would keep the application relevant and address the issue.</div>
-                        <div><span className='font-bold'>Con:</span> Accuracy may be difficult, and ensuring correct information for each type of plant is given may result in mistakes, breaking customer trust. It may also become an annoyance and requires a phone number.</div>
-                    </div> 
-                </div>
-
-                {/* <div className='lg:text-xl gap-4  flex flex-col'>
-                    <div className='font-bold text-green'>3. Customized Calendar</div>
-                    <div className='lex flex-col lg:grid lg:grid-cols-2 gap-8'>
-                        <div><span className='font-bold'>Pro:</span> Provides users the ability to </div>
-                        <div><span className='font-bold'>Con:</span> Difficulty dealing with transparency, as data may not be as accurate </div>
-                    </div> 
-                    <div><span className='font-bold'>Middle Ground Solutions:</span> Maintaining Projects Accessibility.
-                        <ul className='list-disc pl-8 py-4'>
-                            <li>Users can create an account to save their progress and easily revisit tasks, offering a practical alternative to exporting to Excel before the feature can be implemented.</li> 
-                        </ul> 
-                     </div>
-                </div> */}
-
-
-            </div>
-
-            <div className='flex flex-col gap-4'>
-                <div className='lg:text-4xl text-2xl font-bold font-LS'>BUILDING WITH</div>
+                <div className='lg:text-4xl text-2xl font-bold font-LS'>BUILDING...</div>
                 <div className='lg:text-lg gap-4 flex text-sm mx-24 flex-col lg:flex-row'>
                     <div className='rounded-full px-6 py-1 bg-[#d1439b] text-white font-semibold justify-center flex'>TailwindCSS</div>
                     <div className='rounded-full px-6 py-1 bg-[#d1439b] text-white font-semibold justify-center flex'>HTML</div>
@@ -593,7 +601,7 @@ export default function PlantPeople() {
             
             </div>
 
-            <div className='flex justify-center text-[40px] py-24 font-bold opacity-10'>
+            <div className='flex text-center justify-center text-[40px] py-24 font-bold opacity-10'>
                 APP IN PROGRESS, MORE COMING SOON.
             </div>
 
