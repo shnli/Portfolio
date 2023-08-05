@@ -11,7 +11,7 @@ export default function PlantPeople() {
         <div className='flex flex-col px-8 lg:px-48 gap-12'>
 
             <div className=''>
-                <div className='flex lg:flex-row flex-col justify-center items-center lg:py-12'>
+                <div className='flex lg:flex-row flex-col justify-center items-center lg:py-12 gap-12 lg:gap-24'>
                 
                     <div className='flex flex-col justify-start lg:items-start items-center'>
 
@@ -22,7 +22,7 @@ export default function PlantPeople() {
                             
                         <div className='pt-4 flex justify-center'>
                             <a
-                            className="text-sm font-semibold opacity-80 text-green font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-primary-blue"
+                            className="text-sm font-semibold opacity-80 text-green font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-green"
                             href="https://plantpeople.vercel.app"
                             target="_blank"
                             rel="noreferrer noopener">
@@ -30,7 +30,7 @@ export default function PlantPeople() {
                                 <div>
                                 Interface DEMO
                                 </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                                 </svg>
                             </div>
@@ -39,7 +39,8 @@ export default function PlantPeople() {
            
                     </div>
                     
-                    <div class="flex align-center lg:justify-center lg:w-screen justify-center max-w-[300px] lg:max-w-[700px] py-4">
+                    <div class="flex align-center lg:justify-center lg:w-screen justify-center max-w-[300px] lg:max-w-[600px] py-4">
+                        <img src="/plantpeople/plantpeople.png" cl></img>
                         {/* <video src= "/pathsync/pathSync.mp4"
                             autoplay="{true}" 
                             loop="{true}"
@@ -69,12 +70,19 @@ export default function PlantPeople() {
                     &ldquo;How do you help people <span className="text-green underline">keep their plants alive </span> ?&rdquo;
                 </div>
                 <div className='flex gap-24'>
-                    <div className=''>
-                        <div className=''>
-                            That was a question that came to mind when I took on a role of managing of 60+ engineering projects at a summer internship, <span className='underline'>each progressing through various phases at different points in time</span>. Because we had to <span className='underline'>communicate with an external enterprise</span> throughout the design process, I observed an inefficiency occuring. How could the distinct challenges that rise within younger businesses following this <span className='underline'>joint design manufacturing model</span> (like my workplace), where external communication is required at every step, be addressed? As the projects accumulated, I decided to focus on brainstorming solutions to the issues of inconsistent communication between the two collaborating companies and the lack of transparency in identifying task bottlenecks and individual accountabilities. 
+                    <div className='flex flex-col gap-2'>
+                        <div>
+                        This is the simple age-old question that serves as the backbone of our project. Throwback to the COVID lockdown in 2020 when plantkeeping became a major trend, attracting a slew of curious individuals seeking new experiences while confined at home. This development meant increased business for nurseries everywhere, but like any trend, one had to wonder if it is destined to fade as quickly as it emerged.
+                        </div>
+
+                        <div>
+                        Novice plantkeepers face a particular challenge—their interest in the hobby can be rather volatile. As the frequency of plant deaths and failures increases, so does the likelihood of them giving up on plantkeeping altogether. An NBC article described plantkeeping as a mix of being &ldquo;expensive, time-consuming, demoralizing, fulfilling, and uniquely compulsive&rdquo; highlighting the unique characteristics of the activity that drive this correlation.
+                        </div>
+                        <div>
+                        How could we help combat this issue, especially for begineer plantkeepers? It occured to us that there&apos;s a resource that has often been overlooked: the nurseries where plants originate. This sparked the idea of providing a concrete platform for nurseries to assist their clients, even after the purchase of a plant. By doing so, people are more successful and subsequently encouraged to return to the nursery, resulting in both positive business impacts and nurturing a long-lasting love for the hobby.
                         </div>
                     </div>
-                    <img src="/pathsync/collab.svg" alt="..." className="hidden lg:flex max-w-[300px] cursor-pointer rounded align-center"/>                
+                    <img src="/plantpeople/phone.svg" alt="..." className="hidden lg:flex max-w-[300px] cursor-pointer rounded align-center"/>                
                 </div>
             </div>
 {/* 
@@ -88,60 +96,287 @@ export default function PlantPeople() {
                 </div>
             </div> */}
 
-
-
-            <div className='flex flex-col gap-4'>
-                <div className='lg:text-4xl text-2xl font-bold font-LS'>USER STORIES</div>
-                <div><span className='font-bold text-green'>Minimum Viable Audiance: </span>Students & Small Company Project Managers who frequently need to execute collaborative tasks.</div>
-
-                <div className='font-bold'>User Story #1</div>
-                
-                <div className='flex lg:flex-row justify-center items-center flex-col gap-8 '>
-                    <div className='flex lg:flex-row flex-col justify-center items-center lg:justify-start border-gray border-[1px] lg:w-1/3 rounded-xl p-4 gap-4 shadow-md'>
-                        <img src="/pathsync/jackie.png" className='flex justify-center items-center rounded-full max-w-[130px]'></img>
-                        <div className='flex flex-col gap-2 text-xs'>
-                            <div className='text-center lg:text-start'><span className='font-bold'>Name: </span> Jackie Wells</div>
-                            <div className='text-center lg:text-start'><span className='font-bold'>Age: </span> 20</div>
-                            <div className='text-center lg:text-start'><span className='font-bold'>Profession:</span> 3rd Year Design Student at UNT, lead designer of Web Dev Club</div>
-                            <div className='text-center lg:text-start'><span className='font-bold'>Goals: </span>                         
-                                <ul className='list-disc pl-4'>
-                                    <li>Maintain a good relationship with her team members</li>
-                                    <li>Keep her organization relevant on campus</li>
-                                    <li>Build problem solving skills that she can reference in the future</li>
-                                </ul> 
+<div className='flex flex-col gap-4'>
+                <div className='lg:text-4xl text-2xl font-bold font-LS'>INITIAL USER ANALYSIS</div>
+                <div className=' gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>User Segmentation</div>
+                    <div>First, potential users were determined to fall into the following categories and subcategories:</div>
+                    <div className = " lg:pl-8 flex flex-col lg:grid lg:grid-cols-2 gap-8">
+                        <div>
+                            <div className='font-bold'>
+                            1. Nursery Businesses
                             </div>
-                            <div className='text-center lg:text-start'><span className='font-bold'>Most Relevant Constraint: </span> 
-                                Lack of accountability and the difficulty of persuading her peers about problem areas without concrete evidence. 
+                            <ul className='list-disc pl-8 '>
+                                <li>Wholesale</li>
+                                <li>Retail</li>
+                                <li>Mail-Order</li>
+                                <li>Independent</li>
+                                <li>Chain</li>
+                                <li>Indoor/Outdoor</li>
+                                <li>Common/Exotic</li>
+                                
+                            </ul> 
+                        </div>
+                        <div>
+                            <div className='font-bold'>
+                            2. Plant Owners
                             </div>
+                            <ul className='list-disc pl-8 '>
+                                <li>Novice</li>
+                                <li>Expert</li>
+                                <li>Hobbyist</li>
+                                <li>Decoration Seekers</li>
+                                <li>Serious Enthusiasts</li>
+                            </ul> 
+                        </div>
+                    </div>
+                    
+                </div>
 
+                <div className='gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>Interview Analysis</div>
+                    <div className=''>Then based on various interview with potential users, the following information was deduced and categorized.</div>
+
+                    <div className='flex gap-2 justify-start items-center'>
+                        <img src="/plantpeople/plant.svg" className='w-[30px]'></img>
+                        <div className='italic'>From Manager of &ldquo;X&rdquo; Nursery Specializing in Succulents based in Austin, TX</div>
+                    </div>
+
+                    <div className=' lg:pl-8 flex flex-col gap-2'>
+                        <div><span className='font-bold'>Customer Base:</span> 50% newcomer, 25% wholesale, 25% experts</div>
+                        <div><span className='font-bold'>Major Challenges & Pain Points</span>
+                            <ul className='list-disc pl-8 py-2'>
+                                <li><span className='font-bold'>Costly Delivery Charges: </span>High delivery prices pose a significant challenge for customers and the business.</li> 
+                                <li><span className='font-bold'>Lack of Customer Awareness: </span>Customers face issues due to overwatering succulents and inadequate environmental knowledge.</li> 
+                                <li><span className='font-bold'>Unpredictable Weather Impacts: </span>The unreliability of weather conditions makes plant maintenance challenging.</li> 
+                                <li><span className='font-bold'>Cumbersome Watering Process: </span>The inconvenience of dragging around a hose makes watering plants a difficult.</li> 
+                                <li><span className='font-bold'>Scarce Expertise in Greenhouse Repairs: </span>Shortage of engineers with the expertise to address greenhouse issues effectively.</li> 
+                            </ul> 
+                        </div>
+                    </div>
+
+                    <div className='flex gap-2 justify-start items-center'>
+                        <img src="/plantpeople/plant.svg" className='w-[30px]'></img>
+                        <div className='italic'>From The Farm Patch, an Open-Air Produce Market and Garden Center in Bryan/College Station, Texas</div>
+                    </div>
+
+                    <div className=' lg:pl-8 flex flex-col gap-2'>
+                        <div><span className='font-bold'>Plant Sourcing and Stock Management:</span> 
+                            <ul className='list-disc pl-8 py-2'>
+                                <li>4-10 trucks per week of plants sourced from multiple growers across Texas</li> 
+                                <li>Stock orders placed on Mondays, with nursery checks to identify missing items and assess availability</li> 
+                                <li>Growers provide availability listings for planning stock procurement</li>
+                            </ul>                        
+                        </div>
+                        <div><span className='font-bold'>Popular Plants and Sales:</span> 
+                            <ul className='list-disc pl-8 py-2'>
+                                <li>Colorful flowers are most popular for sales</li> 
+                                <li>Houseplants like Pothos sell quickly</li> 
+                                <li>Snake plants, Monsteras, Rattlesnake Calatheas, and Succulents are also popular choices</li>
+                                <li>Succulents are the fastest-growing area in sales</li>
+                            </ul>                        
+                        </div>
+                        <div><span className='font-bold'>Customer Interactions and Plant Care:</span> 
+                        <div className='lg:flex gap-12'>
+                            <ul className='list-disc pl-8 py-2'>
+                                <li>
+                                    Customers frequently bring pictures and samples for assessment.
+                                </li>
+                                <li>
+                                    Majority of customers do not fertilize their plants.
+                                </li>
+                                <li>
+                                    Mealybugs are the most common pest issue for plants.
+                                </li>
+                                <li>
+                                    Spider mites become a problem in summer, and Aphids occasionally.
+                                </li>
+                                <li>
+                                    Higher temperatures hinder plant growth; survival becomes the priority in extreme heat (105-110 degrees Fahrenheit).
+                                </li>
+                                <li>
+                                    Plants sold at big box stores might not be suitable for the local water conditions, leading to failure.
+                                </li>
+                                </ul>
+                                <ul className='list-disc pl-8 py-2'>
+                                <li>
+                                    Many customers are unaware of their location&apos;s water pH and minerality, leading to potential plant care issues.
+                                </li>
+                                <li>
+                                    Turnover rate is 2-3 weeks at Farm Patch (presumably for certain plant varieties).
+                                </li>
+                                <li>
+                                    Pepperomias struggle to survive with the water quality in College Station.
+                                </li>
+                                <li>
+                                    No designers or landscaping companies are customers.
+                                </li>
+                            </ul>
                         </div>
                         </div>
-                    <div className='lg:w-2/3'>
-                        <div className=' flex flex-col gap-2 text-xs'>
-                            <div className='flex flex-col gap-2'>
-                            <span className='font-bold'>Story: </span>Jackie is a design student about to begin her Junior year at the University of North Texas. Recently, she was promoted to an executive position in a web development club where she leads an initiative building websites for student organizations. Specifically, she collaborates closely with the technology team to ensure seamless translation of design layouts into functional websites. Currently, her priority is redesigning and restructuring UNT&apos;s hackathon website for an upcoming event in just two months.
-                            <div>
-                            With the urgency of the project, Jackie is determined to maintain smooth communication between the design and development teams and keep everyone on schedule. However, she faces a challenge as some team members have a history of missing deadlines, and fears sounding accusitory to address the issues without solid evidence to back her concerns.
-                            </div>
-                            To overcome this, Jackie starts using Pathsync for the new hackathon project. She spends half of a meeting working with the technology executive to meticulously plan out each task, setting lead times and deadlines, and assigns responsibilities to specific team members. As both teams iterate on the website, Jackie easily edits tasks and add remarks in Pathsync during the ongoing communication process.
-                            <div>
-                            Thanks to her consistent efforts, the website is completed on time. Jackie continues to use Pathsync for the organization&apos;s subsequent website development projects. By the end of the semester, she can identify team members and areas that consistently face delays and refer back to her remarks to understand the underlying reasons.
-                            </div>
+                    </div>
 
-                            <div>
-                            One significant observation she makes is that a member of the development team is overloaded with work, leading to frequent extension requests for tasks. Armed with this understanding, she empathizes with the team member&apos;s situation and initiates a conversation. She collaborates with him to redistribute some tasks to another student who has more availability, ensuring a fair workload distribution.
-                            </div>
+                    <div className='flex gap-2 justify-start items-center'>
+                        <img src="/plantpeople/sun.svg" className='w-[30px]'></img>
+                        <div className='italic'>From Horitculture Specialist at The Farm Patch</div>
+                    </div>
+                    <div className=' lg:pl-8 flex flex-col gap-2'>
+                        <div><span className='font-bold'>Background:</span> Studied horticulture at TAMU (Texas A&M University), in charge of nursery stock @ The Farm Patch.</div>
 
-                            <div>
-                            Through her approach, Jackie successfully completes the website projects and fosters a collaborative environment within the teams. Her ability to identify issues and address them with empathy contributes to the overall success of the organization&apos;s web development endeavors. 
-                            </div>
+                        <div className='flex flex-col gap-2'>
+                            <div className='font-bold'>Personal Experience</div>
+                                <ul className='list-disc pl-8'>
+                                    <li>
+                                    When she used to keep lots of plants, she would be exhausted after work and not want to look after any more of her own plants.
+                                    </li>
+                                    <li>
+                                    Due to low light conditions in her home, she currently keeps only four plants: a snake plant and an African violet.
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
 
+                    <div className='flex gap-2 justify-start items-center'>
+                        <img src="/plantpeople/sun.svg" className='w-[30px]'></img>
+                        <div className='italic'>From Plant Enthusiast, Customer @ The Great Outdoors</div>
+                    </div>
+                    <div className=' lg:pl-8 flex flex-col gap-2'>
+                        <div><span className='font-bold'>Experience:</span> Has been keeping plants for 3 years.</div>
+                        <div><span className='font-bold'>Plants:</span> Pothos and Snake Plants (4)</div>
+
+                        <div className='flex flex-col gap-4'>
+                            <div className='font-bold'>Subject Overview</div>
+                            <div>
+                                 Plant Enthusiast demonstrates a strong interest in plants but faces a few challenges and has specific preferences when it comes to plant care. Key points in her habits:
+                            </div>
+                            <div className='lg:flex gap-12'>
+                                <div className='flex flex-col gap-4'>
+                                    <div>
+                                    <span className='font-bold'>Communication with Mom:</span> Plant Enthusiast relies on her mom as a primary source of guidance when issues arise with her plants. She values external support and assistance in troubleshooting problems.
+                                    </div>
+                                    <div>
+                                    <span className='font-bold'>Reliance on Google Search:</span> Apart from seeking outside advice, Plant Enthusiast also turns to Google search for plant-related information and solutions to plant care issues. This shows her willingness to learn and improve her plant care skills independently.
+                                    </div>
+                                    <div>
+                                    <span className='font-bold'>Source of Plants:</span> Plant Enthusiast acquires most of her plants from the Flea Market. However, there seem to be some concerns or challenges associated with getting plants from this source. Further investigation might be needed to understand these issues better.
+                                    </div>
+                                    <div>
+                                    <span className='font-bold'>Plant Placement:</span> The majority of Plant Enthusiast&apos;s plants are located in her room. Understanding her room&apos;s environment and light conditions could be important in providing tailored plant care advice.
+                                    </div>
+                                </div>
+                                <div className='flex flex-col gap-4'>
+                                    <div>
+                                    <span className='font-bold'>Aesthetic Preference:</span> Plant Enthusiast values the beauty of plants, any plant care recommendations should consider the aesthetic aspect of her collection.
+                                    </div>
+                                    <div>
+                                    <span className='font-bold'>Growth and Improvement:</span> Plant Enthusiast believes she is getting better at plant care over time and enjoys observing her plants&apos; progress. Encouraging and acknowledging her efforts to improve could be beneficial.
+                                    </div>
+                                    <div>
+                                    <span className='font-bold'>Resistance to Alternative Solutions:</span> Plant Enthusiast admits to being somewhat lazy and prefers contacting her mom when issues arise, rather than seeking alternative solutions on her own.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className='font-bold'>User Story #2</div>
+                <div className='font-bold text-green'>
+                    Visual Information Sorting
+                </div>
+                <div className=''>
+                    Using sticky notes, major mentioned issues faces by the four interviewees were categorized.
+                </div>
+                <div className='pl-8 grid lg:grid-cols-2 grid-cols-1 gap-8'>
+                    <div className="flex flex-col gap-4">
+                        <div className=' font-bold'>
+                            Relating to Knowlege
+                        </div>
+                        <img src="/plantpeople/knowlege.png" className='max-w-md'></img>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                        <div className=' font-bold'>
+                            Relating to Logistics
+                        </div>
+                        <img src="/plantpeople/logistics.png" className='max-w-md'></img>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                        <div className=' font-bold'>
+                            Relating to Resources
+                        </div>
+                        <img src="/plantpeople/resources.png" className='max-w-md'></img>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                        <div className=' font-bold'>
+                            Relating to Habits & Lifestyle
+                        </div>
+                        <img src="/plantpeople/habit.png" className='max-w-md'></img>
+                    </div>
+                </div>
+
+                {/* <div className='lg:text-xl gap-4  flex flex-col'>
+                    <div className='font-bold text-green'>3. Customized Calendar</div>
+                    <div className='lex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                        <div><span className='font-bold'>Pro:</span> Provides users the ability to </div>
+                        <div><span className='font-bold'>Con:</span> Difficulty dealing with transparency, as data may not be as accurate </div>
+                    </div> 
+                    <div><span className='font-bold'>Middle Ground Solutions:</span> Maintaining Projects Accessibility.
+                        <ul className='list-disc pl-8 py-4'>
+                            <li>Users can create an account to save their progress and easily revisit tasks, offering a practical alternative to exporting to Excel before the feature can be implemented.</li> 
+                        </ul> 
+                     </div>
+                </div> */}
+
+            </div>
+
+            <div className='flex flex-col gap-4'>
+                <div className='lg:text-4xl text-2xl font-bold font-LS'>REFINED USER STORIES</div>
+                <div>After comprehensive analysis of different user categories and their issues, goals were narrowed to focus on addressing specific groups.</div>
+                <div><span className='font-bold text-green'>Minimum Viable Audiance: </span>Novice Plantkeeper Hobbyists with 0-2 Years of Experience & Independently Owned Retail Nurseries Selling Common Indoor Plants</div>
+
+                <div className='font-bold'>User Story #1</div>
+                
+                <div className='flex lg:flex-row justify-center items-center flex-col gap-8 '>
+                    <div className='flex lg:flex-row flex-col justify-center items-center lg:justify-start border-gray border-[1px] lg:w-1/3 rounded-xl p-4 gap-4 shadow-md'>
+                        <img src="/plantpeople/andrew.png" className='flex justify-center items-center rounded-full max-w-[130px]'></img>
+                        <div className='flex flex-col gap-2 text-xs'>
+                            <div className='text-center lg:text-start'><span className='font-bold'>Name: </span> Andrew Wong</div>
+                            <div className='text-center lg:text-start'><span className='font-bold'>Age: </span> 54</div>
+                            <div className='text-center lg:text-start'><span className='font-bold'>Profession:</span> Accountant and Business Owner</div>
+                            <div className='text-center lg:text-start'><span className='font-bold'>Goals: </span>                         
+                                <ul className='list-disc pl-4'>
+                                    <li>Enjoy a peaceful life away from work</li>
+                                    <li>Find some hobbies now that his kids are in college</li>
+                                    <li>Stay connected to his community</li>
+                                </ul> 
+                            </div>
+                            <div className='text-center lg:text-start'><span className='font-bold'>Most Relevant Constraint: </span> 
+                                Not the most technically fluent, and typically relies on the tools he is familiar with. While expanding his accounting services, he worked mainly through word of mouth and WeChat, a Chinese communication app. Beyond that he doesn&apos;t have a large online presence and doesn&apos;t feel the need to ever build one. 
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className='lg:w-2/3'>
+                        <div className=' flex flex-col gap-2 text-xs'>
+                            <div className='flex flex-col gap-2'>
+                            <span className='font-bold'>Story: </span> Five years ago, Andrew launched his own accounting business, working hard to secure and maintain clients. As the years passed, he achieves a stable clientele and gains the luxury of a flexible schedule. With this newfound freedom, he decides to retry plant keeping, something he&apos;s tried once before, but failed continuing because he felt discouraged after his plant died within the first month. Andrew visits a popular local indoor plant nursery, Colorado Plant House, which his neighbor recommended. There, he chooses to buy a $16 golden pothos plant due to its pretty looks.
+                            <div>
+                            During checkout, the cashier, Julie, informs Andrew about a free service that allows customers to seek guidance straight from the Colorado Plant House if they encounter difficulties caring for their plants. Intrigued, Andrew scanned the provided QR code, which leads him to the Plant People sign-up page. After Andrew creates an account with Google and enters his phone number, Julie adds his newly purchased pothos to his profile. Andrew recieves a confirmation text message with a link to view his plant&apos;s details and is prompted to log information like watering schedule, location, and climate for the plant.
+                            </div>
+                            <div>
+                            For the first month, Andrew recieves weekly text message reminders to create a log for his golden pothos, including a photo and caption. After the first three weeks, he notices yellowish-brown spots on the leaves of his golden pothos. Rather than spending hours scouring the web and filtering through unreliable advice, he easily contacts the Colorado Plant House with Plant People by filling out a form with a brief description of the issue and a photo of the plant. The information Andrew previously provided, such as watering schedule and environment, is automatically filled in, further saving him time.
+                            </div>
+                            <div>
+                            Within an hour, Colorado Plant House responds, diagnosing the issue as bacterial leaf spot, caused by various types of bacteria, mainly Xanthomonas spp. and Pseudomonas spp. Based on Andrew&apos;s location of the pothos in a moist area, the nursery provides detailed instructions to water the plant from below and relocate it to a dry area. They also suggest several products to address the problem. Following their advice, Andrew successfully nurses his pothos back to health.
+                            </div>
+                            <div>
+                            A month later, Andrew only recieves notifications to log his pothos every two weeks. He is delighted in his plant&apos;s survival and feels ready to return to Colorado Plant House to purchase a snake plant.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <div className='font-bold'>User Story #2</div>
 
                 <div className='flex lg:flex-row justify-center items-center flex-col gap-8 '>
                     <div className='flex lg:flex-row flex-col justify-center items-center lg:justify-start border-gray border-[1px] lg:w-1/3 rounded-xl p-4 gap-4 shadow-md'>
@@ -177,7 +412,7 @@ export default function PlantPeople() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
@@ -189,15 +424,81 @@ export default function PlantPeople() {
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>COMPETITIVE ANALYSIS</div>
                 <div className='flex flex-col gap-4'>
                     <div className=''>
-                        I established a <span className='text-green'>competitive landscape</span>, focusing on the following top project management tools:
-                    </div>
-                    <div className='flex justify-between gap-8 lg:mx-48 py-4'>
-                        <img src="/pathsync/msp.webp" alt="MS Project For The Web" className='lg:max-w-[100px] max-w-[50px] h-auto'/>
-                        <img src="/pathsync/jira.webp" alt="Jira" className='lg:max-w-[225px] max-w-[100px] h-auto'/>
-                        <img src="/pathsync/asana1.webp" alt="Asana" className='lg:max-w-[160px] max-w-[80px] h-auto'/>
+                        To analyze the existing solutions and resources available for plant owners, the <span className='text-green'>competitive landscape</span> was sorted into the following categories: 
                     </div>
                     <div className=''>
-                        From there, I gathered a collection of <span className='text-green font-bold'>Key Features</span>:
+                        Plant Care Apps
+                    </div>
+                    <div className='flex grid grid-cols-6 gap-24 py-4'>
+                        <div>
+                            <img src="/plantpeople/planta.png" alt="Planta" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>Planta</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/plantnote.png" alt="Jira" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>PlantNote</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/blossom.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>Blossom</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/picturethis.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>PictureThis</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/vera.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-xs opacity-50 font-bold pt-2'>Vera</div>
+                        </div>
+                        <div>
+                            <img src="/plantpeople/plantlightmeter.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Plant Light Meter</div>
+                        </div>
+
+                    </div>
+
+                    <div className=''>
+                        Plant Forums & Communities
+                    </div>
+                    <div className='flex grid grid-cols-6 gap-24 py-4 justify-bottom items-end'>
+                        <div>
+                            <img src="/plantpeople/reddit.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>r/Housplants (Reddit)</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/gardenweb.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>GardenWeb Forums</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/twitter.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>#GardenChat(Twitter)</div>
+                        </div>
+                        <div className=''>
+                            <img src="/plantpeople/facebook.png" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Facebook</div>
+                        </div>
+                    </div>
+
+                    <div className=''>
+                        Physical Solutions 
+                    </div>
+                    <div className='flex grid grid-cols-6 gap-24 py-4 justify-start items-start'>
+                        <div>
+                            <img src="/plantpeople/smartsensor.jpg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Smart Sensors</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/moisturemeters.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Moisture Meters</div>
+                        </div>
+                        <div className='flex flex-col justify-bottom'>
+                            <img src="/plantpeople/indoorgarden.jpeg" alt="Asana" className=' h-auto'/>
+                            <div className='flex justify-center items-center text-center text-xs opacity-50 font-bold pt-2'>Smart Indoor Garden</div>
+                        </div>
+                    </div>
+
+                    {/* <div className=''>
+                        <span className='text-green font-bold'>Key Features:</span>
                         <ul className='list-disc pl-8 py-4'>
                             <li>Easy Task Management and Editing</li>
                             <li>Resource Management</li>
@@ -206,19 +507,16 @@ export default function PlantPeople() {
                             <li>Automation</li>
                             <li>Cloud Service</li>
                         </ul>
-                        </div>
-                    <div className=''>
-                        <div className=''>
-                        And derived two major project goals based on two relevant pain points I noticed:
-                        </div>
-                        <div className='grid lg:grid-cols-2 py-8 gap-8'>
-                            <div className='font-bold opacity-40 hidden lg:flex'>Pain Points</div>
-                            <div className='font-bold opacity-40 hidden lg:flex'>Goals</div>
-                            <div><span className='font-bold'> Pain Point 1 - Delayed Setup:</span> Traditional project management apps often require significant time for setup, which can be a challenge for small companies and individuals. Additionally, the learning curve associated with these tools adds further time to the process.</div>
-                            <div><span className='font-bold'>Goal 1:</span> Design a <span className='font-bold'>simple, user-friendly interface that prioritizes ease of use and intuitive navigation</span>. Allow users of any level of prior knowlege to quickly create projects and incorporate real-time analytics capabilities, empowering users to gain immediate insights into their projects with minimal setup.</div>
-                            <div><span className='font-bold '>Pain Point 2 - Limited Time Metrics:</span> Task-oriented project management apps often lack comprehensive metrics for tracking task lead time. This limitation hinders the ability to gain valuable insights that help identify areas that require improvement.</div>
-                            <div><span className='font-bold'>Goal 2: </span>Incorporate crucial task values such as Actual Start and Finish dates. <span className='font-bold'>Adopt a streamlined approach that enables users to update lead times in real-time as tasks progress</span>, providing a direct view of how these actions impact the overall project scope. </div>
-                        </div>
+                    </div> */}
+                </div>
+                <div className=''><span className='text-green font-bold'>Unique Value</span></div>
+                <div>After analysis, we conclusively indentified the following sectors in which Plant People would <span className='underline'>add new value:</span></div>
+                <div className='flex flex-col gap-2 '>
+                    <div className='font-bold'>SECTOR 1: Establishing distinctive, trusted, and maintained relationships between nurseries and their customers.</div>
+                    <div>Unlike existing solutions that revolve around other plantkeepers and forums, Plant People builds a specific bridge for nurseries, particularly those that may not be as technologically advanced, enabling them to effectively reach out to and maintain their customers.</div>
+                    <div className='font-bold'>SECTOR 2: Creating a proactive channel for nurseries to engage with customers, presenting an appealing business voice that resonates with their target audience.</div>
+                    <div>
+                    Plant People presents a two-way street with plant health at its core, making it appealing from both business and user perspectives. In the future, numerous unexplored features will enable the business to showcase its voice while empowering customers to gain additional knowledge.
                     </div>
                 </div>
                 {/* <div className=''>
@@ -228,35 +526,40 @@ export default function PlantPeople() {
 
 
             <div className='flex flex-col gap-4'>
-                <div className='lg:text-4xl text-2xl font-bold font-LS'>MAJOR MVP FEATURES AND TRADE OFFS</div>
+                <div className='lg:text-4xl text-2xl font-bold font-LS'>CONSIDERED MVP FEATURES AND TRADE OFFS</div>
+                
                 <div className=' gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>1. Auto-fill Tasks (Based on Fixed Values)</div>
+                    <div className='font-bold text-green'>1. Live Messaging with Nursery Personel</div>
+                    <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                        <div><span className='font-bold'>Pro:</span> Cultivates the community sense and connection that nurseries desire to have with customers. Allows for fast and effective responses to customer questions.</div>
+                        <div><span className='font-bold'>Con:</span> Requires nursery to be on call, and have a designated customer representative to respond at all times. Risks with customer sending in unneeded information.</div>
+                    </div> 
+                </div>
+
+                <div className=' gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>1. Email Messaging with Nursery Personel</div>
+                        <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
+                            <div><span className='font-bold'>Pro:</span> Allows nursery to specify information customers may send, and allows them ample time to respond.</div>
+                            <div><span className='font-bold'>Con:</span> May seem impersonal, and requires more time to receive a customer response.</div>
+                    </div>
+                </div>
+
+                
+                <div className=' gap-4 flex flex-col'>
+                    <div className='font-bold text-green'>1. Personal Plant Photo Log</div>
                     
                     <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
-                        <div><span className='font-bold'>Pro:</span> Increased efficiency for the manufacturing company with repetitive projects</div>
-                        <div><span className='font-bold'>Con:</span> Making the product too company/industry-specific limits its usability in other contexts. This can pose challenges if the system needs to be adapted or used by different organizations with varying requirements. Requires consultation that the target users would most likely not want to pay for.</div>
+                        <div><span className='font-bold'>Pro:</span> Encourages users to visit the app more often, increasing interaction and keeping the applicaiton relevant. Photo logs may motivate users to place more value on their plants, therefore incentivizing them to invest more time into them.</div>
+                        <div><span className='font-bold'>Con:</span> Increased Photo storage needed + unsure if this will truly be an attractive feature to spend time on.</div>
                     </div> 
-                    <div><span className='font-bold'>Middle Ground Solutions:</span> Enhancing Efficiency Without Limiting Project Content.
-                        <ul className='list-disc pl-8 py-4'>
-                            <li>Semi-automation of task creation by setting the &quot;End Date&quot; based on &quot;Start Date&quot; and &quot;Duration&quot; </li>
-                            <li>Provide options for users to define their own commonly used task</li>
-                            <li>Allowing users to save projects as templates</li>
-                        
-                        </ul> 
-                     </div>
                 </div>
 
                 <div className='gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>2. Exporting to Excel</div>
+                    <div className='font-bold text-green'>2. Watering Reminders</div>
                     <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
-                        <div><span className='font-bold'>Pro:</span> Provides users with the flexibility to access and review their projects in a widely used and familiar format, ensuring ease of use and compatibility.</div>
-                        <div><span className='font-bold'>Con:</span> Prioritizing the implementation of this feature might pose challenges due to its complexity, potentially delaying the release of the Minimum Viable Product (MVP).</div>
+                        <div><span className='font-bold'>Pro:</span> Watering plants is a major novice issue, and addressing it though text message reminders would keep the application relevant and address the issue.</div>
+                        <div><span className='font-bold'>Con:</span> Accuracy may be difficult, and ensuring correct information for each type of plant is given may result in mistakes, breaking customer trust. It may also become an annoyance and requires a phone number.</div>
                     </div> 
-                    <div><span className='font-bold'>Middle Ground Solutions:</span> Maintaining Projects Accessibility.
-                        <ul className='list-disc pl-8 py-4'>
-                            <li>Users can create an account to save their progress and easily revisit tasks, offering a practical alternative to exporting to Excel before the feature can be implemented.</li> 
-                        </ul> 
-                     </div>
                 </div>
 
                 {/* <div className='lg:text-xl gap-4  flex flex-col'>
@@ -281,8 +584,8 @@ export default function PlantPeople() {
                     <div className='rounded-full px-6 py-1 bg-[#d1439b] text-white font-semibold justify-center flex'>TailwindCSS</div>
                     <div className='rounded-full px-6 py-1 bg-[#d1439b] text-white font-semibold justify-center flex'>HTML</div>
                     <div className='rounded-full px-6 py-1 bg-[#d1439b] text-white font-semibold justify-center flex'>React</div>
-                    <div className='rounded-full px-6 py-1 bg-green text-white font-semibold justify-center flex'>next.js</div>
-                    <div className='rounded-full px-6 py-1 bg-green text-white font-semibold justify-center flex'>Javascript</div>
+                    <div className='rounded-full px-6 py-1 bg-primary-blue text-white font-semibold justify-center flex'>next.js</div>
+                    <div className='rounded-full px-6 py-1 bg-primary-blue text-white font-semibold justify-center flex'>Javascript</div>
                     <div className='rounded-full px-6 py-1 bg-[#428f50] text-white font-semibold justify-center flex'>Prisma</div>
                     <div className='rounded-full px-6 py-1 bg-[#428f50] text-white font-semibold justify-center flex'>PostgreSQL</div>
                     <div className='rounded-full px-6 py-1 bg-[#428f50] text-white font-semibold justify-center flex'>Axios</div>
@@ -290,8 +593,12 @@ export default function PlantPeople() {
             
             </div>
 
-            <div className='flex flex-col gap-4'>
-                <div className='lg:text-4xl text-2xl font-bold font-LS'>USABILITY ANALYSIS & FEEDBACK</div>
+            <div className='flex justify-center text-[40px] py-24 font-bold opacity-10'>
+                APP IN PROGRESS, MORE COMING SOON.
+            </div>
+
+            {/* <div className='flex flex-col gap-4'>
+                <div className='lg:text-4xl text-2xl font-bold font-LS'>USABILITY ANALYSIS & FEEDBACK</div> */}
                 {/* <div className='flex gap-12'>
                     <img src="/pathsync/profile1.svg" alt="..." className="hidden lg:flex max-w-[150px] cursor-pointer rounded align-center"></img>
                     <div>
@@ -315,7 +622,7 @@ export default function PlantPeople() {
                         </ul>
                     </div>
                 </div> */}
-                <div className=''>After the first launch on July 19th, 2023, I created an anonymous user feedback survey (click <a href="https://docs.google.com/forms/d/1A_UbHPq3itH3Xrla5sdThNu1q-LXKg2Sr-6K0bc-wc4/edit" className='text-green hover:underline'>here</a> to view) and categorized the responses into 2 categories: </div>
+                {/* <div className=''>After the first launch on July 19th, 2023, I created an anonymous user feedback survey (click <a href="https://docs.google.com/forms/d/1A_UbHPq3itH3Xrla5sdThNu1q-LXKg2Sr-6K0bc-wc4/edit" className='text-green hover:underline'>here</a> to view) and categorized the responses into 2 categories: </div>
                 <div className=' font-bold text-green'>Refining Details & Ideas (Short Term)</div>
                 <ul className=' list-disc pl-8'>
                     <li>Automate the input of  &ldquo;Actual Start&rdquo; and &ldquo;Actual End&rdquo; dates by utilizing the checkboxes, streamlining the task-creation process and reducing manual data entry</li>
@@ -335,13 +642,13 @@ export default function PlantPeople() {
                     <li>Implement resource management analysis functions</li>
 
                 </ul>
-            </div>
-            <div className='flex flex-col gap-4'>
+            </div> */}
+
+            {/* <div className='flex flex-col gap-4'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>UPDATES</div>
                     <div className='pb-16 '>
                         <div className='flex flex-col border-[1px] shadow-md border-gray rounded-lg text-green lg:p-8 p-4 gap-4'>
                             <div className='flex lg:gap-8 lg:items-center items-start gap-4'>
-
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                                 <path fill-rule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clip-rule="evenodd" />
                                 <path d="M10.076 8.64l-2.201-2.2V4.874a.75.75 0 00-.364-.643l-3.75-2.25a.75.75 0 00-.916.113l-.75.75a.75.75 0 00-.113.916l2.25 3.75a.75.75 0 00.643.364h1.564l2.062 2.062 1.575-1.297z" />
@@ -374,11 +681,9 @@ export default function PlantPeople() {
                                 </svg>
                                 <div className=''><span className='font-bold'>Logo Update</span></div>
                             </div>
-                    
-
                         </div>
                     </div>
-            </div>
+            </div> */}
 
         </div>
     </div>

@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import PathSync from '../../components/PathSync';
 import UnderConstruction from '../../components/underConstruction'
-// import PlantPeople from '../../components/Plantpeople'
+import PlantPeople from '../../components/PlantPeople'
 
 const containerVariants = {
   hidden: {
@@ -42,13 +42,15 @@ export default function PlantPeopleIndex() {
       
         <div className='space-y-2 lg:mx-0 mx-12'>
 
-            {/* <PlantPeople></PlantPeople> */}
-            <UnderConstruction></UnderConstruction>
+            <PlantPeople></PlantPeople>
+            {/* <UnderConstruction></UnderConstruction> */}
 
         </div>
       </div>
       
+      <div className='pt-24'>
       <Footer></Footer>
+      </div>
     
     </div>
   )
