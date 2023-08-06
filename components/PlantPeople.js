@@ -456,7 +456,7 @@ export default function PlantPeople() {
                 </div>
 
                 <div className=' gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>1. Email Messaging with Nursery Personel</div>
+                    <div className='font-bold text-green'>2. Email Messaging with Nursery Personel</div>
                         <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
                             <div><span className='font-bold'>Pro:</span> Provides a structured way for customers to communicate with the nursery and allows the nursery to specify essential information and respond at their convenience.</div>
                             <div><span className='font-bold'>Con:</span> May lack a personal touch, potentially affecting customer satisfaction, and response times could be longer compared to real-time messaging.</div>
@@ -465,7 +465,7 @@ export default function PlantPeople() {
 
                 
                 <div className=' gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>1. Personal Plant Photo Log</div>
+                    <div className='font-bold text-green'>3. Personal Plant Photo Log</div>
                     
                     <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
                         <div><span className='font-bold'>Pro:</span>  Increases user engagement by encouraging regular app usage, fostering a deeper connection between customers and their plants.</div>
@@ -474,7 +474,7 @@ export default function PlantPeople() {
                 </div>
 
                 <div className='gap-4 flex flex-col'>
-                    <div className='font-bold text-green'>2. Watering Reminders</div>
+                    <div className='font-bold text-green'>4. Watering Reminders</div>
                     <div className='flex flex-col lg:grid lg:grid-cols-2 gap-8'>
                         <div><span className='font-bold'>Pro:</span> Addresses a common issue faced by novices, ensuring that customers properly care for their plants, boosting customer satisfaction.</div>
                         <div><span className='font-bold'>Con:</span> Accuracy may be challenging, potentially leading to mistakes in plant-specific reminders and undermining customer trust. Additionally, some users may find it intrusive to provide their phone number for reminders.</div>
