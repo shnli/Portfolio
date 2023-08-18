@@ -115,17 +115,35 @@ export default function UiUxIndex() {
                 
                 <div className='pt-4 flex justify-center'>
                   <a
-                    className="text-sm font-semibold opacity-80 text-primary-blue font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-primary-blue"
+                    className="w-[200px] text-sm font-semibold opacity-80 text-primary-blue font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-primary-blue"
                     href="https://pathsync.vercel.app"
                     target="_blank"
                     rel="noreferrer noopener">
-                    <div className='flex gap-2 align-center items-center'>
+                    <div className='flex gap-2 align-center items-center justify-center'>
                       <div>
                       Try BETA Ver. 1.2
                       </div>
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                       </svg>
+                    </div>
+                  </a>
+                </div>
+
+                <div className='pt-2 flex justify-center '>
+                  <a
+                    className="w-[200px] text-sm font-semibold opacity-80 text-white bg-primary-blue font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-primary-blue"
+                    href="/projects/PathSync"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <div className='flex gap-2 align-center items-center justify-center'>
+                      <div>
+                      PROJECT INFO
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                      </svg>
+
                     </div>
                   </a>
                 </div>
@@ -167,7 +185,7 @@ export default function UiUxIndex() {
 
                 <div className='pt-4 flex justify-center'>
                     <a
-                      className="text-sm font-semibold opacity-80 text-primary-blue font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-primary-blue"
+                      className="text-sm font-semibold opacity-80 text-green font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-green"
                       href="https://plantpeople.vercel.app"
                       target="_blank"
                       rel="noreferrer noopener">
@@ -181,6 +199,23 @@ export default function UiUxIndex() {
                       </div>
                     </a>
                   </div>
+                  <div className='pt-2 flex justify-center '>
+                  <a
+                    className="w-[200px] text-sm font-semibold opacity-80 text-white bg-green font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-green"
+                    href="/projects/PlantPeople"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <div className='flex gap-2 align-center items-center justify-center'>
+                      <div>
+                      PROJECT INFO
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                      </svg>
+
+                    </div>
+                  </a>
+                </div>
                 </div>
 
               
