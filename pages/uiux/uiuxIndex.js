@@ -210,7 +210,7 @@ export default function UiUxIndex() {
                           <div className='flex justify-center items-center lg:text-xl text-md opacity-50 font-Mont'>
                           Yes, it&apos;s this website -- my online canvas and little slice of the internet! Images are original & mockups are made with Figma + coded with HTML and other spaghetti.
                           </div>
-                          <div className='lg:justify-start justify-center lg:text-sm text-sm opacity-50'>(check out my skills <a href="https://drive.google.com/file/d/186hQTt1T5OpWyo7q0x-DugtqEh-prMP5/view?usp=sharing" className='text-primary-blue hover:underline'>here</a>)
+                          <div className='lg:justify-start justify-center lg:text-sm text-sm opacity-50'>(check out my skills <a href="https://drive.google.com/file/d/1K6f0wWyZptRvQE4rgfz9HKEYIJcw_Lrk/view?usp=drive_link" className='text-primary-blue hover:underline'>here</a>
                           </div>
                         </div>
                   </div>

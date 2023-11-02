@@ -25,6 +25,9 @@ export default function Home() {
             <div className='space-y-1 lg:max-w-[600px] lg:min-w-[200px]'>
               <div className='flex'>
               <div className='font-Mont lg:text-lg md:text-md sm:text-sm w-auto space-y-6 text-darkgreen mx-12 text-opacity-70'>
+                {/* <div className='justify-center flex'>
+                    <img loading="lazy" src='/indexImages/jon.gif' alt="jon" class="rounded align-middle md:max-w-[100px] max-w-[30px] justify-center flex"></img>
+                </div>    */}
                 <div className='flex'>
                      Howdy! My name is Li Shen, a user-focused full stack developer and designer from Dallas, TX. 
                 </div>
