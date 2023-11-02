@@ -91,6 +91,11 @@ export default function UiUxIndex() {
       threshold: 0.3, // Percentage of the container visible in the viewport
       });
 
+      const [ref7, inView7] = useInView({
+        triggerOnce: false, // Only trigger the animation once
+        threshold: 0.3, // Percentage of the container visible in the viewport
+      });
+
   return (
 
     <div class="flex flex-col min-h-screen w-screen ">
@@ -240,6 +245,42 @@ export default function UiUxIndex() {
                             </Link>
                         </div>
                       </div>
+                  </div>
+              </motion.div>
+
+              <motion.div
+                  className="flex flex-col lg:flex-row lg:justify-between justify-center align-center lg:gap-24 gap-12"
+                  variants={containerVariants2}
+                  initial="hidden"
+                  animate={inView7 ? 'visible' : 'hidden'}
+                  ref={ref7}
+                  >
+                  <div className='flex flex-col lg:flex-row lg:justify-between justify-center lg:gap-24 gap-12'>
+                    <div className='flex justify-center lg:items-start items-center flex-col align-center lg:w-1/2 gap-4 text-center lg:text-left'>
+                        <div className='flex justify-center items-center gap-4'>
+                          <div className=' lg:text-[60px] text-[32px] font-Mont '>
+                          RUNTIME
+                          </div>
+                          <img className="w-12 h-12" src = "/uiuxmockups/winner.svg"></img>
+                        </div>
+                          <div className='lg:text-md text-sm opacity-50 font-Mont'>
+                            HackTexas 2024
+                          </div>
+                        <div className=' lg:text-xl text-md opacity-50 font-Mont'>
+                        An online programming challenge to help newbies and experienced coders alike hone their skills in a fun, real-time, competitive game!
+                        </div>
+                        <div className='lg:justify-start justify-center flex pt-2'>
+                            <Link href="https://devpost.com/software/king-of-the-heap-temporary-name" className='flex lg:justify-start justify-center items-center lg:text-xl text-md opacity-50 font-Mont'>
+                                <div className='cursor-pointer justify-center flex px-12 py-2 text-md rounded-full border-[1px] font-Mont border-black'>Learn More</div>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div class=" flex items-center lg:justify-end justify-center lg:w-1/2">
+                        <img src= "/runtime1.png"
+                            className="rounded-lg justify-center border-2 border-black">
+                        </img>
+                    </div>
                   </div>
               </motion.div>
 

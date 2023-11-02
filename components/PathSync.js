@@ -177,12 +177,7 @@ export default function PathSync() {
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
-
-
 
             <div className='flex flex-col gap-4'>
                 <div className='lg:text-4xl text-2xl font-bold font-LS'>COMPETITIVE ANALYSIS</div>

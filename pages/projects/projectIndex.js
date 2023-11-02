@@ -185,7 +185,7 @@ export default function UiUxIndex() {
 
                 <div className='pt-4 flex justify-center'>
                     <a
-                      className="text-sm font-semibold opacity-80 text-green font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-green"
+                      className="w-[200px] text-sm font-semibold opacity-80 text-green font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-green"
                       href="https://plantpeople.vercel.app"
                       target="_blank"
                       rel="noreferrer noopener">
@@ -230,10 +230,63 @@ export default function UiUxIndex() {
           animate={inView2 ? 'visible' : 'hidden'}
           ref={ref2}
         >   
-            <div className='flex flex-col justify-center items-center p-8'>
-              <div className='font-Mont font-semibold text-4xl flex justify-center pb-4 opacity-20'>
-                Coming Soon
+      <div style={{ position: 'relative' }}>
+              <div className='absolute right-0 rounded-tr-lg rounded-bl-lg py-2 px-4 font-Mont text-xs font-semibold text-white' style={{ backgroundImage: 'linear-gradient(to right, #2e9bc9, #2081d6)' }}>
+               Best UI/UX @ HACKTX 2024
               </div>
+
+              <div className='max-h-[275px] overflow-hidden'>
+                <Link href="/projects/PlantPeople">
+                  <img src="/RUNTIME.png" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl object-cover" />
+                </Link>
+              </div>
+
+              <div className='flex flex-col justify-start items-center p-8'>
+                <div className='flex flex-col justify-center '>
+                  <div className='font-Mont font-semibold text-xl flex justify-center pb-4'>
+                    RUNTIME
+                  </div>
+                  <div className='font-Mont lg:text-md text-sm flex text-center justify-center'>
+                    Think typeracer + leetcode. A fun multiplayer competitive coding game that helps you practice your coding skills. 
+                  </div>
+                </div>
+
+                {/* <div className='pt-4 flex justify-center'>
+                    <a
+                      className="text-sm font-semibold opacity-80  font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px]"
+                      href="https://devpost.com/software/king-of-the-heap-temporary-name"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <div className='flex gap-2 align-center items-center'>
+                        <div>
+                          DEVPOST
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                      </div>
+                    </a>
+                  </div> */}
+                  <div className='pt-4 flex justify-center '>
+                  <a
+                    className="w-[200px] text-sm font-semibold opacity-80 text-white bg-black font-Mont text-center px-6 py-2 shadow-sm hover:shadow-none rounded-full border-[1px] border-green"
+                    href="https://devpost.com/software/king-of-the-heap-temporary-name"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <div className='flex gap-2 align-center items-center justify-center'>
+                      <div>
+                      DEVPOST
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                      </svg>
+
+                    </div>
+                  </a>
+                </div>
+                </div>
+
+              
             </div>
         </motion.div>
 
