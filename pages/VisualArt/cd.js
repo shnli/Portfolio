@@ -29,19 +29,19 @@ export default function Home() {
           {/* <div className='flex items-start justify-center w-screen h-8 font-LS text-3xl'> Welcome to </div> */}
           <div className='lg:flex align-center items-start justify-center w-screen space-x-12 lg:px-64 md:px-24 px-12 h-auto'>
             <div className='lg:py-20 py-12'>
-              <img src='/mw2.png' alt='megaworld' className='lg:max-w-md w-sm'></img>
+              <img loading="lazy" src='/mw2.png' alt='megaworld' className='lg:max-w-md w-sm'></img>
               <div className='py-8 font-jost md:text-lg sm:text-sm text-darkgreen text-opacity-70'>Welcome to MEGAWORLD, my colorful hobby universe revolving around fantasy and adventure. Here, you&apos;ll find heroes brimming with personality, action shots, and most of all, cool art. Enjoy your stay!</div>
               <div className='mx-4'>
-                <img src='/mw11.png' alt='megaworld' className='hidden lg:flex w-80'></img>
+                <img loading="lazy" src='/mw11.png' alt='megaworld' className='hidden lg:flex w-80'></img>
               </div>
               <div className='lg:hidden'>
-                <img src='/mw3.png' alt='megaworld' className='lg:max-w-lg flex items-center'></img>
+                <img loading="lazy" src='/mw3.png' alt='megaworld' className='lg:max-w-lg flex items-center'></img>
               </div>
               
             </div>
 
             <div className='hidden lg:flex'>
-              <img src='/mw3.png' alt='megaworld' className='lg:max-w-lg flex'></img>
+              <img loading="lazy" src='/mw3.png' alt='megaworld' className='lg:max-w-lg flex'></img>
             </div>
             
           </div>
@@ -62,31 +62,31 @@ export default function Home() {
                           <div class="inline-block">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw8.jpeg" alt="image description"/>
+                              <img loading="lazy" class="flex object-contain px-0 justify-center py-0" src="/mw8.jpeg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw10.png" alt="image description"/>
+                              <img loading="lazy" class="flex object-contain px-0 justify-center py-0" src="/mw10.png" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw6.jpeg" alt="image description"/>
+                              <img loading="lazy" class="flex object-contain px-0 justify-center py-0" src="/mw6.jpeg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw5.jpeg" alt="image description"/>
+                              <img loading="lazy" class="flex object-contain px-0 justify-center py-0" src="/mw5.jpeg" alt="image description"/>
                             </div>
                           </div>
                           <div class="inline-block px-3">
                             <div
                               class="w-96 max-w-xs overflow-hidden rounded-sm shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                              <img class="flex object-contain px-0 justify-center py-0" src="/mw9.jpeg" alt="image description"/>
+                              <img loading="lazy" class="flex object-contain px-0 justify-center py-0" src="/mw9.jpeg" alt="image description"/>
                             </div>
                           </div>
                         </div>
@@ -98,79 +98,79 @@ export default function Home() {
 
                   <div className='lg:mx-40'>
                     <div className=' hidden lg:flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw24.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
-                      <img src='/mw23.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
-                      <img src='/mw25.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw24.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw23.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw25.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
                     </div>
                   </div>
 
                   <div className='lg:mx-40'>
                     <div className=' hidden lg:flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw12.png' alt='megaworld' className='w-2/6 h-auto'></img>
-                      <img src='/mw19.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
-                      <img src='/mw20.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw12.png' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw19.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw20.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
                     </div>
                   </div>
 
 
                   <div className='lg:mx-40'>
                     <div className=' hidden lg:flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/her.png' alt='megaworld' className='w-5/12 h-auto'></img>
-                      <img src='/mw28.jpg' alt='megaworld' className='w-4/12 h-auto'></img>
-                      <img src='/mw29.png' alt='megaworld' className='w-3/12 h-auto'></img>
+                      <img loading="lazy" src='/her.png' alt='megaworld' className='w-5/12 h-auto'></img>
+                      <img loading="lazy" src='/mw28.jpg' alt='megaworld' className='w-4/12 h-auto'></img>
+                      <img loading="lazy" src='/mw29.png' alt='megaworld' className='w-3/12 h-auto'></img>
                     </div>
                   </div>
 
                   <div className='lg:mx-40'>
                     <div className=' hidden lg:flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw26.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
-                      <img src='/mw27.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
-                      {/* <img src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
+                      <img loading="lazy" src='/mw26.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
+                      <img loading="lazy" src='/mw27.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
+                      {/* <img loading="lazy" src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
                     </div>
                   </div>
 
                 {/* SMALL VERSION */}
                   <div className='lg:mx-40'>
                     <div className='lg:hidden flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw24.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
-                      <img src='/mw23.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw24.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw23.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
                     </div>
                   </div>
 
                   <div className='lg:mx-40'>
                     <div className='lg:hidden flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw25.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
-                      <img src='/mw12.png' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw25.jpg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw12.png' alt='megaworld' className='w-2/6 h-auto'></img>
                     </div>
                   </div>
 
                   <div className='lg:mx-40'>
                     <div className='lg:hidden flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw19.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
-                      <img src='/mw20.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw19.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
+                      <img loading="lazy" src='/mw20.jpeg' alt='megaworld' className='w-2/6 h-auto'></img>
                     </div>
                   </div>
 
 
                   <div className='lg:mx-40'>
                     <div className='lg:hidden flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw28.jpg' alt='megaworld' className='w-4/12 h-auto'></img>
-                      <img src='/mw29.png' alt='megaworld' className='w-3/12 h-auto'></img>
+                      <img loading="lazy" src='/mw28.jpg' alt='megaworld' className='w-4/12 h-auto'></img>
+                      <img loading="lazy" src='/mw29.png' alt='megaworld' className='w-3/12 h-auto'></img>
                     </div>
                   </div>
 
                   <div className='lg:mx-40'>
                     <div className='lg:hidden flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/mw26.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
-                      <img src='/mw27.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
-                      {/* <img src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
+                      <img loading="lazy" src='/mw26.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
+                      <img loading="lazy" src='/mw27.jpg' alt='megaworld' className='w-3/12 h-auto'></img>
+                      {/* <img loading="lazy" src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
                     </div>
                   </div>
 
                   <div className='lg:mx-40'>
                     <div className='lg:hidden flex justify-center w-auto h-auto space-x-4 lg:space-x-12'>
-                      <img src='/her.png' alt='megaworld' className='w-5/12 h-auto'></img>
-                      {/* <img src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
+                      <img loading="lazy" src='/her.png' alt='megaworld' className='w-5/12 h-auto'></img>
+                      {/* <img loading="lazy" src='/mw30.png' alt='megaworld' className='w-3/12 h-auto'></img> */}
                     </div>
                   </div>
               
@@ -188,31 +188,31 @@ export default function Home() {
                 
                 <div class="group w-full ">
                   <div class="group-hover:hidden">
-                  <img src='/mw17small.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw17small.png' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw18small.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw18small.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
 
                 <div class="group w-full">
                   <div class="group-hover:hidden">
-                  <img src='/mw14.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw14.png' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw13.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw13.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
 
                 <div class="group w-full">
                   <div class="group-hover:hidden">
-                  <img src='/mw33.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw33.png' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw34.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw34.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
               </div>
@@ -221,31 +221,31 @@ export default function Home() {
                 
                 <div class="group w-full ">
                   <div class="group-hover:hidden">
-                  <img src='/mw15.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw15.png' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw16.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw16.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
 
                 <div class="group w-full lg:my-12">
                   <div class="group-hover:hidden">
-                  <img src='/mw32.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw32.png' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw31.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw31.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
 
                 <div class="group w-full">
                   <div class="group-hover:hidden">
-                  <img src='/mw22.jpg' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw22.jpg' alt='megaworld' className=''></img>
                   </div>
 
                   <div class="hidden group-hover:flex">
-                  <img src='/mw21small.png' alt='megaworld' className=''></img>
+                  <img loading="lazy" src='/mw21small.png' alt='megaworld' className=''></img>
                   </div>
                 </div>
               </div>

@@ -79,7 +79,7 @@ export default function Home() {
                   </div>   
               {/* stars */}
               <div className='justify-center flex'>
-                  <img src='/star2.gif' alt="..." class="rounded align-middle md:max-w-[200px] max-w-[80px] justify-center flex"></img>
+                  <img loading="lazy" src='/star2.gif' alt="..." class="rounded align-middle md:max-w-[200px] max-w-[80px] justify-center flex"></img>
               </div>         
             </div> 
           </div>

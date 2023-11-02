@@ -187,7 +187,7 @@ export default function UiUxIndex() {
                       </div>
 
                       <div class="flex items-center lg:justify-end justify-center lg:w-1/2">
-                        <img src="/uiuxMockups/pathsync1.png" alt="..." className="rounded-lg" />
+                        <img src="/uiuxMockups/pathsync1.png" alt="..." className="rounded-lg " loading="lazy"/>
                       </div>
                     </div>
               </motion.div>
@@ -261,7 +261,7 @@ export default function UiUxIndex() {
                           <div className=' lg:text-[60px] text-[32px] font-Mont '>
                           RUNTIME
                           </div>
-                          <img className="w-12 h-12" src = "/uiuxmockups/winner.svg"></img>
+                          <img className="w-12 h-12" src = "/uiuxmockups/winner.svg" loading="lazy"></img>
                         </div>
                           <div className='lg:text-md text-sm opacity-50 font-Mont'>
                             HackTexas 2024
@@ -278,7 +278,7 @@ export default function UiUxIndex() {
 
                     <div class=" flex items-center lg:justify-end justify-center lg:w-1/2">
                         <img src= "/runtime1.png"
-                            className="rounded-lg justify-center border-2 border-black">
+                            className="rounded-lg justify-center border-2 border-black" loading="lazy" >
                         </img>
                     </div>
                   </div>
@@ -340,7 +340,7 @@ export default function UiUxIndex() {
                     </div>
 
                     <div class="flex items-center lg:justify-end justify-center lg:w-1/2">
-                      <img src="/uiuxMockups/reval.jpeg" alt="..." className="border-2 border-primary-blue border-opacity-40 rounded-lg " />
+                      <img src="/uiuxMockups/reval.jpeg" alt="..." className="border-2 border-primary-blue border-opacity-40 rounded-lg "   loading="lazy"/>
 
                     </div>
                   </div>
@@ -367,7 +367,7 @@ export default function UiUxIndex() {
                     </div>
 
                     <div class=" flex items-center lg:justify-end justify-center lg:w-1/2">
-                      <img src="/uiuxMockups/bytesize.jpeg" alt="..." className="border-2 border-purple-200 rounded-lg" />
+                      <img src="/uiuxMockups/bytesize.jpeg" alt="..." className="border-2 border-purple-200 rounded-lg" loading="lazy"/>
 
                     </div>
                   </div>

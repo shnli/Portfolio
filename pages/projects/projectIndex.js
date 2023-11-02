@@ -100,7 +100,7 @@ export default function UiUxIndex() {
 
               <div className='max-h-[275px] overflow-hidden'>
                 <Link href="/projects/PathSync">
-                  <img src="/pathsync/pathsyncthumbnail.webp" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl w-full h-full" style={{ objectFit: 'cover' }} />
+                  <img loading="lazy" src="/pathsync/pathsyncthumbnail.webp" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl w-full h-full" style={{ objectFit: 'cover' }} />
                 </Link>
               </div>
 
@@ -169,7 +169,7 @@ export default function UiUxIndex() {
 
               <div className='max-h-[275px] overflow-hidden'>
                 <Link href="/projects/PlantPeople">
-                  <img src="/plantpeople/plantpeoplethumbnail.webp" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl object-cover" />
+                  <img loading="lazy"  src="/plantpeople/plantpeoplethumbnail.webp" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl object-cover" />
                 </Link>
               </div>
 
@@ -236,9 +236,7 @@ export default function UiUxIndex() {
               </div>
 
               <div className='max-h-[275px] overflow-hidden'>
-                <Link href="/projects/PlantPeople">
-                  <img src="/RUNTIME.png" alt="..." className="cursor-pointer align-center object-contain rounded-t-xl object-cover" />
-                </Link>
+                <img loading="lazy"  src="/RUNTIME.png" alt="..." className="align-center object-contain rounded-t-xl object-cover" />
               </div>
 
               <div className='flex flex-col justify-start items-center p-8'>

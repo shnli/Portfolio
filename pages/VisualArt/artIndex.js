@@ -63,7 +63,7 @@ export default function Home() {
               <AnimatedText words={words} />
 
               <div className="flex justify-end lg:w-8/12 max-w-[1000px] py-8">
-                <img
+                <img loading="lazy" 
                   src="/XLextrasmall.webp"
                   alt="..."
                   className="rounded align-middle border-solid border-black border-b-2 border-t-0 border-l-0 border-r-0"
@@ -90,7 +90,7 @@ export default function Home() {
                   <div>
                     <Link href="/webdes">
                       <button>
-                        <img class="rounded-lg border-4 border-opacity-20 border-darkgreen object-cover md:w-96 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/th.png" alt="image description"/>
+                        <img loading="lazy"  class="rounded-lg border-4 border-opacity-20 border-darkgreen object-cover md:w-96 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/th.png" alt="image description"/>
                       </button>
                     </Link>
                   </div>
@@ -99,31 +99,55 @@ export default function Home() {
                 <div className='flex-shrink-0 md:h-72'>
                   <div>
                     <Link href="/VisualArt/illus">
-                      <button>
-                        <img class="rounded-lg object-cover md:w-76 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/vertigo.jpg" alt="image description"/>
+                      <button className="relative">
+                        <img
+                          loading="lazy"
+                          className="rounded-lg object-cover md:w-76 md:h-72 transition-all duration-300 hover:blur-sm"
+                          src="/vertigo.jpg"
+                          alt="image description"
+                        />
+                        <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center opacity-0 transition-opacity hover:opacity-80">
+                          <p className="text-white text-5xl font-semibold">ANIM.</p>
+                        </div>
                       </button>
-                    </Link>                
+                    </Link>
                   </div>
                 </div>
 
                 <div className='flex-shrink-0 md:h-72'>
                   <div>
                     <Link href="/VisualArt/MindWeevil">
-                      <button>
-                        <img class="rounded-lg object-cover md:w-76 md:h-72 max-h-md transition-all duration-300 blur-non hover:blur-sm" src="/mwe9.png" alt="image description"/>
+                      <button className="relative">
+                        <img
+                          loading="lazy"
+                          className="rounded-lg object-cover md:w-76 md:h-72 max-h-md transition-all duration-300 hover:blur-sm"
+                          src="/mwe9.png"
+                          alt="image description"
+                        />
+                        <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center opacity-0 transition-opacity hover:opacity-80">
+                          <p className="text-white text-5xl font-semibold">WEEVIL</p>
+                        </div>
                       </button>
-                    </Link>                
+                    </Link>
                   </div>
                 </div>
 
                 <div className='flex-shrink-0 md:h-72'>
                   <div>
                     <Link href="/VisualArt/cd">
-                      <button>
-                        <img class="rounded-lg object-cover md:w-76 md:h-72 transition-all duration-300 blur-non hover:blur-sm" src="/her.png" alt="image description"/>
+                      <button className="relative">
+                        <img
+                          loading="lazy"
+                          className="rounded-lg object-cover md:w-76 md:h-72 transition-all duration-300 hover:blur-sm"
+                          src="/her.png"
+                          alt="image description"
+                        />
+                        <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center opacity-0 transition-opacity hover:opacity-80">
+                          <p className="text-white text-5xl font-semibold">CHARACTERS</p>
+                        </div>
                       </button>
-                    </Link>                
-                  </div>                  
+                    </Link>
+                  </div>
                 </div>
 
               </div>
