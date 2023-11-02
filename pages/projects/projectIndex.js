@@ -236,7 +236,7 @@ export default function UiUxIndex() {
               </div>
 
               <div className='max-h-[275px] overflow-hidden'>
-                <img loading="lazy"  src="/RUNTIME.png" alt="..." className="align-center object-contain rounded-t-xl object-cover" />
+                <img loading="lazy"  src="/runtime.png" alt="Runtime Demo Image" className="align-center object-contain rounded-t-xl object-cover" />
               </div>
 
               <div className='flex flex-col justify-start items-center p-8'>
