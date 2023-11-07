@@ -301,7 +301,7 @@ export default function UiUxIndex() {
                           <div className=' lg:text-[60px] text-[32px] font-Mont '>
                           RUNTIME
                           </div>
-                          <img className="w-12 h-12" src = "/uiuxmockups/winner.svg" loading="lazy"></img>
+                          <img className="w-12 h-12" src = "/uiuxMockups/winner.svg" loading="lazy"></img>
                         </div>
                           <div className='lg:text-md text-sm opacity-50 font-Mont'>
                             HackTexas 2024
