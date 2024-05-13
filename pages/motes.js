@@ -32,7 +32,7 @@ export default function Mom() {
                     Hi Mama, Happy Mother&apos;s Day! 
                 </div>
                 <div>
-                    Hope you&apos; had a great day today. I know this is probably later than actual Mother&apos;s Day, but technically it&apos;s still the big day in America so I hope it&apos;s alright, haha! I was thinking about what to say in my notes this year and realized that after 21 years I still don&apos;t know how to put into words how much you mean to me. I love you so much and I&apos;m so grateful for everything you do for me. I hope you know that I appreciate you every day, not just on Mother&apos;s Day.
+                    Hope you&apos;ve had a great day today. I know this is probably later than actual Mother&apos;s Day, but technically it&apos;s still the big day in America so I hope it&apos;s alright, haha! I was thinking about what to say in my notes this year and realized that after 21 years I still don&apos;t know how to put into words how much you mean to me. I love you so much and I&apos;m so grateful for everything you do for me. I hope you know that I appreciate you every day, not just on Mother&apos;s Day.
                 </div>
                 <div>
                     Time sure flies by really fast! As I&apos;m writing this, I&apos;m already almost at the end my time at college-- and I&apos;m really only here because of all your support. I probably don&apos;t say it enough, but I really appreciate everything you do for me. I know we can be a handful sometimes, but I&apos;m so grateful for all the efforts you put into giving Julie and I opportunities that not everyone has.
