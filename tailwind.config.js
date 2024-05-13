@@ -7,15 +7,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
 
-
     variants: {
       extend: {
-        textDecoration: ['hover'], // Enable hover variant for textDecoration
+        textDecoration: ['hover'], 
       },
     },
-
-  
-
 
   theme: {
     extend: {},
@@ -25,7 +21,9 @@ module.exports = {
       OS: ['Open Sans', 'sans-serif'],
       Mont: ['Montserrat', 'sans-serif'],
       Inter: ['Inter', 'sans-serif'],
-      CG: ['Cormorant Garamond', 'sans-serif']
+      CG: ['Cormorant Garamond', 'sans-serif'],
+      
+      merriweather: ['Merriweather', 'serif'],
     },
 
     colors: {
@@ -39,30 +37,31 @@ module.exports = {
       'black':'#000000',
       'gray':'#dbdbdb',
       'green':'#375738',
-
+      
+      'light_coral': '#E98F8A',
+      'indian_red': '#D86357',
+      'penn_red': '#9F120C',
+      'forest_green': '#1C3A20',
+      'sage': '#9EA28B',
+      'off_white': '#FFFEF9',
     },
+
+
+    keyframes: {
+      wiggle: {
+        '0%, 100%': { transform: 'rotate(-1deg)' },
+        '50%': { transform: 'rotate(1deg)' },
+      }
+    },
+
+    animation: {
+      'spin-slow': 'spin 3s linear infinite',
+      wiggle: 'wiggle 1s ease-in-out infinite',
+    },
+
   },
   plugins: [],
 
   
   
 }
-
-
-
-// module.exports = {
-//   theme: {
-//     colors: {
-//       transparent: 'transparent',
-//       current: 'currentColor',
-//       'white': '#ffffff',
-//       'darkgreen': '#232f1f',
-//       'midnight': '#121063',
-//       'metal': '#565584',
-//       'tahiti': '#3ab7bf',
-//       'silver': '#ecebff',
-//       'bubble-gum': '#ff77e9',
-//       'bermuda': '#78dcca',
-//     },
-//   },
-// }
