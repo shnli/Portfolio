@@ -28,7 +28,7 @@ export default function Home() {
 
       {/* MAIN */}
       <div className="md:space-y-16 space-y-8 md:py-4 py-12">
-        <section>
+        <div>
           <div className="flex justify-center pt-4 items-center w-screen ">
             <div class="flex flex-col md:px-32 px-8 justify-center md:gap-4 gap-6 items-center w-screen">
               <h1 className="flex md:text-[70px] font-LS font-medium text-black text-[36px]">
@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="grid lg:grid-cols-3 grid-rows-3 pb-4 md:px-36 px-16 gap-8 lg:h-[400px] ">
+              <div className="grid lg:grid-cols-3 grid-rows-3 pb-4 md:px-36 px-16 gap-8 lg:h-[300px] ">
                 <motion.div
                   whileHover={{
                     rotate: [0, -5, 5, -5, 5, 0],
@@ -98,16 +98,16 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <button
+        {/* <button
           className="cursor-pointer fixed bottom-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800"
           onClick={toggleDarkMode}
         >
-        </button>
+        </button> */}
       </div>
 
-      <div className="lg:pt-24 pt-12">
+      <div className="fixed bottom-0 lg:pt-24 pt-12">
         <Footer></Footer>
       </div>
     </div>
