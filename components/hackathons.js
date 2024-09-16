@@ -16,9 +16,6 @@ export default function Hackathons() {
       {/* TAMUHACK */}
       <section className='space-y-12 lg:py-24 py-12'>
 
-        {/* <div className='lg:px-40 px-12'>
-              <hr className='border-2 border-dotted border-darkgreen border-opacity-20'></hr>
-        </div> */}
         <div className='space-y-4 lg:mx-0 mx-12'>
             <p className='text-3xl text-center lg:mx-40 pt-30 font-Mont font-medium text-darkgreen  pb-4'>TAMUhack</p>
             <p className='lg:mx-40 text-md font-Mont text-darkgreen text-opacity-60'>

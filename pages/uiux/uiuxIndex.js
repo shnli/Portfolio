@@ -101,6 +101,11 @@ export default function UiUxIndex() {
         threshold: 0.3, // Percentage of the container visible in the viewport
       });
 
+      const [ref9, inView9] = useInView({
+        triggerOnce: false, // Only trigger the animation once
+        threshold: 0.3, // Percentage of the container visible in the viewport
+      });
+
 
   return (
 
@@ -120,7 +125,7 @@ export default function UiUxIndex() {
               </div>
               
               <motion.div
-                  className="flex flex-col lg:flex-row justify-center align-center "
+                  className="flex flex-col lg:flex-row justify-center items-center align-center "
                   variants={containerVariants2}
                   initial="hidden"
                   animate={inView1 ? 'visible' : 'hidden'}
@@ -131,7 +136,7 @@ export default function UiUxIndex() {
                           <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont lg:w-[500px]'>
                               Plant&nbsp;People
                           </div>
-                          <div className='lg:text-md text-sm opacity-50 font-Mont'>
+                          <div className='flex lg:text-md text-sm justify-center items-center opacity-50 font-Mont'>
                           Startup
                           </div>
                           <div className='flex lg:justify-start justify-center items-center lg:text-xl text-md opacity-50 font-Mont text-center lg:text-left'>
@@ -178,7 +183,7 @@ export default function UiUxIndex() {
                           <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont lg:w-[500px]'>
                             PathSync
                           </div>
-                          <div className='lg:text-md text-sm opacity-50 font-Mont'>
+                          <div className='flex justify-center items-center lg:text-md text-sm opacity-50 font-Mont'>
                           Personal Project
                           </div>
                           <div className='flex lg:justify-start justify-center items-center lg:text-xl text-md opacity-50 font-Mont text-center lg:text-left'>
@@ -205,11 +210,11 @@ export default function UiUxIndex() {
                   animate={inView2 ? 'visible' : 'hidden'}
                   ref={ref2}
                   >
-                  <div className='flex lg:hidden justify-center flex-col align-center pb-12'>
+                  <div className='flex justify-center flex-col align-center lg:w-1/2 gap-4'>
                       <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont lg:max-w-[500px]'>
                           Portfolio
                       </div>
-                      <div className='lg:text-md text-sm opacity-50 font-Mont'>
+                      <div className='flex justify-center items-center lg:text-md text-sm opacity-50 font-Mont'>
                           Personal Project 
                       </div>
                       <div className='flex flex-col gap-4 font-Mont text-center'>
@@ -292,6 +297,42 @@ export default function UiUxIndex() {
                   className="flex flex-col lg:flex-row lg:justify-between justify-center align-center lg:gap-24 gap-12"
                   variants={containerVariants2}
                   initial="hidden"
+                  animate={inView9 ? 'visible' : 'hidden'}
+                  ref={ref9}
+                  >
+                  <div className='flex flex-col lg:flex-row lg:justify-between justify-center lg:gap-24 gap-12'>
+                    <div className='flex justify-center lg:items-start items-center flex-col align-center lg:w-1/2 gap-4 text-center lg:text-left'>
+                        <div className='flex justify-center items-center gap-4'>
+                          <div className=' lg:text-[60px] text-[32px] font-Mont '>
+                          SLICE
+                          </div>
+                          <img className="w-12 h-12" src = "/uiuxMockups/winner.svg" loading="lazy"></img>
+                        </div>
+                          <div className='lg:text-md text-sm opacity-50 font-Mont'>
+                            CodeRed 2024
+                          </div>
+                        <div className=' lg:text-xl text-md opacity-50 font-Mont'>
+                          Over a million people use American Sign Language (ASL) to communicate in the US. Practice IRL with Slice!
+                        </div>
+                        <div className='lg:justify-start justify-center flex pt-2'>
+                            <Link href="https://devpost.com/software/slice-m6zqpf" className='flex lg:justify-start justify-center items-center lg:text-xl text-md opacity-50 font-Mont'>
+                                <div className='cursor-pointer justify-center flex px-12 py-2 text-md rounded-full border-[1px] font-Mont border-black'>Learn More</div>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div class=" flex items-center lg:justify-end justify-center lg:w-1/2">
+                        <img src= "/uiuxMockups/slice.png"
+                            className="rounded-lg justify-center border-2 border-black" loading="lazy" >
+                        </img>
+                    </div>
+                  </div>
+              </motion.div>
+
+              <motion.div
+                  className="flex flex-col lg:flex-row lg:justify-between justify-center align-center lg:gap-24 gap-12"
+                  variants={containerVariants2}
+                  initial="hidden"
                   animate={inView7 ? 'visible' : 'hidden'}
                   ref={ref7}
                   >
@@ -315,7 +356,6 @@ export default function UiUxIndex() {
                             </Link>
                         </div>
                     </div>
-
                     <div class=" flex items-center lg:justify-end justify-center lg:w-1/2">
                         <img src= "/runtime1.png"
                             className="rounded-lg justify-center border-2 border-black" loading="lazy" >
@@ -414,22 +454,11 @@ export default function UiUxIndex() {
               </motion.div>
 
               
-
             </div>
             <div className='lg:pt-12'>
                 <div className='py-12'>
-                    {/* <motion.div
-                        className="bg-white lg:shadow-lg lg:rounded-2xl lg:mx-36 lg:border-dargreen lg:border-2 ${window.innerWidth >= 1024 ? 'motion-container' : ''"
-                        variants={containerVariants}
-                        initial="hidden"
-                        animate={inView ? 'visible' : 'hidden'}
-                        ref={ref}
-                    >
-                    <Hackathons />
-                    </motion.div> */}
                     <div
                         className="bg-white lg:shadow-lg lg:rounded-2xl lg:mx-36 lg:border-dargreen lg:border-2 ${window.innerWidth >= 1024 ? 'motion-container' : ''"
-
                     >
                     <Hackathons />
                     </div>

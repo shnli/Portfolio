@@ -1,22 +1,18 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Wave from 'react-wavify';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import Image from "next/image";
+import Wave from "react-wavify";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 const DropdownOption = ({ children }) => {
   const optionVariants = {
     hover: {
-      backgroundColor: 'rgba(255, 0, 0, 0.5)', // Example color, adjust to your preference
+      backgroundColor: "rgba(255, 0, 0, 0.5)", // Example color, adjust to your preference
     },
   };
 
   return (
-    <motion.li
-      variants={optionVariants}
-      whileHover="hover"
-      className="option"
-    >
+    <motion.li variants={optionVariants} whileHover="hover" className="option">
       {children}
     </motion.li>
   );
@@ -44,7 +40,6 @@ export default function Navbar() {
           </Link>
         </p>
       </div>
-      
 
       <div className="flex justify-center w-full md:w-auto gap-12">
         <div className="text-md font-LS text-darkgreen">
@@ -65,15 +60,15 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="text-md font-LS text-darkgreen hidden md:flex">
+        <div className="text-md font-LS hidden md:flex">
           <div className="dropdown">
             <button
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
-              className="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center"
+              className=" border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center"
               type="button"
             >
-              <Link href="/VisualArt/artIndex">Visual Arts</Link>{' '}
+              <Link href="/VisualArt/artIndex">Visual Arts</Link>{" "}
               <svg
                 className="w-4 h-4 ml-2"
                 aria-hidden="true"
@@ -82,7 +77,12 @@ export default function Navbar() {
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
               </svg>
             </button>
 
@@ -119,17 +119,8 @@ export default function Navbar() {
           <div className="p-4">
             <div className="flex justify-between mb-4">
               <div></div>
-              {/* <Link href="/">
-                <button>
-                  <img
-                    src="/untitledartwork21small.png"
-                    alt="..."
-                    className="h-8 w-13 rounded align-middle"
-                  />
-                </button>
-              </Link> */}
               <button
-                className="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center"
+                className="border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center"
                 type="button"
                 onClick={toggleMobileMenu}
               >
@@ -148,14 +139,18 @@ export default function Navbar() {
               </button>
             </div>
 
-            <div className="text-md font-LS text-darkgreen mb-4">
+            <div className="bg-white text-md font-LS text-darkgreen mb-4 ">
               <Link href="/uiux/uiuxIndex">
-                <button className="no-underline hover:underline">Products</button>
+                <button className="no-underline hover:underline bg-white ">
+                  Products
+                </button>
               </Link>
             </div>
-            <div className="text-md font-LS text-darkgreen mb-4">
+            <div className="bg-white text-md font-LS text-darkgreen mb-4">
               <Link href="/projects/projectIndex">
-                <button className="no-underline hover:underline">Projects</button>
+                <button className="no-underline hover:underline bg-white ">
+                  Projects
+                </button>
               </Link>
             </div>
             <div className="text-md font-LS text-darkgreen mb-4">
@@ -163,10 +158,10 @@ export default function Navbar() {
                 <button
                   id="dropdownDefaultButtonMobile"
                   data-dropdown-toggle="dropdown"
-                  className="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center"
+                  className="text-darkgreen border-0 hover:text-opacity-50 focus:ring-0 focus:outline-none text-center inline-flex items-center bg-white "
                   type="button"
                 >
-                  Visual Arts{' '}
+                  Visual Arts{" "}
                   <svg
                     className="w-4 h-4 ml-2"
                     aria-hidden="true"
@@ -175,7 +170,12 @@ export default function Navbar() {
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
                   </svg>
                 </button>
 
@@ -190,31 +190,25 @@ export default function Navbar() {
         </div>
       )}
 
-      <div className='flex gap-4'>      
-          <a
-            className="bg-black flex align-center items-center justify-center text-xs font-LS px-10 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-black border-opacity-50 hidden md:flex"
-            href="https://github.com/shnli"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <div className='pt-1 text-white'>
-            GITHUB
-            </div>
-          </a>
-          
-          <a
-            className=" flex align-center text-xs font-LS text-black px-6 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-darkgreen border-opacity-50 hidden md:flex"
-            href="https://www.instagram.com/p7rtial/?hl=en"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <div className='pt-1'>
-              Meet P7RTIAL
-            </div>
-          </a>
-      
-      </div>
+      <div className="flex gap-4">
+        <a
+          className="bg-black flex align-center items-center justify-center text-xs font-LS px-10 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-black border-opacity-50 hidden md:flex"
+          href="https://github.com/shnli"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="pt-1 text-white">GITHUB</div>
+        </a>
 
+        <a
+          className=" flex align-center text-xs font-LS text-black px-6 py-1 md:border-[1px] md:hover:shadow-md rounded-full border-darkgreen border-opacity-50 hidden md:flex"
+          href="https://www.instagram.com/p7rtial/?hl=en"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div className="pt-1">Meet P7RTIAL</div>
+        </a>
+      </div>
     </header>
   );
 }
