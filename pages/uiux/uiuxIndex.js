@@ -210,7 +210,7 @@ export default function UiUxIndex() {
                   animate={inView2 ? 'visible' : 'hidden'}
                   ref={ref2}
                   >
-                  <div className='flex justify-center flex-col align-center lg:w-1/2 gap-4'>
+                  <div className='lg:hidden flex justify-center flex-col align-center lg:w-1/2 gap-4'>
                       <div className='flex lg:justify-start justify-center items-center lg:text-[60px] text-[32px] font-Mont lg:max-w-[500px]'>
                           Portfolio
                       </div>
@@ -246,7 +246,7 @@ export default function UiUxIndex() {
                           <div className='flex lg:justify-start justify-center items-center lg:text-xl text-md opacity-50 font-Mont'>
                             Yes, it&apos;s this website -- my online canvas and little slice of the internet! Images are original & mockups are made with Figma + coded with HTML and other spaghetti.
                           </div>
-                          <div className='lg:justify-start justify-center lg:text-sm text-sm opacity-50'>(check out my skills <a href="https://drive.google.com/file/d/186hQTt1T5OpWyo7q0x-DugtqEh-prMP5/view?usp=sharing" className='text-primary-blue hover:underline'>here</a>)
+                          <div className='lg:justify-start justify-center lg: text-sm text-sm opacity-50'>(check out my skills <a href="https://drive.google.com/file/d/186hQTt1T5OpWyo7q0x-DugtqEh-prMP5/view?usp=sharing" className='text-primary-blue hover:underline'>here</a>)
                           </div>
                         </div>
                         
