@@ -298,7 +298,7 @@ export default function UiUxIndex() {
                   SLICE
                 </div>
                 <div className="font-Mont lg:text-md text-sm flex text-center justify-center">
-                  Play a new verison of Fuit Ninja to reinforce your sign language abilities! You'll actually use your hands to sign. 
+                  Play a new verison of Fuit Ninja to reinforce your sign language abilities! You&apos;ll actually use your hands to sign. 
                 </div>
               </div>
               <div className="pt-4 flex justify-center ">
